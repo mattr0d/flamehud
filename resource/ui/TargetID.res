@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -30,7 +30,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG_Spec_blue"
-		"xpos"			"6"
+		"xpos"			"1"
 		"ypos"			"16"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -52,7 +52,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Bar"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -68,7 +68,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG_Spec_red"
-		"xpos"			"6"
+		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"-1"
 		"wide"			"252"
