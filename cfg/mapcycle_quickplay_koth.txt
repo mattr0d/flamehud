@@ -1,7 +1,0 @@
-koth_badlands
-koth_harvest_final
-koth_lakeside_final
-koth_nucleus
-koth_sawmill
-koth_viaduct
-koth_king
