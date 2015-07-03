@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"15"
 		"avatar_width"		"57"	[$WIN32]
 		"name_width"		"65"	[$WIN32]
 		"status_width"		"15"	[$WIN32]
@@ -20,6 +21,8 @@
 		"class_width"		"15"	[$WIN32]
 		"score_width"		"20"
 		"ping_width"		"20"	[$WIN32]
+		"stats_width"		"30"
+		"killstreak_width"	"20"
 	}
 	"BlueScoreBG"
 	{
@@ -28,9 +31,9 @@
 		"xpos"			"110"
 		"ypos"			"98"
 		"wide"			"255"
-		"xpos_minmode"			"164"
+		"xpos_minmode"			"144"
 		"ypos_minmode"			"128"
-		"wide_minmode"			"220"
+		"wide_minmode"			"240"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -58,7 +61,7 @@
 		"wide"			"255"
 		"xpos_minmode"			"384"
 		"ypos_minmode"			"128"
-		"wide_minmode"			"220"
+		"wide_minmode"			"240"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -86,9 +89,9 @@
 		"zpos"			"0"
 		"wide"			"255"
 		"tall"			"235"
-		"xpos_minmode"			"164"
+		"xpos_minmode"			"144"
 		"ypos_minmode"			"148"
-		"wide_minmode"			"220"
+		"wide_minmode"			"240"
 		"tall_minmode"			"90"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -112,7 +115,7 @@
 		"tall"			"235"
 		"xpos_minmode"			"384"
 		"ypos_minmode"			"148"
-		"wide_minmode"			"220"
+		"wide_minmode"			"240"
 		"tall_minmode"			"90"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -134,9 +137,9 @@
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"185"
-		"ypos"			"98"	[$WIN32]
+		"ypos"			"96"	[$WIN32]
 		"xpos_minmode"			"239"
-		"ypos_minmode"			"128"	[$WIN32]
+		"ypos_minmode"			"124"	[$WIN32]
 		"wide"			"140"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -158,7 +161,7 @@
 		"textAlignment"		"center"
 		"xpos"			"85"
 		"ypos"			"81"
-		"xpos_minmode"			"139"
+		"xpos_minmode"			"119"
 		"ypos_minmode"			"111"
 		"zpos"			"4"
 		"wide"			"100"
@@ -181,9 +184,9 @@
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"193"
-		"ypos"			"96"
-		"xpos_minmode"			"252"
-		"ypos_minmode"			"126"
+		"ypos"			"94"
+		"xpos_minmode"			"232"
+		"ypos_minmode"			"125"
 		"wide"			"100"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -204,9 +207,9 @@
 		"labelText"		"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"			"440"
-		"ypos"			"98"	[$WIN32]
+		"ypos"			"96"	[$WIN32]
 		"xpos_minmode"			"459"
-		"ypos_minmode"			"128"	[$WIN32]
+		"ypos_minmode"			"126"	[$WIN32]
 		"wide"			"140"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -250,9 +253,9 @@
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"448"
-		"ypos"			"96"
+		"ypos"			"94"
 		"xpos_minmode"			"472"
-		"ypos_minmode"			"126"
+		"ypos_minmode"			"125"
 		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -274,7 +277,7 @@
 		"textAlignment"		"west"
 		"xpos"			"110"
 		"ypos"			"82"
-		"xpos_minmode"			"163"
+		"xpos_minmode"			"144"
 		"ypos_minmode"			"112"
 		"wide"			"510"
 		"tall"			"20"
@@ -320,9 +323,9 @@
 		"zpos"			"20"
 		"wide"			"255"
 		"tall"			"245"	[$WIN32]
-		"xpos_minmode"			"164"
+		"xpos_minmode"			"144"
 		"ypos_minmode"			"136"
-		"wide_minmode"			"215"
+		"wide_minmode"			"235"
 		"tall_minmode"			"100"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -348,7 +351,7 @@
 		"tall"			"245"	[$WIN32]		
 		"xpos_minmode"			"384"
 		"ypos_minmode"			"136"
-		"wide_minmode"			"215"
+		"wide_minmode"			"235"
 		"tall_minmode"			"100"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"

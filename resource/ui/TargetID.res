@@ -30,7 +30,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG_Spec_blue"
-		"xpos"			"1"
+		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -53,11 +53,12 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Bar"
 		"xpos"			"0"
-		"ypos"			"5"
+		"ypos"			"4"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"12"
 		"autoResize"		"1"
+		"scaleImage" "1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -162,11 +163,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"49"
-		"ypos"			"18"
-		"zpos"			"12"
-		"wide"			"9"
-		"tall"			"9"
-		"visible"		"0"
+		"ypos"			"19"
+		"zpos"			"14"
+		"wide"			"7"
+		"tall"			"7"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
@@ -251,4 +252,21 @@
 			"brighttext"		"0"
 		}	
 	}
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"4"
+		"xpos_minmode"	"4"
+		"ypos"			"8"	[$WIN32]
+		"ypos"			"0"	[$X360]
+		"zpos"			"99"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}	
 }

@@ -533,14 +533,16 @@ event HudCartAlarmPulseStop
 // Active Timer BG Pulse
 event ActiveTimerBGPulse
 {
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.0 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.2 0.1
+		
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.4 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.6 0.1
 	
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.8 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 1.0 0.1
 	
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.2 0.1
 }
 
 //===========================================

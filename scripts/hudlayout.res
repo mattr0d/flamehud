@@ -212,7 +212,7 @@
 		"wide"			"500"
 		"tall"			"200"
 
-		"xpos"		"c-314"	[$WIN32]
+		"xpos"		"c-319"	[$WIN32]
 		"ypos"		"r129"	[$WIN32]
 	}
 
@@ -1284,10 +1284,10 @@
 	}
 
 
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
-		"xpos"			"0"			
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1323,6 +1323,17 @@
 		"PaintBackgroundType"	"0"
 	}
 
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
 
 	HudMiniGame
 	{
@@ -1333,5 +1344,28 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
 	}
 }
