@@ -56,8 +56,8 @@
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
-	{	
-		"ControlName"		"Label"
+	{
+		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"25"
 		"ypos"			"9"
