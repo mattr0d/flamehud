@@ -8,7 +8,7 @@
 		"xpos"	"c-260"		[$WIN32]
 		"ypos"	"r155"		[$WIN32]
 		"zpos"			"2"
-		"wide"			"300"
+		"wide"			"370"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	

@@ -95,7 +95,7 @@ Scheme
 		
 		"LabelDark"			"48 43 42 255"
 		"LabelTransparent"		"109 96 80 180"
-					
+
 		"BuildMenuActive"		"248 231 198 255"
 		
 		"DisguiseMenuIconRed"		"192 56 63 255"
@@ -380,7 +380,7 @@ Scheme
 		HudObjectives.FgColor			"HudPanelForeground"
 		HudObjectives.BgColor			"HudPanelBackground"
 		HudObjectives.BorderColor		"HudPanelBorder"
-				
+
 		HudProgressBar.Active			"HudProgressBarActive"
 		HudProgressBar.InActive			"HudProgressBarInActive"
 		
@@ -2243,8 +2243,18 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
+		}
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
 		}	
-		
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2441,6 +2451,31 @@ Scheme
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
+			}
+		}
+
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
 			}
 		}
 		

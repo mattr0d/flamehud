@@ -1181,9 +1181,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"xpos"			"r150"
-		"ypos"			"250"
+		"ypos"			"0"
 		"wide"			"150"
-		"tall"			"110"
+		"tall"			"250"
 	}
 	
 	HudTFCrosshair

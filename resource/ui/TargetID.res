@@ -17,15 +17,32 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"40"			// pixels inside the image
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"		
 	}
+
+	"TargetIDBG_Spec_Bar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Bar"
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"-2"
+		"wide"			"252"
+		"tall"	 		"24"
+		"autoResize"		"1"
+		"scaleImage" "1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 175"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -48,23 +65,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"
 	}
-	"TargetIDBG_Spec_Bar"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Bar"
-		"xpos"			"0"
-		"ypos"			"4"
-		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"12"
-		"autoResize"		"1"
-		"scaleImage" "1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 175"
-		"PaintBackgroundType"	"0"
-	}
+	
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -87,6 +88,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"
 	}
+
 	
 	"TargetNameLabel"
 	{	
@@ -167,7 +169,7 @@
 		"zpos"			"14"
 		"wide"			"7"
 		"tall"			"7"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
@@ -179,24 +181,24 @@
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"	
 		
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
-			"xpos"			"0"
-			"ypos"			"2"
-			"zpos"			"5"
+			"xpos"			"3"
+			"ypos"			"3"
+			"zpos"			"0"
 			"wide"			"10"
-			"tall"			"34"
+			"tall"			"36"
 			"visible"		"0"
-			"enabled"		"1"
-			"icon"			"obj_status_alert_background_tall"
+			"enabled"		"0"
+			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"Black"
 			"scaleImage"	"1"
 		}
@@ -206,7 +208,7 @@
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
 			"xpos"			"5"
-			"ypos"			"15"
+			"ypos"			"9"
 			"zpos"			"11"
 			"wide"			"14"
 			"tall"			"14"
@@ -222,9 +224,9 @@
 			"fieldName"		"MoveableSymbolIcon"
 			"xpos"			"16"
 			"ypos"			"-2"
-			"zpos"			"14"
+			"zpos"			"12"
 			"wide"			"16"
-			"tall"			"8"
+			"tall"			"6"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
@@ -244,7 +246,7 @@
 			"tall"			"24"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%movekey%"
 			"textAlignment"		"North"
