@@ -180,7 +180,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-388"
+		"xpos"			"c-298"
 		"ypos"			"8"
 		"zpos"			"1"
 		"wide"			"195"
@@ -198,7 +198,7 @@
 		"font"			"ChalkboardTitleMedium"
 		"labelText"		"flamehud"
 		"textAlignment"	"center"
-		"xpos"			"c-390"
+		"xpos"			"c-300"
 		"ypos"			"60"
 		"wide"			"200"
 		"tall"			"20"
@@ -216,7 +216,7 @@
 		"font"			"ChalkboardText"
 		"labelText"		"updated: 09/03/15"
 		"textAlignment"	"center"
-		"xpos"			"c-390"
+		"xpos"			"c-300"
 		"ypos"			"80"
 		"wide"			"200"
 		"tall"			"20"
@@ -231,7 +231,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuLineFlameLeft"
-		"xpos"			"c-390"
+		"xpos"			"c-300"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"2"
@@ -248,7 +248,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuLineFlameRight"
-		"xpos"			"c-190"
+		"xpos"			"c-100"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"2"
@@ -265,7 +265,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainMenuBGPanel"
-		"xpos"			"c-390"
+		"xpos"			"c-300"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"200"
@@ -336,7 +336,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"c-235"
+		"xpos"			"c-145"
 		"ypos"			"120"
 		"zpos"			"12"
 		"wide"			"20"
@@ -1187,7 +1187,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"240"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1256,7 +1256,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VRModeButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"379"
 		"zpos"			"11"
 		"wide"			"270"
@@ -1327,7 +1327,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"260"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1393,7 +1393,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"280"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1459,7 +1459,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-260"
+		"xpos"			"c-170"
 		"ypos"			"280"
 		"zpos"			"13"
 		"wide"			"20"
@@ -1474,7 +1474,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"300"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1540,7 +1540,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"320"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1608,7 +1608,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"200"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1676,7 +1676,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"200"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1744,7 +1744,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"180"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1812,7 +1812,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"180"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1879,7 +1879,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"160"
 		"zpos"			"11"
 		"wide"			"190"
@@ -1962,7 +1962,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"120"
 		"zpos"			"11"
 		"wide"			"190"
@@ -2030,7 +2030,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"120"
 		"zpos"			"11"
 		"wide"			"190"
@@ -2097,7 +2097,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-250"
+		"xpos"			"c-160"
 		"ypos"			"120"
 		"zpos"			"12"
 		"wide"			"20"
@@ -2163,7 +2163,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-230"
+		"xpos"			"c-140"
 		"ypos"			"120"
 		"zpos"			"12"
 		"wide"			"20"
@@ -2230,7 +2230,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-210"
+		"xpos"			"c-120"
 		"ypos"			"120"
 		"zpos"			"12"
 		"wide"			"20"
@@ -2297,7 +2297,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-290"
+		"xpos"			"c-200"
 		"ypos"			"460"
 		"zpos"			"2"
 		"wide"			"20"
@@ -2353,7 +2353,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-270"
+		"xpos"			"c-180"
 		"ypos"			"460"
 		"zpos"			"3"
 		"wide"			"20"
@@ -2400,7 +2400,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"c-250"
+		"xpos"			"c-160"
 		"ypos"			"460"
 		"zpos"			"4"
 		"wide"			"20"
@@ -2451,7 +2451,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-230"
+		"xpos"			"c-140"
 		"ypos"			"460"
 		"zpos"			"1"
 		"wide"			"20"
@@ -2502,7 +2502,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-210"
+		"xpos"			"c-120"
 		"ypos"			"460"
 		"zpos"			"1"
 		"wide"			"20"
@@ -2553,7 +2553,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"380"
 		"zpos"			"1"
 		"wide"			"190"
@@ -2610,7 +2610,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"360"
 		"zpos"			"1"
 		"wide"			"190"
@@ -2668,7 +2668,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"190"
@@ -2727,7 +2727,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"190"
@@ -2834,7 +2834,7 @@
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"TutorialHighlight"
-		"xpos"			"c-385"
+		"xpos"			"c-295"
 		"ypos"			"195"
 		"zpos"			"100"
 		"wide"			"190"
