@@ -851,7 +851,7 @@
 		"xpos"					"200"
 		"ypos"					"200"
 		"wide"					"100"
-		"tall"					"50"
+		"tall"					"150"
 	}
 
 	AnnotationsPanelCallout
@@ -1148,7 +1148,7 @@
 		"NormalY"		"10"
 		"EngineerY"		"170"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"280"
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -1177,13 +1177,14 @@
 
 	HudInspectPanel
 	{
-		"fieldName"		"HudInspectPanel"
-		"visible"		"0"
-		"enabled"		"1"
-		"xpos"			"r150"
-		"ypos"			"0"
-		"wide"			"150"
-		"tall"			"250"
+		"fieldName"				"HudInspectPanel"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"r200"
+		"ypos"					"rs1"
+		"zpos"					"10"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 	
 	HudTFCrosshair

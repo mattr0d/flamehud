@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{
@@ -56,19 +56,5 @@
 		"wide"			"50"
 		"tall"			"8"			
 
-	}
-
-	"ChargeMark_Cola"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"ChargeMark_Cola"
-		"xpos"			"25"
-		"ypos"			"25"
-		"zpos"			"4"
-		"wide"			"1"
-		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
-	}
+	}				
 }

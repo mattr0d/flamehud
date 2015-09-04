@@ -23,7 +23,7 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" "#MMenu_PlayCoop" 
+		"label" "Mann vs Machine" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
@@ -34,11 +34,10 @@
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_Servers" 
+		"label" "Server Browser" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
@@ -52,13 +51,13 @@
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" "Replays and Demos"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
+		"label" "Steam Workshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
 	}
@@ -71,7 +70,7 @@
 	}
 	"TrainingButton"
 	{
-		"label" "#TF_Training"
+		"label" "Offline Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
@@ -85,15 +84,16 @@
 		"OnlyAtMenu" "1"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
+
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Mann Co Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Inventory and Hats"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}

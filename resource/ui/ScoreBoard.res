@@ -97,7 +97,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 175"
+		"fillcolor"		"0 0 0 225"
 		"PaintBackgroundType"	"0"
 		if_mvm
 		{
@@ -122,7 +122,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 175"
+		"fillcolor"		"0 0 0 225"
 		"PaintBackgroundType"	"0"
 		if_mvm
 		{
@@ -288,6 +288,7 @@
 		
 		if_mvm
 		{
+			"xpos" 			"c0"
 			"ypos"			"0"
 		}
 	}
@@ -311,6 +312,7 @@
 		
 		if_mvm
 		{
+			"xpos" 			"c150"
 			"ypos"			"0"
 		}
 	}							
@@ -473,7 +475,8 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
+			"wide"			"175"
 		}
 	}	
 
@@ -751,11 +754,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
 		if_mvm
 		{
 			"xpos"		"-175"
 			"ypos"		"365"
 		}
+
 		"KillsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1381,6 +1386,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		
 	}			
 	"ButtonLegend"		[$X360]
 	{

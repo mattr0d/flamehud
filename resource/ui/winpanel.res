@@ -317,7 +317,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar2"
 		"xpos"			"6"
-		"ypos"			"71"	[$WIN32]
+		"ypos"			"70"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"2"

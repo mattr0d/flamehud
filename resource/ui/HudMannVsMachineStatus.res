@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"c-200"
+		"xpos"				"c-300"
 		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"400"
+		"wide"				"600"
 		"tall"				"67"
 		"ypos_minmode"		"-7"
 		"visible"			"1"
@@ -27,10 +27,10 @@
 		"enabled"			"1"
 	}
 	
-	"TankStatusPanel"
+	"BossStatusPanel"
 	{
-		"ControlName"		"CTankStatusPanel"
-		"fieldName"			"TankStatusPanel"
+		"ControlName"		"CMvMBossStatusPanel"
+		"fieldName"			"BossStatusPanel"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
@@ -43,15 +43,15 @@
 		"pin_corner_to_sibling"        "4"          
 		"pin_to_sibling_corner"        "6"  
 	}
-	
+
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"102"
+		"xpos"				"c-320"
 		"wide"				"100"
 		"tall"				"100"
-		"ypos"				"r144"
+		"ypos"				"r195"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}	
@@ -59,16 +59,13 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"33"
-		"ypos"				"r15"
+		"xpos"				"c-287"
+		"ypos"				"r105"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_minmode"		"145"
-		"ypos_minmode"		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
-
 
 	"WarningSwoop"
 	{

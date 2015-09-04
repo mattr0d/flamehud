@@ -21,11 +21,18 @@ Scheme
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
-		"LightOrange"			"188 112 0 128"
-		"GoalOrange"			"255 133 0"
+		"LightOrange"		"188 112 0 128"
+		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
 
 		"QuestGold"			"208 147 75 255"
+		
+		"FlameWhite"		"255 255 255 255"
+		"FlameGrey"			"165 165 165 255"
+		"FlameYellow"		"255 200 50 255"
+		"FlameRed"			"255 50 50 255"
+		"FlameBlue"			"50 200 255 255"
+		"FlameGreen"		"50 255 50 255"
 		
 		"White"				"255 255 255 255"
 		"Red"				"192 28 0 140"
