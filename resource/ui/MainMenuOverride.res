@@ -196,7 +196,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FlameLabel"
 		"font"			"ChalkboardTitleMedium"
-		"labelText"		"flamehud v2.0"
+		"labelText"		"flamehud"
 		"textAlignment"	"center"
 		"xpos"			"c-390"
 		"ypos"			"60"
