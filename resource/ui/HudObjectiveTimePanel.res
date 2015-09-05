@@ -158,6 +158,39 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"	"1"	
+		"scaleImage"		"1"	
+	}
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"xpos"			"16"
+		"ypos"			"24"
+		"zpos"			"5"
+		"wide"			"78"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"			"0"
+		"font"			"ClockSubText"
+		"font_hidef"	"HudFontSmall"
 	}	
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"16"	[$WIN32]
+		"ypos"			"31"
+		"zpos"			"1"
+		"wide"			"78"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
+	}
 }
