@@ -1180,11 +1180,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r200"
-		"ypos"					"rs1"
-		"zpos"					"10"
-		"wide"					"190"
-		"tall"					"f0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 	
 	HudTFCrosshair
@@ -1192,19 +1192,19 @@
 		"fieldName" "HudTFCrosshair"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
+		"wide"	 "f0"
 		"tall"	 "480"
 	}
 	
 	ItemQuickSwitchPanel
 	{
-		"fieldName"				"ItemQuickSwitchPanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"			"c-125"
-		"ypos"			"280"
-		"wide"			"250"
-		"tall"			"160"
+		"fieldName"		"ItemQuickSwitchPanel"
+		"visible"		"0"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	
 	ReplayReminder
