@@ -180,7 +180,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-298"
+		"xpos"			"c-296"
 		"ypos"			"8"
 		"zpos"			"1"
 		"wide"			"195"
@@ -1816,7 +1816,7 @@
 		"ypos"			"180"
 		"zpos"			"11"
 		"wide"			"190"
-		"tall"			"36"
+		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
