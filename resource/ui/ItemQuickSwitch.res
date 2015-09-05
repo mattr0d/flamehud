@@ -4,9 +4,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
-		"xpos"			"R200"
+		"xpos"			"R230"
 		"ypos"			"0"
-		"wide"			"200"
+		"wide"			"230"
 		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -155,7 +155,7 @@
 		"fieldName"		"itemcontainerscroller"
 		"xpos"			"0"
 		"ypos"			"30"
-		"wide"			"220"
+		"wide"			"230"
 		"tall"			"F0"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"59 54 48 255"
@@ -167,9 +167,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"0"
-		"wide"			"200"
+		"wide"			"170"
 		"tall"			"50"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"200 187 161 0"
@@ -181,7 +181,7 @@
 			"font"			"HudFontSmallestBold"
 			"labelText"		"(E)"
 			"textAlignment"	"center"
-			"xpos"			"5"
+			"xpos"			"35"
 			"ypos_override"			"10"
 			"zpos"			"100"
 			"wide"			"20"
@@ -215,16 +215,28 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"xpos"			"10"
+		"xpos"			"5"
 		"ypos"			"c-60"
 		"zpos"			"20"
 		"wide"			"25"
 		"tall"			"120"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintbackground"	"0"
 	}
+	
+			"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "FlameGrey"
+		"armedFgColor_override" "FlameWhite"
+		"depressedFgColor_override" "FlameGrey"
+			
+		"image_drawcolor"	"165 165 165 255"
+		"image_armedcolor"	"255 50 50 255"
+	
 }
