@@ -34,12 +34,10 @@
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"55"
-		"wide_minmode"	"27"
-		"tall"			"55"
-		"tall_minmode"	"27"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/class_spyred"
@@ -52,10 +50,8 @@
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
 		"zpos"			"7"
-		"wide"			"55"
-		"wide_minmode"	"27"
-		"tall"			"55"
-		"tall_minmode"	"27"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_spy_outline"
@@ -79,6 +75,7 @@
 		"teambg_3"		"../hud/character_blue_bg"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
+	
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"

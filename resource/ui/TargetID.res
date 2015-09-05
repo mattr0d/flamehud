@@ -19,8 +19,8 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"			
+		"src_corner_height"		"200"			// pixels inside the image
+		"src_corner_width"		"200"			
 		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"		
 	}
@@ -33,9 +33,9 @@
 		"ypos"			"4"
 		"zpos"			"-2"
 		"wide"			"252"
-		"tall"	 		"24"
+		"tall"	 		"12"
 		"autoResize"		"1"
-		"scaleImage" "1"
+		"scaleImage" 	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -52,7 +52,7 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"10"
-		"autoResize"		"1"
+		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -179,11 +179,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"6"
+		"ypos"			"2"
 		"zpos"			"0"
-		"wide"			"32"
-		"tall"			"36"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"	
 		
@@ -191,16 +191,16 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
-			"xpos"			"3"
+			"xpos"			"-5"
 			"ypos"			"3"
 			"zpos"			"0"
-			"wide"			"10"
-			"tall"			"36"
+			"wide_override"			"10"
+			"tall_override"			"36"
 			"visible"		"0"
 			"enabled"		"0"
 			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"Black"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}
 		
 		"MoveableIcon"

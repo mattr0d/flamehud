@@ -64,26 +64,21 @@
 	}
 	"BuyBackLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"c-190"
-		"ypos"			"16"
-		"wide"			"380"
-		"tall"			"14"
-		"autoResize"	"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"320"
+		"tall"			"30"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#TF_PVE_Buyback"
-		"textAlignment"	"center"
+		"labelText"		""
+		"textAlignment"		"center"
 		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
-		if_mvm
-		{
-			"visible"		"1"
-		}	
 	}
 	"MapLabel"
 	{
@@ -166,33 +161,34 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"190"
+		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
 		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_tall"		"60"
 		
-		"text_xpos"		"90"
+		"text_xpos"		"10"
+		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
-		"max_text_height"	"90"
-		"padding_height"	"40"
+		"max_text_height"	"100"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
@@ -215,25 +211,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
-	}			
+	}	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}		
 }
