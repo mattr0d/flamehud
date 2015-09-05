@@ -10,26 +10,26 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 		
-		"team1_player_base_offset_x"		"-385"
-		"team1_player_base_y"				"50"
+		"team1_player_base_offset_x"		"0"
+		"team1_player_base_y"				"210"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"21"
+		"team1_player_delta_y"				"-20"
 		
-		"team2_player_base_offset_x"		"-385"
-		"team2_player_base_y"				"200"
+		"team2_player_base_offset_x"		"0"
+		"team2_player_base_y"				"250"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"21"
+		"team2_player_delta_y"				"20"
+		
 		"playerpanels_kv"
-
 		{
 			"visible"		"0"
 			"wide"			"140"
 			"tall"			"20"
 			"zpos"			"1"
 			
-			"color_ready"	"0 255 0 220"
-			"color_notready"	"0 0 0 220"
-										  			
+			"color_ready"	"0 255 0 225"
+			"color_notready"	"0 0 0 225"
+	
 			"playername"
 			{
 				"ControlName"	"CExLabel"
