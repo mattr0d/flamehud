@@ -962,7 +962,7 @@
 		"xpos"		"c103"	[$WIN32]
 		"ypos"		"r116"	[$WIN32]
 		"wide"		"200"
-		"tall"			"50"
+		"tall"			"70"
 	}	
 
 	HudTeamGoal

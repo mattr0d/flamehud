@@ -75,7 +75,6 @@
 		"teambg_3"		"../hud/character_blue_bg"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
-	
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
