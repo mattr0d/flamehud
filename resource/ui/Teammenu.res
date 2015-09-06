@@ -30,7 +30,7 @@
 		"tabPosition"	"0"
 	}
 	
-		"MenuLineFlameLeft"
+	"MenuLineFlameLeft"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuLineFlameLeft"
@@ -167,7 +167,7 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
 		"xpos"			"c195"
-		"ypos"			"c-50`"
+		"ypos"			"c-50"
 		"zpos"			"3"
 		"wide"			"85"
 		"tall"			"100"
@@ -300,14 +300,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"r190"
-		"xpos_hidef"			"r200"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"xpos"			"c110"
+		"ypos"			"c140"
 		"zpos"			"6"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"170"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -318,7 +315,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
+		"font"			"HUDFontSmallBold"
+		
+		"border_default_override"	""
+		"border_armed_override"		""
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "FlameGrey"
+		"armedFgColor_override" "FlameWhite"
+		"depressedFgColor_override" "FlameGrey"
 	}
 	
 	"TeamMenuSelect"

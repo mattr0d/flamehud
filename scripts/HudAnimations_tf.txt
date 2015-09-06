@@ -207,6 +207,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.2 0.4
 
+	Animate	PlayerStatusHealthValueFlame	Fgcolor		"Black"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthValueFlame	Fgcolor		"255 0 0 255"		Linear 0.125 0.075
+
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 

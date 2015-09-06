@@ -13,18 +13,18 @@
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"210"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-20"
+		"team1_player_delta_y"				"-25"
 		
 		"team2_player_base_offset_x"		"0"
 		"team2_player_base_y"				"250"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"20"
+		"team2_player_delta_y"				"25"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"140"
-			"tall"			"20"
+			"tall"			"24"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 225"
@@ -34,12 +34,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"defaultverysmall"
+				"font"			"TFFontMediumBold"
 				"xpos"			"65"
 				"ypos"			"7"
 				"zpos"			"5"
-				"wide"			"60"
-				"tall"			"8"
+				"wide"			"75"
+				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -61,11 +61,11 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"7"
+				"xpos"			"1"
 				"ypos"			"2"
-				"zpos"			"-2"
-				"wide"			"16"
-				"tall"			"16"
+				"zpos"			"-5"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -86,13 +86,107 @@
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"5"
-				"ypos"			"4"
+				"ypos"			"12"
 				"zpos"			"2"
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
+				"PaintBackgroundType"	"0"
+				
+	
+						
+				if_mvm
+				{
+					"visible"		"1"
+				}
+			}
+			
+			"TopBar"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"TopBar"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-2"
+				"wide"			"f0"
+				"tall"	 		"2"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"White"
+				"PaintBackgroundType"	"0"
+				
+				if_mvm
+				{
+					"visible"		"1"
+				}
+			}
+			
+			"BottomBar"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"BottomBar"
+				"xpos"			"0"
+				"ypos"			"23"
+				"zpos"			"-2"
+				"wide"			"f0"
+				"tall"	 		"2"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"White"
+				"PaintBackgroundType"	"0"
+				
+				if_mvm
+				{
+					"visible"		"1"
+				}
+			}
+			
+			"LeftBar"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"LeftBar"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-2"
+				"wide"			"3"
+				"tall"	 		"f0"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"White"
+				"PaintBackgroundType"	"0"
+				
+				if_mvm
+				{
+					"visible"		"1"
+				}
+			}
+			
+			"RightBar"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"RightBar"
+				"xpos"			"138"
+				"ypos"			"0"
+				"zpos"			"-2"
+				"wide"			"3"
+				"tall"	 		"f0"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"White"
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
@@ -172,17 +266,17 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmallestBorder"
-				"xpos"			"110"
-				"ypos"			"5"
+				"font"			"HudFontSmallestBold"
+				"xpos"			"42"
+				"ypos"			"2"
 				"zpos"			"6"
-				"wide"			"35"
-				"tall"			"15"
+				"wide"			"24"
+				"tall"			"22"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"north"
+				"textAlignment"	"center"
 				"fgcolor"		"white"
 				
 				if_mvm
@@ -195,19 +289,38 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"HudFontSmallestBorder"
-				"xpos"			"110"
-				"ypos"			"5"
+				"font"			"HudFontSmallestBold"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"6"
-				"wide"			"35"
-				"tall"			"15"
+				"wide"			"24"
+				"tall"			"22"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"textAlignment"	"center"
+				"fgcolor"		"FlameGreen"
 			}
+			
+			"chargeamountshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamountshadow"
+				"font"			"HudFontSmallestBold"
+				"xpos"			"3"
+				"ypos"			"3"
+				"zpos"			"5"
+				"wide"			"24"
+				"tall"			"22"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"center"
+				"fgcolor"		"0 0 0 255"
+			}
+			
 			
 			"specindex"
 			{

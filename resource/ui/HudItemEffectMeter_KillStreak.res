@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c165"	[$WIN32]
+		"xpos"			"c155"	[$WIN32]
 		"ypos"			"r140"	[$WIN32]
 		"wide"			"120"
 		"tall"			"54"
@@ -33,6 +33,21 @@
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
+	"KillStreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"90"
+		"ypos"			"16"
+		"zpos"			"14"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+		"scaleImage"	"1"
+	}
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -44,7 +59,7 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_KillStreak"
@@ -77,7 +92,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"64"
+		"xpos"					"72"
 		"ypos"					"13"
 		"zpos"					"2"
 		"wide"					"20"
@@ -87,16 +102,16 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmallBold"
 	}
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"65"
+		"xpos"					"73"
 		"ypos"					"13"
 		"zpos"					"1"
 		"wide"					"20"
@@ -106,10 +121,10 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"				"HudFontSmall"
+		"font"				"HudFontMediumSmallBold"
 		"fgcolor"				"black"
 	}
 }
