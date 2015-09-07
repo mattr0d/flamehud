@@ -90,7 +90,7 @@
 			"xpos"			"40"
 			"ypos"			"43"
 			"zpos"			"1"
-			"wide"			"120"
+			"wide"			"175"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -120,7 +120,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"65"
+			"xpos"			"63"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"220"

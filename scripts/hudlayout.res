@@ -849,7 +849,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"200"
-		"ypos"					"200"
+		"ypos"					"0"
 		"wide"					"100"
 		"tall"					"150"
 	}

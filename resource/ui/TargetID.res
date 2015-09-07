@@ -156,7 +156,7 @@
 		"tall"			"9"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_soldier_burstfire"
+		"image"			"../vgui/mvm/upgradeicons/bottle_ammoresupply_bw"
 		"scaleImage"	"1"
 	}
 	
@@ -165,10 +165,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"49"
-		"ypos"			"19"
+		"ypos"			"18"
 		"zpos"			"14"
-		"wide"			"7"
-		"tall"			"7"
+		"wide"			"9"
+		"tall"			"9"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
