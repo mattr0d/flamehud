@@ -87,10 +87,10 @@
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
-			"xpos"			"40"
+			"xpos"			"55"
 			"ypos"			"43"
 			"zpos"			"1"
-			"wide"			"175"
+			"wide"			"160"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -197,11 +197,25 @@
 			}
 		}
 	}
+	
+	"ItemAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ItemAnchor"
+		"xpos"	"0"
+		"ypos"	"0"
+		"zpos"	"1"
+		"wide"	"f0"
+		"tall"	"480"
+		"visible"	"1"
+		"enabled"	"1"
+	}	
+	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r200"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"200"
@@ -209,6 +223,10 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"pin_to_sibling" "ItemAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+		
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
