@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
 	HudItemEffectMeter
 	{
@@ -26,12 +26,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
-		"font"			"HudFontSmallest"
-		"xpos"			"27"
-		"ypos"			"35"
+		"font"			"HudFontSmallestBold"
+		"xpos"			"10"
+		"ypos"			"25"
 		"zpos"			"6"
-		"wide"			"41"
-		"tall"			"15"
+		"wide"			"50"
+		"tall"			"8"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -55,19 +55,5 @@
 		"ypos"			"25"	
 		"wide"			"50"
 		"tall"			"8"			
-	}
-
-	"ChargeMark_Cola"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"ChargeMark_Cola"
-		"xpos"			"25"
-		"ypos"			"25"
-		"zpos"			"4"
-		"wide"			"1"
-		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
-	}
+	}				
 }

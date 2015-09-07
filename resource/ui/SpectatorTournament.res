@@ -34,9 +34,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"TFFontMediumBold"
+				"font"			"TFFontSmall"
 				"xpos"			"65"
-				"ypos"			"7"
+				"ypos"			"8"
 				"zpos"			"5"
 				"wide"			"75"
 				"tall"			"18"

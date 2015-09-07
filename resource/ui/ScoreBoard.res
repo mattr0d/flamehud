@@ -265,7 +265,8 @@
 			"xpos" 			"c150"
 			"ypos"			"0"
 		}
-	}							
+	}
+
 	"BluePlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
