@@ -25,24 +25,24 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemEffectMeterLabel"
-		"font"			"HudFontSmallest"
-		"xpos"			"27"
-		"ypos"			"35"
-		"zpos"			"6"
-		"wide"			"41"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"5"
-		"labelText"		"#TF_Ball"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"fgcolor" 			"0 0 0 255"
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterLabel"
+		"font"				"FontStorePrice"
+		"xpos"				"10"
+		"ypos"				"25"
+		"zpos"				"6"
+		"wide"				"50"
+		"tall"				"8"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"0"
+		"enabled"			"1"
+		"tabPosition"		"5"
+		"labelText"			"#TF_ENERGYDRINK"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"1"
+		"fgcolor_override"	"0 0 0 255"
 	}
 
 	"ItemEffectMeter"
@@ -57,19 +57,5 @@
 		"wide"			"50"
 		"tall"			"8"			
 
-	}
-
-	"ChargeMark_Cola"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"ChargeMark_Cola"
-		"xpos"			"25"
-		"ypos"			"25"
-		"zpos"			"4"
-		"wide"			"1"
-		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
 	}
 }

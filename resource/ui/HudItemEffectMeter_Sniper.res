@@ -7,8 +7,6 @@
 		"enabled"		"1"
 		"xpos"	"c90"	[$WIN32]
 		"ypos"	"r138"	[$WIN32]
-
-
 		"wide"			"120"
 		"tall"			"54"
 		"MeterFG"		"White"
