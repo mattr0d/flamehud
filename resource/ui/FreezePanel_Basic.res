@@ -120,7 +120,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"63"
+			"xpos"			"58"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"220"
@@ -135,7 +135,7 @@
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"220"
-				"tall"			"32"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/color_panel_brown"
@@ -198,35 +198,18 @@
 		}
 	}
 	
-	"ItemAnchor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"ItemAnchor"
-		"xpos"	"0"
-		"ypos"	"0"
-		"zpos"	"1"
-		"wide"	"f0"
-		"tall"	"480"
-		"visible"	"1"
-		"enabled"	"1"
-	}	
-	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
+		"xpos"			"r200"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"200"
+		"wide"			"0"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"pin_to_sibling" "ItemAnchor"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-		
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
