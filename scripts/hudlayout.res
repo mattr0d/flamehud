@@ -683,7 +683,7 @@
 		"show_avatar"		"1"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"		"1"
+		"dead_xpos"		"14"
 		"dead_ypos"		"0"
 		"dead_wide"		"16"
 		"dead_tall"		"16"
