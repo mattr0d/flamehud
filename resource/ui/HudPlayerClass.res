@@ -93,17 +93,15 @@
 			"fieldName"		"crosshairl1"
 			"font"			"defaultsmall"
 			"labelText"		"("
-			"textAlignment"		"east"
+			"textAlignment"	"east"
 			"xpos"			"r684"
 			"ypos"			"r194"
 			"zpos"			"3"
 			"wide"			"146"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"FlameGreen"
 		}
 		"crosshairr1"
 		{
@@ -117,11 +115,9 @@
 			"zpos"			"3"
 			"wide"			"148"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"255 255 255 255"	
+			"fgcolor"		"FlameGreen"	
 		}
 		"crosshairl2"
 		{
@@ -135,8 +131,6 @@
 			"zpos"			"4"
 			"wide"			"142"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"0 0 0 255"
@@ -147,20 +141,17 @@
 			"fieldName"		"crosshairr2"
 			"font"			"defaultsmall"
 			"labelText"		")"
-			"textAlignment"		"east"
+			"textAlignment"	"east"
 			"xpos"			"182"
 			"ypos"			"r194"
 			"zpos"			"4"
 			"wide"			"145"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"0 0 0 255"
 		}
 	}
-
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"

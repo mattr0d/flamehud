@@ -812,30 +812,6 @@ Scheme
 				"yres"		"1200 10000"
 			}
 		}
-		"HudCrosshair"
-		{
-			"1"
-			{
-				"name"		"fonlydot"
-				"tall"		"36"
-				"tall_lodef"	"36"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudCrosshairSmaller"
-		{
-			"1"
-			{
-				"name"		"fonlydot"
-				"tall"		"24"
-				"tall_lodef"	"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}	
 		"HudFontGiantBold"
 		{
 			"1"
@@ -1080,7 +1056,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-				"HudFontSmallerest"
+		"HudFontSmallerest"
 		{
 			"1"
 			{

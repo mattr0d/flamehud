@@ -958,11 +958,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		"xpos"		"c103"	[$WIN32]
-		"ypos"		"r116"	[$WIN32]
-		"wide"		"200"
-		"tall"			"70"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
 	}	
 
 	HudTeamGoal
