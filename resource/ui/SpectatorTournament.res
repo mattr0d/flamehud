@@ -328,7 +328,8 @@
 		if_mvm
 		{
 			"xpos"			"c-190"
-			"ypos"			"1"
+			"ypos"			"2"
+			"tall"			"18"
 			"wide"			"380"
 			"textAlignment"		"center"
 		}

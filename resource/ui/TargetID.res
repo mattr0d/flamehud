@@ -156,7 +156,7 @@
 		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../vgui/mvm/upgradeicons/bottle_ammoresupply_bw"
+		"image"			"../hud/hud_obj_status_ammo_64"
 		"scaleImage"	"1"
 	}
 	
