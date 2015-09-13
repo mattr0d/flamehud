@@ -8,12 +8,19 @@
 		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"38"
-		"tall"			"22"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"	"0"	
-	}	
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+		
+	}
 	"TimePanelProgressBar"
 	{
 		"ControlName"		"CTFProgressBar"
@@ -165,32 +172,38 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"16"
-		"ypos"			"24"
+		"ypos"			"26"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
+		"font"			"HudFontSmall"
+		"font_hidef"	""
 	}	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"	[$WIN32]
-		"ypos"			"31"
+		"xpos"			"35"	[$WIN32]
+		"ypos"			"27"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"0"
-		"visible"		"0"
+		"wide"			"38"
+		"tall"			"15"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 }
