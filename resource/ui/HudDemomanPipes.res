@@ -57,8 +57,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"c185"
-		"ypos"			"r111"
+		"xpos"			"c132"
+		"ypos"			"r123"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -129,8 +129,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"c185"
-		"ypos"			"r111"
+		"xpos"			"c132"
+		"ypos"			"r123"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -146,10 +146,10 @@
 			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/ico_stickybomb_red"
+			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
-			"teambg_2"		"../hud/ico_stickybomb_red"
-			"teambg_3"		"../hud/ico_stickybomb_blue"	
+			"teambg_2"		"../hud/ico_stickybomb_red_faded"
+			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
 		}	
 		
 		"NumPipesLabel"
