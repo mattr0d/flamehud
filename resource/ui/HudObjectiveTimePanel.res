@@ -62,7 +62,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"	[$WIN32]
-		"ypos_minmode"			"31"
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -87,7 +87,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"ClockSubTextTiny"
 	}			
 	"OvertimeBG"
 	{
