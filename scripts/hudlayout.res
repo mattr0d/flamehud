@@ -428,10 +428,10 @@
 		"fieldName" 		"HudDeathNotice"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"	 		"r640"	[$WIN32]
-		"ypos"	 		"6"	[$WIN32]
-		"wide"	 		"628"
-		"tall"	 		"468"
+		"xpos"	 		"r320"	[$WIN32]
+		"ypos"	 		"5"	[$WIN32]
+		"wide"	 		"320"
+		"tall"	 		"470"
 
 		"MaxDeathNotices" 	"12"
 		"IconScale"	  	"0.25"

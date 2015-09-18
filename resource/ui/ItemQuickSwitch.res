@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
-		"xpos"			"R230"
-		"ypos"			"0"
+		"xpos"			"r230"
+		"ypos"			"c-100"
 		"wide"			"230"
-		"tall"			"f0"
+		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -23,7 +23,7 @@
 		
 		"itemskv"	
 		{
-			"wide"			"200"
+			"wide"			"180"
 			"tall"			"25"
 			"bgcolor_override"		"50 50 50 255"
 			"PaintBackgroundType"	"2"
@@ -36,7 +36,7 @@
 			"model_tall"	"24"
 			
 			"text_xpos"		"50"
-			"text_wide"		"150"
+			"text_wide"		"130"
 			"text_center"	"1"
 			"name_only"		"1"
 			
@@ -67,7 +67,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"200"
+			"wide"			"230"
 			"tall"			"f0"
 			"visible"		"1"
 			"pinCorner"		"0"
@@ -153,10 +153,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainerscroller"
-		"xpos"			"0"
-		"ypos"			"30"
-		"wide"			"230"
-		"tall"			"F0"
+		"xpos"			"30"
+		"ypos"			"25"
+		"wide"			"200"
+		"tall"			"175"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"59 54 48 255"
 		"bgcolor_override"	"200 187 161 0"
@@ -167,10 +167,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"30"
+		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"170"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"200 187 161 0"
 		
@@ -216,10 +216,10 @@
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
 		"xpos"			"5"
-		"ypos"			"c-60"
+		"ypos"			"60"
 		"zpos"			"20"
 		"wide"			"25"
-		"tall"			"120"
+		"tall"			"110"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -227,16 +227,5 @@
 		"tabPosition"	"0"
 		"paintbackground"	"0"
 	}
-	
-			"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "FlameGrey"
-		"armedFgColor_override" "FlameWhite"
-		"depressedFgColor_override" "FlameGrey"
-			
-		"image_drawcolor"	"165 165 165 255"
-		"image_armedcolor"	"255 50 50 255"
 	
 }
