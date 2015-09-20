@@ -170,9 +170,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"		"CHudAccountPanel"
-		"xpos"		"c210"	[$WIN32]
-		"ypos"		"r206"	[$WIN32]
-		"wide"			"116"
+		"xpos"			"c210"	[$WIN32]
+		"ypos"			"r210"	[$WIN32]
+		"wide"			"120"
 		"tall"  		"180"
 		"visible" 		"1"
 		"enabled" 		"1"
@@ -183,9 +183,9 @@
 	{
 		"fieldName"		"CHealthAccountPanel"
 
-		"xpos"		"c-324"
-		"ypos"		"r136"
-		"wide"		"200"
+		"xpos"			"c-325"
+		"ypos"			"r135"
+		"wide"			"200"
 		"tall"  		"180"
 		"visible" 		"1"
 		"enabled" 		"1"
@@ -428,27 +428,27 @@
 		"fieldName" 		"HudDeathNotice"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"	 		"r320"	[$WIN32]
+		"xpos"	 		"r640"	[$WIN32]
 		"ypos"	 		"5"	[$WIN32]
-		"wide"	 		"320"
+		"wide"	 		"635"
 		"tall"	 		"470"
 
 		"MaxDeathNotices" 	"12"
-		"IconScale"	  	"0.25"
+		"IconScale"	  		"0.25"
 		"LineHeight"	  	"11"
 		"LineSpacing"	 	"1"
 		"CornerRadius"	 	"3"
 		"RightJustify"	  	"1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"			"Default"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
+		"TeamBlue"			"HUDBlueTeamSolid"
+		"TeamRed"			"HUDRedTeamSolid"
+		"IconColor"			"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"0 0 0 100"		[$WIN32]
-		"LocalBackgroundColor"	"255 255 255 200"	[$WIN32]
+		"BaseBackgroundColor"	"FlameTransBlack"		[$WIN32]
+		"LocalBackgroundColor"	"255 255 255 225"	[$WIN32]
 	}
 
 	HudVehicle
@@ -910,10 +910,10 @@
 		"fieldName" 		"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -922,10 +922,10 @@
 		"fieldName" 		"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -934,10 +934,10 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -946,10 +946,10 @@
 		"fieldName" 		"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"wide"			"470"
-		"tall"			"200"	[$WIN32]
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"	[$WIN32]
 		"PaintBackgroundType"	"0"
 	}	
 	

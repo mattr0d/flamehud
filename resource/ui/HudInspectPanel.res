@@ -4,13 +4,13 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"c200"
+		"xpos"			"r160"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"150"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"FlameTransBlack"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"15"

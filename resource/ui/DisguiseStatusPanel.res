@@ -51,8 +51,8 @@
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"	
 	}
 
 	"DisguiseNameLabel"
@@ -63,7 +63,7 @@
 		"xpos"			"60"
 		"ypos"			"51"
 		"zpos"			"1"
-		"wide"			"70"
+		"wide"			"69"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -82,7 +82,7 @@
 		"xpos"			"60"
 		"ypos"			"60"
 		"zpos"			"1"
-		"wide"			"70"
+		"wide"			"69"
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"

@@ -33,6 +33,7 @@ Scheme
 		"FlameRed"			"255 50 50 255"
 		"FlameBlue"			"50 200 255 255"
 		"FlameGreen"		"50 255 50 255"
+		"FlameTransBlack"	"0 0 0 225"
 		
 		"White"				"255 255 255 255"
 		"Red"				"192 28 0 140"

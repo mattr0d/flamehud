@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"-1"
-		"wide"			"252"
+		"wide"			"f0"
 		"tall"	 		"0"
 		"autoResize"		"1"
 		"pinCorner"		"0"
@@ -25,24 +25,24 @@
 		"draw_corner_height" 		"0"		
 	}
 
-	"TargetIDBG_Spec_Bar"
+	"TargetIDBG_BlackBar"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Bar"
+		"fieldName"		"TargetIDBG_BlackBar"
 		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"-2"
-		"wide"			"900"
+		"wide"			"f0"
 		"tall"	 		"12"
 		"autoResize"		"1"
 		"scaleImage" 	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 225"
+		"fillcolor"		"FlameTransBlack"
 		"PaintBackgroundType"	"0"
 	}
-	
+		
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -88,7 +88,6 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"
 	}
-
 	
 	"TargetNameLabel"
 	{	
@@ -98,7 +97,7 @@
 		"xpos"			"40"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"640"
+		"wide"			"f0"
 		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -117,7 +116,7 @@
 		"xpos"			"30"
 		"ypos"			"17"	[$WIN32]
 		"zpos"			"1"
-		"wide"			"280"
+		"wide"			"f0"
 		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -191,16 +190,16 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
-			"xpos"			"-5"
+			"xpos"			"2"
 			"ypos"			"3"
 			"zpos"			"0"
-			"wide_override"			"10"
-			"tall_override"			"36"
+			"wide"			"115"
+			"tall"			"106"
 			"visible"		"0"
 			"enabled"		"0"
 			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"Black"
-			"scaleImage"	"0"
+			"scaleImage"	"1"
 		}
 		
 		"MoveableIcon"

@@ -2,13 +2,13 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"28"
-		"delta_item_start_y"	"90"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_x"			"60"
+		"delta_item_start_y"	"100"
+		"delta_item_end_y"		"90"
+		"PositiveColor"			"FlameGreen"
+		"NegativeColor"			"FlameRed"
+		"delta_lifetime"		"2"
+		"delta_item_font"		"HudFontSmallBold"
 	}
 	
 	"AccountBG"
@@ -16,7 +16,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"AccountBG"
 		"xpos"			"5"
-		"ypos"			"103"
+		"ypos"			"100"
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
@@ -45,13 +45,28 @@
 		"icon"			"ico_metal"
 		"iconColor"		"HealthBgGrey"
 	}
+	"MetalIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIconShadow"
+		"xpos"			"25"
+		"ypos"			"101"
+		"zpos"			"-11"
+		"wide"			"45"
+		"tall"			"40"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"Black"
+	}
 	
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"xpos"			"20"
-		"ypos"			"112"
+		"ypos"			"110"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"
@@ -70,8 +85,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueShadow"
-		"xpos"			"20"
-		"ypos"			"112"
+		"xpos"			"21"
+		"ypos"			"111"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"

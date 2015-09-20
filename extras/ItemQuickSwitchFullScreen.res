@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
-		"xpos"			"r230"
-		"ypos"			"c-100"
+		"xpos"			"R230"
+		"ypos"			"0"
 		"wide"			"230"
-		"tall"			"200"
+		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -16,14 +16,14 @@
 		"settitlebarvisible"	"1"
 		
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"FlameTransBlack"
+		"bgcolor_override"	"0 0 0 255"
 
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
 		
 		"itemskv"	
 		{
-			"wide"			"180"
+			"wide"			"200"
 			"tall"			"25"
 			"bgcolor_override"		"50 50 50 255"
 			"PaintBackgroundType"	"2"
@@ -36,36 +36,28 @@
 			"model_tall"	"24"
 			
 			"text_xpos"		"50"
-			"text_wide"		"130"
+			"text_wide"		"150"
 			"text_center"	"1"
 			"name_only"		"1"
 			
 			"noitem_textcolor"		"117 107 94 255"
 		}
 		
-		"FlameLeftBar"
+		"MenuLineFlameLeft"
 		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"FlameLeftBar"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MenuLineFlameLeft"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"0"
+			"zpos"			"2"
 			"wide"			"2"
-			"tall"	 		"f0"
-			"autoResize"		"1"
+			"tall"			"f0"
+			"visible"		"1"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_brown"
-			"scaleImage"		"1"
-			"teambg_1"		"../hud/color_panel_brown"
-			"teambg_2"		"../hud/color_panel_red"
-			"teambg_3"		"../hud/color_panel_blu"
-			
-			"src_corner_height"		"40"			// pixels inside the image
-			"src_corner_width"		"40"			
-			"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"		
+			"fillcolor"		"FlameYellow"
+			"PaintBackgroundType"	"0"
 		}
 	
 		"FlameBGPanel"
@@ -75,13 +67,13 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"230"
+			"wide"			"200"
 			"tall"			"f0"
 			"visible"		"1"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"FlameTransBlack"
+			"fillcolor"		"0 0 0 255"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -103,7 +95,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TFOrange"
+		"fgcolor_override" "200 80 60 255"
 	}
 	"ClassLabel"
 	{
@@ -161,13 +153,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainerscroller"
-		"xpos"			"30"
-		"ypos"			"25"
-		"wide"			"200"
-		"tall"			"175"
+		"xpos"			"0"
+		"ypos"			"30"
+		"wide"			"230"
+		"tall"			"F0"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"White"
-		"bgcolor_override"	"0 0 0 0"
+		"fgcolor_override"	"59 54 48 255"
+		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
 		
@@ -175,29 +167,28 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"0"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"170"
+		"tall"			"50"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"200 200 200 0"
+		"bgcolor_override"	"200 187 161 0"
 		
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyEquippedBackground"
-			"font"			"ItemFontAttribSmall"
-			"labelText"		"Equipped"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"(E)"
 			"textAlignment"	"center"
 			"xpos"			"35"
 			"ypos_override"			"10"
 			"zpos"			"100"
-			"wide"			"35"
+			"wide"			"20"
 			"tall"			"10"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"fgcolor" "200 80 60 255"
-			"bgcolor_override"	"Black"
+			"fgcolor" "FlameGreen"
 		}
 	}
 	
@@ -225,10 +216,10 @@
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
 		"xpos"			"5"
-		"ypos"			"60"
+		"ypos"			"c-60"
 		"zpos"			"20"
 		"wide"			"25"
-		"tall"			"110"
+		"tall"			"120"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -236,5 +227,16 @@
 		"tabPosition"	"0"
 		"paintbackground"	"0"
 	}
+	
+			"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "FlameGrey"
+		"armedFgColor_override" "FlameWhite"
+		"depressedFgColor_override" "FlameGrey"
+			
+		"image_drawcolor"	"165 165 165 255"
+		"image_armedcolor"	"255 50 50 255"
 	
 }

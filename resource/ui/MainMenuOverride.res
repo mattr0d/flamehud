@@ -214,7 +214,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FlameLabelInfo"
 		"font"			"ChalkboardText"
-		"labelText"		"updated: 09/18/15"
+		"labelText"		"updated: 09/20/15"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
 		"ypos"			"80"

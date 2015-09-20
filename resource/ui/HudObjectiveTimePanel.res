@@ -188,22 +188,19 @@
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"35"	[$WIN32]
 		"ypos"			"27"
 		"zpos"			"1"
 		"wide"			"38"
 		"tall"			"15"
+		"autoResize"		"1"
+		"scaleImage" 	"1"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"fillcolor"		"FlameTransBlack"
+		"PaintBackgroundType"	"0"
 	}
 }

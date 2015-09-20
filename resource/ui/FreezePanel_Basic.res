@@ -37,11 +37,11 @@
 			"image"			"../hud/color_panel_blu"
 			"scaleImage"		"1"	
 			
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
 				
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
 		}
 		
 		"FreezeLabel"
@@ -49,7 +49,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
-			"xpos"			"40"
+			"xpos"			"43"
 			"ypos"			"32"
 			"zpos"			"1"
 			"wide"			"180"
@@ -71,7 +71,7 @@
 			"xpos"			"0"
 			"ypos"			"32"
 			"zpos"			"1"
-			"wide"			"40"
+			"wide"			"45"
 			"tall"			"28"
 			"visible"		"1"
 			"enabled"		"1"	
@@ -87,8 +87,8 @@
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
-			"xpos"			"55"
-			"ypos"			"43"
+			"xpos"			"57"
+			"ypos"			"44"
 			"zpos"			"1"
 			"wide"			"160"
 			"tall"			"16"
@@ -104,7 +104,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"40"
+			"xpos"			"44"
 			"ypos"			"44"
 			"zpos"			"0"
 			"wide"			"14"

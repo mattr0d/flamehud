@@ -297,7 +297,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 225"
+		"fillcolor"		"FlameTransBlack"
 		"PaintBackgroundType"	"0"
 	}
 	"ShadedBar2"
@@ -314,7 +314,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"235 235 235 255"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
