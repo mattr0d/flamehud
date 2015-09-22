@@ -15,56 +15,76 @@
 		"tabPosition"	"0"
 	}
 	
-	"MenuLineFlameLeft"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MenuLineFlameLeft"
-		"xpos"			"c108"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"2"
-		"tall"			"f0"
-		"visible"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"FlameYellow"
-		"PaintBackgroundType"	"0"
-	}
+
 	
-	"MenuLineFlameRight"
+	"FlameBackground"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MenuLineFlameRight"
-		"xpos"			"c280"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"2"
-		"tall"			"f0"
-		"visible"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"FlameYellow"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"BGPanel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGPanel"
+		"ControlName"		"ImagePanel"
+		"fieldName"		"FlameBackground"
 		"xpos"			"c110"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"171"
-		"tall"			"f0"
-		"visible"		"1"
+		"tall"	 		"f0"
+		"autoResize"		"1"
+		"scaleImage" 	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"Black"
 		"PaintBackgroundType"	"0"
-	}	
+	}
+	
+	"FlameLeftBar"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"FlameLeftBar"
+		"xpos"			"c108"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"2"
+		"tall"	 		"f0"
+		"autoResize"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"			// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"		
+	}
+	
+	"FlameRightBar"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"FlameRightBar"
+		"xpos"			"c280"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"2"
+		"tall"	 		"f0"
+		"autoResize"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"			// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
+	
 	
 	"SysMenu"
 	{

@@ -11,7 +11,7 @@
 		"tall"			"60"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
@@ -19,8 +19,76 @@
 		"src_corner_height"	"40"				// pixels inside the image
 		"src_corner_width"	"40"
 		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
+	
+	"FlameBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"FlameBackground"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"-2"
+		"wide"			"175"
+		"tall"	 		"60"
+		"autoResize"	"1"
+		"scaleImage" 	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"FlameTransBlack"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"FlameLeftBar"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"FlameLeftBar"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"-1"
+		"wide"			"2"
+		"tall"	 		"60"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"			// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"		
+	}
+	
+	"FlameRightBar"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"FlameRightBar"
+		"xpos"			"174"
+		"ypos"			"5"
+		"zpos"			"-1"
+		"wide"			"2"
+		"tall"	 		"60"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"			// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"TournamentSetupLabel"

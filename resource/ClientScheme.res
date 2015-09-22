@@ -34,20 +34,21 @@ Scheme
 		"FlameBlue"			"50 200 255 255"
 		"FlameGreen"		"50 255 50 255"
 		"FlameTransBlack"	"0 0 0 225"
+		"FlameTransWhite"	"255 255 255 225"
 		
 		"White"				"255 255 255 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
-		"TransparentYellow"		"251 235 202 140"
+		"TransparentYellow"	"251 235 202 140"
 		"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
-		"GreenSolid"		 	"76 107 34 255"
+		"GreenSolid"		"76 107 34 255"
 		
-		//"Black"			"46 43 42 255"
+		//"Black"				"46 43 42 255"
 		"TransparentBlack"		"0 0 0 196"
-		"TransparentLightBlack"		"0 0 0 90"
+		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"			"52 48 55 255"
 		
 		"HUDBlueTeam"			"104 124 155 127"
@@ -56,23 +57,23 @@ Scheme
 		"HUDBlueTeamSolid"		"104 124 155 255"
 		"HUDRedTeamSolid"		"180 92 77 255"
 		"HUDDeathWarning"		"255 0 0 255"
-		"HudWhite"			"255 255 255 255"
+		"HudWhite"				"255 255 255 255"
 		"HudOffWhite"			"200 187 161 255"
-		"HudBlack"			"65 65 65 255"
-		"ProgressBarBlue"	"91 122 142 255"
+		"HudBlack"				"65 65 65 255"
+		"ProgressBarBlue"		"91 122 142 255"
 		
-		"CreditsGreen"		"94 150 49 255"
+		"CreditsGreen"			"94 150 49 255"
 		
-		"Gray"				"178 178 178 255"
+		"Gray"					"178 178 178 255"
 
-		"Blank"				"0 0 0 0"
-		"ForTesting"			"255 0 0 32"
+		"Blank"						"0 0 0 0"
+		"ForTesting"				"255 0 0 32"
 		"ForTesting_Magenta"		"255 0 255 255"
 		"ForTesting_MagentaDim"		"255 0 255 120"
 
 		"HudPanelForeground"		"123 110 59 184"
 		"HudPanelBackground"		"123 110 59 184"
-		"HudPanelBorder"		"255 255 255 102"
+		"HudPanelBorder"			"255 255 255 102"
 
 		"HudProgressBarActive"		"240 207 78 255"
 		"HudProgressBarInActive"	"140 120 73 255"

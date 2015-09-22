@@ -237,8 +237,8 @@
 			"wide"					"500"
 			"tall"					"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
+			"team1_player_base_y"			"65"
+			"team2_player_base_y"			"65"
 			"team2_player_delta_x"			"52"
 		}
 		
@@ -249,8 +249,8 @@
 			"wide"							"640"
 			"tall"							"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
+			"team1_player_base_y"			"65"
+			"team2_player_base_y"			"65"
 			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"5"
 		}
@@ -262,8 +262,8 @@
 			"wide"							"640"
 			"tall"							"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
+			"team1_player_base_y"			"65"
+			"team2_player_base_y"			"65"
 			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"5"
 		}	
@@ -271,25 +271,87 @@
 
 	"HudTournamentBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"250"
-		"tall"			"35"
+		"tall"			"32"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"FlameBackground"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"FlameBackground"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-2"
+			"wide"			"250"
+			"tall"	 		"f0"
+			"autoResize"		"1"
+			"scaleImage" 	"1"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"FlameTransBlack"
+			"PaintBackgroundType"	"0"
+		}
 		
+		"FlameLeftBar"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"FlameLeftBar"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"2"
+			"tall"	 		"f0"
+			"autoResize"		"1"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_brown"
+			"scaleImage"		"1"
+			"teambg_1"		"../hud/color_panel_brown"
+			"teambg_2"		"../hud/color_panel_red"
+			"teambg_3"		"../hud/color_panel_blu"
+			
+			"src_corner_height"		"40"			// pixels inside the image
+			"src_corner_width"		"40"			
+			"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"		
+		}
+		
+		"FlameRightBar"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"FlameRightBar"
+			"xpos"			"248"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"2"
+			"tall"	 		"f0"
+			"autoResize"		"1"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_brown"
+			"scaleImage"		"1"
+			"teambg_1"		"../hud/color_panel_brown"
+			"teambg_2"		"../hud/color_panel_red"
+			"teambg_3"		"../hud/color_panel_blu"
+			
+			"src_corner_height"		"40"			// pixels inside the image
+			"src_corner_width"		"40"			
+			"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+	
 		if_mvm
 		{
 			"visible"		"0"
@@ -308,6 +370,7 @@
 			"visible"		"0"
 		}		
 	}
+	
 	"TournamentLabel"
 	{	
 		"ControlName"		"Label"

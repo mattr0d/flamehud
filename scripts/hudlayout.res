@@ -1036,14 +1036,14 @@
 		"wide"					"320"
 		"tall"					"100"
 	}
+	
 	HudTournament
 	{
 		"fieldName"				"HudTournament"
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-125"
-		"ypos"					"5"
-
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1055,10 +1055,9 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-90"
-		"ypos"					"-70"
-
-		"wide"					"180"
-		"tall"					"65"
+		"ypos"					"c-300"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	HudStopWatch

@@ -240,8 +240,8 @@
 		
 		if_mvm
 		{
-			"xpos" 			"c0"
-			"ypos"			"0"
+			"xpos" 			"c-275"
+			"ypos"			"65"
 		}
 	}
 	"ServerTimeLeft"
@@ -262,8 +262,9 @@
 		
 		if_mvm
 		{
-			"xpos" 			"c150"
-			"ypos"			"0"
+			"xpos" 			"c-85"
+			"textAlignment"	"east"
+			"ypos"			"65"
 		}
 	}
 
@@ -356,7 +357,7 @@
 		
 		if_mvm
 		{
-			"ypos"		"428"
+			"visible"		"0"
 		}
 	}	
 	"SpectatorsInQueue"
@@ -492,7 +493,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	
@@ -748,7 +749,7 @@
 		
 		if_mvm
 		{
-			"xpos"		"c-330"
+			"xpos"		"c-150"
 			"ypos"		"c125"
 		}
 
@@ -1338,6 +1339,11 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"236 227 203 255"
+			
+			if_mvm
+			{
+			"visible"		"0"
+			}
 		}							
 	}
 
@@ -1374,7 +1380,7 @@
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"
-		"tall"				"480"
+		"tall"				"365"
 		"visible"			"0"
 		"enabled"			"1"
 		"verbose"			"1"
