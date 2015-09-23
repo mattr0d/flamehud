@@ -29,15 +29,33 @@
 		}
 	}
 	
+	"FlameBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"FlameBackground"
+		"xpos"			"10"
+		"ypos"			"48"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"	 		"12"
+		"autoResize"	"1"
+		"scaleImage" 	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"FlameTransBlack"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"DisguiseStatusBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"10"
-		"ypos"			"48"
+		"ypos"			"60"
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"	 		"24"
+		"tall"	 		"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -51,8 +69,8 @@
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"
 			
-		"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"DisguiseNameLabel"
@@ -60,10 +78,10 @@
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"TFFontMedium"
-		"xpos"			"60"
+		"xpos"			"55"
 		"ypos"			"51"
 		"zpos"			"1"
-		"wide"			"69"
+		"wide"			"74"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -79,10 +97,10 @@
 		"fieldName"		"WeaponNameLabel"
 		"font"			"TFFontMedium"
 		"font_minmode"	"TFFontMedium"
-		"xpos"			"60"
+		"xpos"			"55"
 		"ypos"			"60"
 		"zpos"			"1"
-		"wide"			"69"
+		"wide"			"74"
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
