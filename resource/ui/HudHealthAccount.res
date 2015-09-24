@@ -10,5 +10,6 @@
 		"NegativeColor"			"FlameRed"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"HudFontSmallBold"
+		"antialias"				"1"
 	}
 }

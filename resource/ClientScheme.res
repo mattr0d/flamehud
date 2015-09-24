@@ -33,8 +33,11 @@ Scheme
 		"FlameRed"			"255 50 50 255"
 		"FlameBlue"			"50 200 255 255"
 		"FlameGreen"		"50 255 50 255"
+		"FlameOrange"		"160 80 60 255"
 		"FlameTransBlack"	"0 0 0 225"
 		"FlameTransWhite"	"255 255 255 225"
+		"FlameTransGrey"	"165 165 165 225"
+		"FlameMenuBorder"	"160 80 60 255"
 		
 		"White"				"255 255 255 255"
 		"Red"				"192 28 0 140"

@@ -327,7 +327,7 @@
 		if_mvm
 		{
 			"xpos"			"c-190"
-			"ypos"			"2"
+			"ypos"			"0"
 			"tall"			"18"
 			"wide"			"380"
 			"textAlignment"		"center"
@@ -338,7 +338,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"16"
+		"ypos"			"14"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"

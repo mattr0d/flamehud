@@ -14,7 +14,7 @@
 	"specgui"
 	{
 	}
-		"topbar"
+	"topbar"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
@@ -66,8 +66,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"c-160"
+		"ypos"			"r100"
 		"wide"			"320"
 		"tall"			"30"
 		"autoResize"		"0"

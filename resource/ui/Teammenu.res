@@ -43,7 +43,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"FlameYellow"
+		"fillcolor"		"FlameMenuBorder"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -60,7 +60,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"FlameYellow"
+		"fillcolor"		"FlameMenuBorder"
 		"PaintBackgroundType"	"0"
 	}
 	

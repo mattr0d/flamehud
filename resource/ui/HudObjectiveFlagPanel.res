@@ -258,8 +258,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-30"
-		"ypos"			"r73"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r85"	[$WIN32]
 		"zpos"			"10"
 		"wide"			"60"
 		"tall"			"60"
@@ -267,16 +266,6 @@
 		"enabled"		"01"
 		"image"			"../hud/objectives_flagpanel_carried_blue"
 		"scaleImage"	"1"
-		
-		"if_hybrid"
-		{
-			"ypos"		"r73"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"r73"
-		}
 	}		
 	
 	"PlayingTo"

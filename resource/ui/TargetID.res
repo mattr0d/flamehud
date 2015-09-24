@@ -94,7 +94,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"TFFontMediumBold"
-		"xpos"			"40"
+		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"f0"
@@ -113,7 +113,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"DefaultVerySmall"
-		"xpos"			"30"
+		"xpos"			"0"
 		"ypos"			"17"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"f0"
@@ -131,9 +131,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"1"
+		"xpos"			"0"
 		"ypos"			"3"
-		"wide"			"49"
+		"wide"			"45"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -148,7 +148,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"58"
+		"xpos"			"52"
 		"ypos"			"18"
 		"zpos"			"12"
 		"wide"			"8"
@@ -163,7 +163,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"30"
+		"xpos"			"26"
 		"ypos"			"19"
 		"zpos"			"14"
 		"wide"			"5"
@@ -178,11 +178,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
-		"xpos"			"6"
+		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"0"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"	
 		

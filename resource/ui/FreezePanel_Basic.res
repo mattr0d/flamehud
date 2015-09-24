@@ -169,7 +169,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"NemesisIcon"
 				"xpos"			"190"
-				"ypos"			"30"
+				"ypos"			"24"
 				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"30"

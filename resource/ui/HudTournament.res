@@ -30,6 +30,78 @@
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 
+			"FlameLeftBar"
+			{		
+				"ControlName"		"ImagePanel"
+				"fieldName"		"FlameLeftBar"
+				"xpos"			"-1"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"2"
+				"tall"	 		"f0"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"White"
+				"PaintBackgroundType"	"0"
+			}
+			
+			"FlameRightBar"
+			{		
+				"ControlName"		"ImagePanel"
+				"fieldName"		"FlameRightBar"
+				"xpos"			"49"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"2"
+				"tall"	 		"f0"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"White"
+				"PaintBackgroundType"	"0"
+			}
+			
+			"FlameBottomBar"
+			{		
+				"ControlName"		"ImagePanel"
+				"fieldName"		"FlameBottomBar"
+				"xpos"			"0"
+				"ypos"			"34"
+				"zpos"			"2"
+				"wide"			"f0"
+				"tall"	 		"2"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"White"
+				"PaintBackgroundType"	"0"
+			}
+			
+			"FlameTopBar"
+			{		
+				"ControlName"		"ImagePanel"
+				"fieldName"		"FlameToptBar"
+				"xpos"			"0"
+				"ypos"			"-1"
+				"zpos"			"2"
+				"wide"			"f0"
+				"tall"	 		"2"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"White"
+				"PaintBackgroundType"	"0"
+			}
+			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -227,6 +299,10 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
+				if_mvm
+				{
+					"visible" "0"
+				}
 			}
 		}
 		
@@ -237,8 +313,8 @@
 			"wide"					"500"
 			"tall"					"480"
 
-			"team1_player_base_y"			"65"
-			"team2_player_base_y"			"65"
+			"team1_player_base_y"			"68"
+			"team2_player_base_y"			"68"
 			"team2_player_delta_x"			"52"
 		}
 		
@@ -249,8 +325,8 @@
 			"wide"							"640"
 			"tall"							"480"
 
-			"team1_player_base_y"			"65"
-			"team2_player_base_y"			"65"
+			"team1_player_base_y"			"68"
+			"team2_player_base_y"			"68"
 			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"5"
 		}
@@ -262,8 +338,8 @@
 			"wide"							"640"
 			"tall"							"480"
 
-			"team1_player_base_y"			"65"
-			"team2_player_base_y"			"65"
+			"team1_player_base_y"			"68"
+			"team2_player_base_y"			"68"
 			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"5"
 		}	
