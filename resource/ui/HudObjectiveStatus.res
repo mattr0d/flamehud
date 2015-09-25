@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"ypos"				"-14"	[$WIN32]
+		"ypos"				"0"	[$WIN32]
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"150"
@@ -26,10 +26,10 @@
 			"font"			"HudFontSmall"
 			"fgcolor"		"TanLight"
 			"xpos"			"40"
-			"ypos"			"6"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"30"
-			"tall"			"31"
+			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
