@@ -75,10 +75,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"xpos"			"0"
+		"ypos"			"0"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"16"
 		"tall"			"12"

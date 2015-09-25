@@ -214,7 +214,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FlameLabelInfo"
 		"font"			"ChalkboardText"
-		"labelText"		"updated: 09/14/15"
+		"labelText"		"Updated: 09/25/15"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
 		"ypos"			"80"
@@ -240,7 +240,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"FlameYellow"
+		"fillcolor"		"FlameMenuBorder"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -257,7 +257,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"FlameYellow"
+		"fillcolor"		"FlameMenuBorder"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -274,7 +274,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"Black"
 		"PaintBackgroundType"	"0"
 	}
 

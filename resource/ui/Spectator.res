@@ -87,7 +87,6 @@
 		"wide"			"0"	[$WIN32]
 		"tall"			"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"labelText"		"map: cp_bridge"
 	}
 	"ClassOrTeamLabel"
@@ -104,7 +103,6 @@
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"wide"			"0"
 		"tall"			"0"
-		"visible_minmode"		"0"
 		"visible"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		
@@ -115,7 +113,6 @@
 		"fieldName"		"SwitchCamModeLabel"
 		"wide"			"0"	[$WIN32]
 		"tall"			"0"
-		"visible_minmode"		"0"
 		"visible"		"0"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 	}

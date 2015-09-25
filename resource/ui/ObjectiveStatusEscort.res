@@ -46,10 +46,8 @@
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"116"
-			"ypos_minmode"	"120"
-			"tall"			"18"
-			"tall_minmode"	"10"
+			"ypos"			"120"
+			"tall"			"10"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
 	}	
@@ -191,12 +189,9 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"		
-			"font_minmode"		"ItemFontAttribSmall"		
-			"xpos"			"35"
-			"xpos_minmode"		"23"			
-			"ypos"			"82"
-			"ypos_minmode"		"53"			
+			"font"			"ItemFontAttribSmall"			
+			"xpos"			"23"			
+			"ypos"			"53"			
 			"zpos"			"2"
 			"wide"			"7"
 			"tall"			"7"
@@ -572,7 +567,6 @@
 				"fieldName"		"Capping"	
 				"xpos"			"8"
 				"ypos"			"8"
-				"ypos_minmode"		"8"
 				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"

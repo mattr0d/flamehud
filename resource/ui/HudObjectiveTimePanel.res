@@ -7,7 +7,7 @@
 		"xpos"			"35"
 		"ypos"			"9"
 		"zpos"			"2"
-		"wide"			"38"
+		"wide"			"40"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
@@ -193,7 +193,7 @@
 		"xpos"			"35"	[$WIN32]
 		"ypos"			"27"
 		"zpos"			"1"
-		"wide"			"38"
+		"wide"			"40"
 		"tall"			"15"
 		"autoResize"		"1"
 		"scaleImage" 	"1"

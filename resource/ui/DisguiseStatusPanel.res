@@ -96,7 +96,6 @@
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"TFFontMedium"
-		"font_minmode"	"TFFontMedium"
 		"xpos"			"55"
 		"ypos"			"60"
 		"zpos"			"1"

@@ -23,7 +23,6 @@
 		"wide"			"76"
 		"tall"			"44"
 		"visible"		"0"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -90,8 +89,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"				"HudFontSmall"
+		"font"					"HudFontSmall"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -110,8 +108,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"				"HudFontSmall"
+		"font"					"HudFontSmall"
 		"fgcolor"				"black"
 	}
 }
