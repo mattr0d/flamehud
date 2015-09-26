@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchBG"
-		"xpos"			"7"
-		"ypos"			"5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"105"
-		"tall"			"19"
+		"wide"			"120"
+		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -19,16 +19,16 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"StopWatchImageCaptureTime"
-		"xpos"			"10"
-		"ypos"			"8"
+		"xpos"			"2"
+		"ypos"			"4"
 		"zpos"			"0"
 		"wide"			"12"
 		"tall"			"12"
@@ -44,11 +44,11 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"12"
-		"ypos"				"-4"	[$WIN32]
+		"xpos"				"15"
+		"ypos"				"0"	[$WIN32]
 		"zpos"				"1"
-		"wide"				"110"
-		"tall"				"150"
+		"wide"				"40"
+		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
 
@@ -58,14 +58,14 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmallBold"
 			"fgcolor"		"TanLight"
-			"xpos"			"3"
-			"ypos"			"9"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"40"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"		"west"
 		}	
 	}
 
@@ -76,10 +76,10 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
-		"xpos"			"-16"
-		"ypos"			"5"
+		"xpos"			"50"
+		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"93"
+		"wide"			"20"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -93,10 +93,10 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"east"
-		"xpos"			"-14"
-		"ypos"			"5"
+		"xpos"			"70"
+		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"120"
+		"wide"			"28"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"

@@ -37,6 +37,8 @@ Scheme
 		"FlameTransBlack"	"0 0 0 225"
 		"FlameTransWhite"	"255 255 255 225"
 		"FlameTransGrey"	"165 165 165 225"
+		
+		"FlameMenuLight"	"160 80 60 75"
 		"FlameMenuBorder"	"160 80 60 255"
 		
 		"White"				"255 255 255 255"

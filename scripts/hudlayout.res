@@ -221,7 +221,7 @@
 		"xpos"			"c-126"
 		"ypos"			"300"
 		"wide"	 		"252"
-		"tall"	 		"28"
+		"tall"	 		"24"
 		"priority"		"40"
 		if_vr
 		{
@@ -238,7 +238,7 @@
 		"xpos"			"c-126"
 		"ypos"			"300"
 		"wide"	 		"252"
-		"tall"	 		"28"
+		"tall"	 		"24"
 		"priority"		"40"
 		"x_offset" "20"
 		"y_offset" "20"
@@ -252,7 +252,7 @@
 		"xpos"			"c-126"
 		"ypos"			"350"
 		"wide"	 		"252"
-		"tall"	 		"28"
+		"tall"	 		"24"
 		"priority"		"35"
 		if_vr
 		{
@@ -1062,10 +1062,10 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"			"c-60"
-		"ypos"			"10"
-		"wide"					"125"
-		"tall"					"55"
+		"xpos"					"c-50"
+		"ypos"					"15"
+		"wide"					"100"
+		"tall"					"35"
 	}
 	
 	NotificationPanel

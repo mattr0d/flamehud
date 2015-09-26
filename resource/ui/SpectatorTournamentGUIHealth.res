@@ -4,22 +4,21 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"5"
-		"ypos"			"8"
+		"xpos"			"6"
+		"ypos"			"6"
 		"zpos"			"4"
 		"wide"			"13"
 		"tall"			"13"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}	
-
+	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"4"
-		"ypos"			"7"
+		"xpos"			"5"
+		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"15"
 		"tall"			"15"
@@ -32,8 +31,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"1"
-		"ypos"			"4"
+		"xpos"			"2"
+		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"19"
 		"tall"			"19"
@@ -46,8 +45,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"5"
-		"ypos"			"8"
+		"xpos"			"6"
+		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"13"
 		"tall"			"13"
@@ -60,29 +59,31 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"55"
-		"ypos"			"30"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
-		"textAlignment"	"center"
-	}	
-	"PlayerStatusHealthValue2"
-	{	
-		"ControlName"		"Label"
-		"fieldName"		"PlayerStatusHealthValue2"
-		"xpos"			"15"
-		"ypos"			"10"
+		"xpos"			"24"
+		"ypos"			"7"
 		"zpos"			"6"
-		"wide"			"33"
+		"wide"			"30"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"0 0 0 255"
-	}								
+	}
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusPlayerLevel"
+		"xpos"			"7"
+		"ypos"			"7"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"font"			"ScoreboardVerySmall"
+		"fgcolor"		"TFOrange"
+	}							
 }

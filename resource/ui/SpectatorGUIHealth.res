@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"7"
-		"ypos"			"7"
+		"xpos"			"6"
+		"ypos"			"6"
 		"zpos"			"4"
 		"wide"			"13"
 		"tall"			"13"
@@ -17,8 +17,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"6"
-		"ypos"			"6"
+		"xpos"			"5"
+		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"15"
 		"tall"			"15"
@@ -31,8 +31,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"3"
-		"ypos"			"2"
+		"xpos"			"2"
+		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"19"
 		"tall"			"19"
@@ -45,8 +45,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"7"
-		"ypos"			"7"
+		"xpos"			"6"
+		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"13"
 		"tall"			"13"
@@ -59,8 +59,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"25"
-		"ypos"			"8"
+		"xpos"			"24"
+		"ypos"			"7"
 		"zpos"			"6"
 		"wide"			"30"
 		"tall"			"10"
@@ -75,8 +75,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"ypos"			"9"	[$WIN32]
+		"xpos"			"7"
+		"ypos"			"7"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"16"
 		"tall"			"12"
