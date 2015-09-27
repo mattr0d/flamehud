@@ -2,33 +2,51 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"-1"
-		"wide"			"f0"
+		"wide"			"0"
 		"tall"	 		"0"
 		"autoResize"		"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			""	
+		"fillcolor"		"Blank"
+	}
+
+	"TargetIDBGFlame"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBGFlame"
+		"xpos"			"0"
+		"ypos"			"12"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"	 		"12"
+		"autoResize"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Blank"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_1"		""
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"			
+		"src_corner_height"		"200"			// pixels inside the image
+		"src_corner_width"		"200"			
 		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"		
 	}
 
-	"TargetIDFlameBar"
+	"TargetIDFlameBlack"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"TargetIDFlameBar"
+		"fieldName"		"TargetIDFlameBlack"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
