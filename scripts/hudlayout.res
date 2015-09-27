@@ -1062,10 +1062,10 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-50"
-		"ypos"					"15"
-		"wide"					"100"
-		"tall"					"35"
+		"xpos"					"c-60"
+		"ypos"					"30"
+		"wide"					"120"
+		"tall"					"15"
 	}
 	
 	NotificationPanel

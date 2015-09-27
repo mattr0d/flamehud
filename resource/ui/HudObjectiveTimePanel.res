@@ -143,7 +143,7 @@
 		"ypos"			"15"
 		"zpos"			"5"
 		"wide"			"80"
-		"tall"			"20"
+		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"

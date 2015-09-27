@@ -43,9 +43,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-150"
-		"ypos"			"28"
+		"ypos"			"45"
 		"wide"			"300"
-		"tall"			"18"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -57,7 +57,8 @@
 		if_mvm
 		{
 			"xpos"			"c-190"
-			"ypos"			"1"
+			"ypos"			"0"
+			"tall"			"15"
 			"wide"			"380"
 			"textAlignment"		"center"
 		}
