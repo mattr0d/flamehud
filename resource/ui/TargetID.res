@@ -2,36 +2,19 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"	 		"0"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			""	
-		"fillcolor"		"Blank"
-	}
-
-	"TargetIDBGFlame"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TargetIDBGFlame"
 		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"	 		"12"
-		"autoResize"	"1"
+		"tall"	 		"0"
+		"autoResize"		"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"
+		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
@@ -39,25 +22,71 @@
 		"src_corner_height"		"40"			// pixels inside the image
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"		
+		"draw_corner_height" 		"0"		
 	}
-	
-	"TargetIDBG_BlackBar"
+
+	"TargetIDFlameBar"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"TargetIDBG_BlackBar"
+		"fieldName"		"TargetIDFlameBar"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"	 		"12"
-		"autoResize"	"1"
+		"autoResize"		"1"
 		"scaleImage" 	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"FlameTransBlack"
 		"PaintBackgroundType"	"0"
+	}
+		
+	"TargetIDBG_Spec_Blue"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Blue"
+		"xpos"			"0"
+		"ypos"			"12"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"12"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_blu"
+		"image_lodef"		"../hud/color_panel_blu"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"
+	}
+	
+	"TargetIDBG_Spec_Red"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Red"
+		"xpos"			"0"
+		"ypos"			"12"
+		"zpos"			"-1"
+		"wide"			"252"
+		"tall"	 		"12"
+		"autoResize"		"1"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_red"
+		"image_lodef"		"../hud/color_panel_red"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"
 	}
 	
 	"TargetNameLabel"
