@@ -12,8 +12,8 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"43"	[$WIN32]
-		"delta_item_start_y"	"45"
-		"delta_item_end_y"		"55"
+		"delta_item_start_y"	"30"
+		"delta_item_end_y"		"40"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"2"
