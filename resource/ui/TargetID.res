@@ -2,38 +2,20 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"	 		"0"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			""	
-		"fillcolor"		"Blank"
-	}
-
-	"TargetIDBGFlame"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"TargetIDBGFlame"
-		"xpos"			"0"
-		"ypos"			"12"
-		"zpos"			"-1"
-		"wide"			"f0"
+		"wide"			"252"
 		"tall"	 		"12"
 		"autoResize"		"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Blank"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"		""
+		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
@@ -43,28 +25,28 @@
 		"draw_corner_height" 		"0"		
 	}
 
-	"TargetIDFlameBlack"
+	"TargetIDBG_Spec_Bar"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"TargetIDFlameBlack"
+		"fieldName"		"TargetIDBG_Spec_Bar"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"f0"
+		"wide"			"252"
 		"tall"	 		"12"
 		"autoResize"		"1"
 		"scaleImage" 	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"FlameTransBlack"
+		"fillcolor"		"0 0 0 225"
 		"PaintBackgroundType"	"0"
 	}
-		
+	
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Blue"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG_Spec_blue"
 		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"-1"
@@ -86,8 +68,8 @@
 	
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Red"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG_Spec_red"
 		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"-1"
