@@ -232,7 +232,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FlameLabelInfo"
 		"font"			"ChalkboardText"
-		"labelText"		"Updated Oct 1, 2015"
+		"labelText"		"Halloween"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
 		"ypos"			"80"
@@ -1911,17 +1911,17 @@
 		}
 	}
 	
-	"PlayCompetitiveButton"
+	"PlayCompetitiveButton2"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayCompetitiveButton"
+		"fieldname"		"PlayCompetitiveButton2"
 		"xpos"			"c-295"
 		"ypos"			"160"
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 
 		"navUp"			"PlayPVEButton"
