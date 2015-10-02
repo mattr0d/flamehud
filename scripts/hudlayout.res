@@ -180,7 +180,7 @@
 	{
 		"fieldName"		"CHealthAccountPanel"
 
-		"xpos"			"c-325"
+		"xpos"			"c-330"
 		"ypos"			"r135"
 		"wide"			"200"
 		"tall"  		"180"

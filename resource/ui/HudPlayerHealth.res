@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
+		"xpos"			"c-250"		[$WIN32]
 		"ypos"			"0"		[$WIN32]
 		"zpos"			"2"
-		"wide"			"f0"
+		"wide"			"500"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -15,7 +15,7 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
-		
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -24,7 +24,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"zpos"			"4"
-		"xpos"	"c-200"
+		"xpos"	"44"
 		"ypos"	"r120"
 		"wide"	"51"
 		"tall"	"51"
@@ -39,17 +39,16 @@
 		"scaleImage"	"1"
 		"zpos"			"3"	
 		
-		"xpos"	"c-202"
+		"xpos"	"42"
 		"ypos"	"r122"
 		"wide"	"55"
 		"tall"	"55"
-	
 	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"	"c-203"	[$WIN32]
+		"xpos"	"41"	[$WIN32]
 		"ypos"	"r123"	[$WIN32]
 		"zpos"			"-2"
 		"wide"	"57"	[$WIN32]
@@ -59,11 +58,12 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	
 	"PlayerStatusHealthValueFlame"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueFlame"
-		"xpos"			"c-200"
+		"xpos"			"44"
 		"ypos"			"r103"	[$WIN32]
 		"zpos"			"8"
 		"wide"			"51"
@@ -75,14 +75,15 @@
 		"font"			"HudClassHealth"
 		"fgcolor"		"White"
 	}
+	
 	"PlayerStatusHealthValueShadowFlame"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadowFlame"
-		"xpos"			"c-199"
+		"xpos"			"45"
 		"ypos"			"r102"	[$WIN32]
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"51"
 		"tall"			"17"
 		"visible"	"1"
 		"enabled"		"1"
@@ -91,11 +92,12 @@
 		"font"			"HudClassHealth"
 		"fgcolor"		"FlameBlack"
 	}
+	
 	"PlayerStatusClassImageBGFlame"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBGFlame"
-		"xpos"			"c-187"
+		"xpos"			"57"
 		"ypos"			"r125"
 		"zpos"			"-1"
 		"wide"			"25"
@@ -115,11 +117,12 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
 	}
+	
 	"PlayerStatusClassImageBG2Flame"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG2Flame"
-		"xpos"			"c-205"
+		"xpos"			"39"
 		"ypos"			"r107"
 		"zpos"			"-1"
 		"wide"			"60"
@@ -310,7 +313,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"c-189"
+		"xpos"			"55"
 		"ypos"			"r187"
 		"zpos"			"7"
 		"wide"			"30"
