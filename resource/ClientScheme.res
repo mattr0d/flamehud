@@ -321,8 +321,8 @@ Scheme
 
 		HTML.BgColor				"Blank"
 
-		ProgressBar.FgColor			"FlameOrange"
-		ProgressBar.BgColor			"White"
+		ProgressBar.FgColor			"ProgressOffWhite"
+		ProgressBar.BgColor			"ProgressBackground"
 
 		CircularProgressBar.FgColor		"White"
 		CircularProgressBar.BgColor		"White"
