@@ -28,7 +28,7 @@
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
-	"PlayCompetitiveButton"
+	"PlayCompetitiveButton2"
 	{
 		"label" "#MMenu_PlayComp" 
 		"command" "ladder_ui_show"

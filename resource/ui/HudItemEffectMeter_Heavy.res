@@ -42,7 +42,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"1"
-		"fgcolor_override"	"0 0 0 255"
+		"fgcolor_override"	"FlameBlack"
 	}
 
 	"ItemEffectMeter"

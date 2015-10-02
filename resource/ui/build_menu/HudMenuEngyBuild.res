@@ -137,7 +137,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"FlameBlack"
 	}
 	
 	"TitleLabel"
@@ -165,7 +165,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 		"font"			"HudFontGiantBold"
 		"xpos"			"c-149"			// align me to the left edge of the first selection
 		"ypos"			"c-124"

@@ -264,7 +264,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"0 0 0 255"
+				"fgcolor"		"FlameBlack"
 			}
 			
 			"specindex"

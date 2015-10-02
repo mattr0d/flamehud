@@ -128,7 +128,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 		"font"			"HudFontGiantBold"
 		"xpos"			"c-149"			// align me to the left edge of the first selection
 		"ypos"			"c-124"

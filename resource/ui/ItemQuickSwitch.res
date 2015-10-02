@@ -197,7 +197,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"fgcolor" "200 80 60 255"
-			"bgcolor_override"	"Black"
+			"bgcolor_override"	"FlameBlack"
 		}
 	}
 	

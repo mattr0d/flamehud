@@ -14,9 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
 
-	
 	"FlameBackground"
 	{
 		"ControlName"		"ImagePanel"
@@ -31,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"fillcolor"		"FlameBlack"
 		"PaintBackgroundType"	"0"
 	}
 	

@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"fgcolor"		"Black"		
+		"fgcolor"		"FlameBlack"		
 		"zpos"			"5"		
 		"visible"		"0"
 		"enabled"		"1"
@@ -80,7 +80,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		
-		"fgcolor"		"Black"		
+		"fgcolor"		"FlameBlack"		
 		"zpos"			"7"
 		"visible"		"0"
 		"enabled"		"1"
@@ -124,7 +124,7 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		"zpos"			"5"
-		"fgcolor"		"Black"			
+		"fgcolor"		"FlameBlack"			
 		
 		"font"	"HudFontGiantBold"
 		"xpos"	"13"		

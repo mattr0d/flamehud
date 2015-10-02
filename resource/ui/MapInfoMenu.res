@@ -62,7 +62,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"FlameBlack"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -158,7 +158,7 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"MenuSmallFont"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 		
 		"border_default_override"	""
 		"border_armed_override"		""
@@ -189,7 +189,7 @@
 		"command"		"intro"
 		"default"		"1"
 		"font"			"MenuSmallFont"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 				
 		"border_default_override"	""
 		"border_armed_override"		""
@@ -220,7 +220,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"MenuSmallFont"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 		
 		"border_default_override"	""
 		"border_armed_override"		""

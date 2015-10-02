@@ -121,7 +121,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmall"
-			"fgcolor"		"black"
+			"fgcolor"		"FlameBlack"
 		}		
 	}
 	

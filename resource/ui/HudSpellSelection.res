@@ -98,7 +98,7 @@
 		"ypos"			"r137"
 		"wide"			"24"
 		"tall"			"24"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 	}
 	
 	"CountText"

@@ -149,7 +149,7 @@
 		"unicode"		"0"
 		"wrap"			"0"
 		"fgcolor_override"		"235 226 202 255"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"FlameBlack"
 		"labelText"		"%teamname%"
 		"textAlignment"		"center"
 	}
@@ -167,7 +167,7 @@
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"
+		"fillcolor"	"FlameBlack"
 		"scaleImage"	"1"
 	}
 

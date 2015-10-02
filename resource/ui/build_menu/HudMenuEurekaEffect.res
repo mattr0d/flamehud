@@ -30,7 +30,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"fillcolor"		"FlameBlack"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -137,7 +137,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"FlameBlack"
 	}
 	
 	"TitleLabel"
@@ -165,7 +165,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 		"font"			"HudFontGiant"
 		"xpos"			"c-49"			// align me to the left edge of the first selection
 		"ypos"			"c-124"

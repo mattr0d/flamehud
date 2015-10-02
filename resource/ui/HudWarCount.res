@@ -115,6 +115,6 @@
 		"brighttext"	"0"
 		"font"			"HudFontMedium"
 		"font_lodef"	"HudFontMediumBig"
-		"fgcolor"		"black"
+		"fgcolor"		"FlameBlack"
 	}		
 }

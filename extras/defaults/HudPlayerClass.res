@@ -361,7 +361,7 @@
 			"brighttext"		"0"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
-			"fgcolor_override"	"Black"
+			"fgcolor_override"	"FlameBlack"
 			"labelText"			"%carrying%"
 		}
 
@@ -373,8 +373,7 @@
 			"xpos"				"5"
 			"ypos"				"14"
 			"zpos"				"0"
-			"wide"				"200"
-			"wide_minmode"		"f0"
+			"wide"				"f0"
 			"tall"	 			"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"

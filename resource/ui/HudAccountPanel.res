@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"Black"
+		"iconColor"		"FlameBlack"
 	}
 	
 	"AccountValue"
@@ -100,6 +100,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMedium"
-		"fgcolor"		"black"
+		"fgcolor"		"FlameBlack"
 	}
 }

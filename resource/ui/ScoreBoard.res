@@ -353,7 +353,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 		
 		if_mvm
 		{
@@ -377,7 +377,7 @@
 		"pinCorner"		"0"
 		"visible" 		"0"
 		"enabled"		"0"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 		
 		if_mvm
 		{
@@ -488,7 +488,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"FlameBlack"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -525,10 +525,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
-		"xpos"			"85"
-		"ypos"			"255"
+		"xpos"			"c-150"
+		"ypos"			"c125"
+		"ypos_minmode"		"c-20"
 		"zpos"			"3"
-		"wide"			"600"
+		"wide"			"300"
 		"tall"			"53"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -547,7 +548,7 @@
 			"font"			"ScoreboardSmall"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
-			"xpos"			"250"
+			"xpos"			"100"
 			"ypos"			"2	"
 			"zpos"			"3"
 			"wide"			"100"
@@ -562,7 +563,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"DuelingIcon"
-			"xpos"			"284"
+			"xpos"			"134"
 			"ypos"			"15"
 			"zpos"			"2"
 			"wide"			"32"
@@ -577,7 +578,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"LocalPlayerData"
-			"xpos"			"75"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
@@ -590,7 +591,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"AvatarBGPanel"
-				"xpos"			"157"
+				"xpos"			"84"
 				"ypos"			"7"
 				"zpos"			"-1"
 				"wide"			"36"
@@ -603,7 +604,7 @@
 			{
 				"ControlName"	"CAvatarImagePanel"
 				"fieldName"		"AvatarImage"
-				"xpos"			"159"
+				"xpos"			"86"
 				"ypos"			"9"
 				"zpos"			"0"
 				"wide"			"32"
@@ -619,7 +620,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
-				"xpos"			"50"
+				"xpos"			"-30"
 				"ypos"			"7"
 				"zpos"			"2"
 				"wide"			"100"
@@ -639,7 +640,7 @@
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"east"
-				"xpos"			"50"
+				"xpos"			"-30"
 				"ypos"			"23"
 				"zpos"			"3"
 				"wide"			"100"
@@ -656,7 +657,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"OpponentData"
-			"xpos"			"325"
+			"xpos"			"180"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
@@ -669,7 +670,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"AvatarBGPanel"
-				"xpos"			"7"
+				"xpos"			"0"
 				"ypos"			"7"
 				"zpos"			"-1"
 				"wide"			"36"
@@ -682,7 +683,7 @@
 			{
 				"ControlName"	"CAvatarImagePanel"
 				"fieldName"		"AvatarImage"
-				"xpos"			"9"
+				"xpos"			"2"
 				"ypos"			"9"
 				"zpos"			"0"
 				"wide"			"32"
@@ -721,7 +722,7 @@
 				"xpos"			"50"
 				"ypos"			"23"
 				"zpos"			"3"
-				"wide"			"200"
+				"wide"			"100"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -729,7 +730,7 @@
 				"enabled"		"1"
 				"font"			"ScoreboardMedium"
 			}
-		}		
+		}
 	}
 
 	"LocalPlayerStatsPanel"

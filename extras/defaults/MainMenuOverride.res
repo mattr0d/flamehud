@@ -130,17 +130,35 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"FlameBlack"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"FlameMenuBorder"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
+		
+		"BGFlame"
+		{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BGFlame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"	 		"480"
+		"autoResize"		"1"
+		"scaleImage" 	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"FlameBlack"
+		"PaintBackgroundType"	"0"	
+		}
 		
 		"attriblabel"
 		{
@@ -214,7 +232,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FlameLabelInfo"
 		"font"			"ChalkboardText"
-		"labelText"		"Updated: 09/25/15"
+		"labelText"		"Updated Oct 1, 2015"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
 		"ypos"			"80"
@@ -274,7 +292,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"fillcolor"		"FlameBlack"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -289,7 +307,25 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"FlameMenuBorder"
+		
+		"BGFlame"
+		{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BGFlame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"	 		"480"
+		"autoResize"		"1"
+		"scaleImage" 	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"FlameBlack"
+		"PaintBackgroundType"	"0"	
+		}
 		
 		"TipSubLabel"
 		{
@@ -307,7 +343,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"FlameGrey"
 			"wrap"			"1"
 		}
 		
@@ -327,7 +363,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"auto_wide_tocontents" "1"
 		}
 	}	
@@ -1269,7 +1305,7 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
-		if_competitive
+		if_competitivecompetitive
 		{
 			"ypos"		"384"
 		}
@@ -1884,8 +1920,8 @@
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"PaintBackgroundType"	"0"
 
 		"navUp"			"PlayPVEButton"
@@ -3646,5 +3682,38 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
+	}
+	
+	"ReloadSchemeButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReloadSchemeButton"
+		"xpos"			"0"
+		"ypos"			"r20"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"reloadscheme"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "Blank"
+		"armedFgColor_override" "Blank"
+		"depressedFgColor_override" "Blank"
 	}
 }

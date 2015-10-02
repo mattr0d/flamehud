@@ -146,7 +146,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"Black"
+				"bgcolor_override"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -857,7 +857,7 @@
 			"wide"			"190"
 			"tall"			"12"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"FlameBlack"
 			"visible"		"1"
 		}
 
@@ -869,7 +869,7 @@
 			"wide"			"190"
 			"tall"			"12"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"FlameBlack"
 			"visible"		"1"
 		}
 
@@ -881,7 +881,7 @@
 			"wide"			"190"
 			"tall"			"12"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"FlameBlack"
 			"visible"		"1"
 		}
 	}
@@ -968,7 +968,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 
 		if_competitive
 		{

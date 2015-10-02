@@ -8,7 +8,7 @@
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"FlameGreen"
 		"NegativeColor"			"FlameYellow"
-		"delta_lifetime"		"3"
+		"delta_lifetime"		"2"
 		"delta_item_font"		"HudFontMediumSmall"
 		"delta_item_font_big"	"HudFontMediumSmall"
 		"visible"				"1"
@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"FlameBlack"
 		"font"			"HudFontBiggerBold"
 	}
 }
