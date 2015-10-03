@@ -24,7 +24,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"zpos"			"4"
-		"xpos"	"p0.0515"
+		"xpos"	"44"
 		"ypos"	"r120"
 		"wide"	"51"
 		"tall"	"51"
