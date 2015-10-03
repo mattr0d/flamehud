@@ -209,7 +209,7 @@
 		"wide"			"500"
 		"tall"			"200"
 
-		"xpos"		"c-319"	[$WIN32]
+		"xpos"		"c-325"	[$WIN32]
 		"ypos"		"r129"	[$WIN32]
 	}
 

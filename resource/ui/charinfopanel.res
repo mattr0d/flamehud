@@ -56,7 +56,7 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"50"
+		"tall"			"55"
 		"visible"		"1"
 		"image"			""
 		"fillcolor"		"FlameMenuBorder"
