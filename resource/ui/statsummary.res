@@ -91,13 +91,14 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
+				"bgcolor_override"	"Black"
 				"border"		"FlameMenuBorder"
 			}
 			
-			"FlameBlack"
+			"FlameBlack5"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"FlameBlack"
+				"fieldName"		"FlameBlack5"
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"300"
@@ -145,13 +146,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"bgcolor_override"	"Black"
 			"border"		"FlameMenuBorder"
 		}
 		
-		"FlameBlack"
+		"FlameBlack2"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"FlameBlack"
+			"fieldName"		"FlameBlack2"
 			"xpos"			"c+10"
 			"ypos"			"120"
 			"wide"			"285"
@@ -456,13 +458,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"bgcolor_override"	"Black"
 			"border"		"FlameMenuBorder"
 		}
 		
-		"FlameBlack"
+		"FlameBlack3"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"FlameBlack"
+			"fieldName"		"FlameBlack3"
 			"xpos"			"c-295"
 			"ypos"			"165"
 			"wide"			"406"
@@ -1881,14 +1884,15 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"		
+			"enabled"		"1"
+			"bgcolor_override"	"Black"			
 			"border"		"FlameMenuBorder"
 		}
 		
-		"FlameBlack2"
+		"FlameBlack4"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"FlameBlack2"
+			"fieldName"		"FlameBlack4"
 			"xpos"			"c+115"
 			"ypos"			"165"
 			"wide"			"200"
