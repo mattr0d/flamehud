@@ -9,26 +9,9 @@
 		"ypos"					"c-225"
 		"wide"					"560"
 		"tall"					"345"
+		"bgcolor_override"		"Black"
 		"border"				"FlameMenuBorder"
 	}
-
-		"FlameBlack"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"FlameBlack"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-2"
-			"wide"			"f0"
-			"tall"	 		"480"
-			"autoResize"	"1"
-			"scaleImage" 	"1"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"Black"
-			"PaintBackgroundType"	"0"
-		}
 
 		"mouseoveritempanel"
 		{
@@ -336,6 +319,7 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
+				"bgcolor_override"	"Black"
 				"border"		"FlameMenuBorder"
 				
 				"FlameBlack"

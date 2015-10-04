@@ -23,9 +23,9 @@
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"Black"
+		"titlebarfgcolor_override"				"FlameOrange"
+		"titlebardisabledfgcolor_override"		"FlameOrange"
+		"titlebarbgcolor_override"				"White"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -150,6 +150,25 @@
 			}
 		}
 	}
+		
+	"MainMenuBGPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuBGPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Black"
+		"PaintBackgroundType"	"0"
+	}
+	
+	
 	
 	"BackgroundHeader"
 	{
@@ -161,8 +180,8 @@
 		"wide"			"f0"
 		"tall"			"55"
 		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_header"
+		"image"			""
+		"fillcolor"		"FlameMenuBorder"
 		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
@@ -170,13 +189,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"r60"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"image"			""
+		"fillcolor"		"FlameMenuBorder"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -184,13 +204,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"r60"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"image"			""
+		"fillcolor"		"White"
 		"scaleImage"	"1"
 	}				
 	
@@ -479,4 +500,35 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
+	"FlameLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"FlameLabel"
+		"font"			"HudFontMediumBold"
+		"labelText"		"flamehud"
+		"textAlignment"	"east"
+		"xpos"			"r300"
+		"ypos"			"r44"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"44"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"204 95 76 255"
+	}
+	
+	"NotificationsPresentPanel"
+	{
+		"ControlName"	"CNotificationsPresentPanel"
+		"fieldName"		"NotificationsPresentPanel"
+		"xpos"			"r200"
+		"ypos"			"10"
+		"zpos"			"10000"
+		"wide"			"190"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+	}
 }

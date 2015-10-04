@@ -428,6 +428,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
+		"bgcolor_override"	"FlameTransBlack"
 		"border"		"FlameGreyBorder"
 				
 		"FailedIcon"
@@ -494,6 +495,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
+		"bgcolor_override" "FlameTransBlack"
 		"border"		"FlameGreyBorder"
 				
 		"FailedIcon"

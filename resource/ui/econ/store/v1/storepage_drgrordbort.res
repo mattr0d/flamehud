@@ -382,6 +382,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
+		"bgcolor_override"	"Black"
 		"border"		"FlameMenuBorder"
 	}
 	

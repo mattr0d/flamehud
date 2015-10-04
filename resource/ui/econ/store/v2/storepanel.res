@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"Black"
+		"infocus_bgcolor_override"		"Black"
+		"outoffocus_bgcolor_override"	"Black"
 		
 		"title"				"#CharInfoAndSetup"
 		"title_font"		"HudFontMediumBold"

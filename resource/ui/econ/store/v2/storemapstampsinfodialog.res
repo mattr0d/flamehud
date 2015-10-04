@@ -46,6 +46,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
+		"bgcolor_override"	"Black"
 		"border"		"FlameMenuBorder"
 		"PaintBorder"	"1"
 		
@@ -80,6 +81,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
+			"bgcolor_override"	"Black"
 			"border"		"FlameMenuBorder"
 		}
 	

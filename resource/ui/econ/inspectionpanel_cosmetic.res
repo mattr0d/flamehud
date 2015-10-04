@@ -217,26 +217,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
+		"bgcolor_override"	"Black"
 		"border"		"FlameMenuBorder"
 		"PaintBorder"	"1"
-		
-		"FlameBG"
-		{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"FlameBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"	 		"480"
-		"autoResize"	"1"
-		"scaleImage" 	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"Black"
-		"PaintBackgroundType"	"0"
-		}
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
