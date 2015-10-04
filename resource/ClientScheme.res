@@ -820,7 +820,7 @@ Scheme
 				"antialias" "1"
 				"yres"		"1200 10000"
 			}
-		}
+		}	
 		"HudFontGiantBold"
 		{
 			"1"
@@ -8366,6 +8366,5 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" "resource/ocra.ttf"
 	}
 }
