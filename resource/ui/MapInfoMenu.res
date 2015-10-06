@@ -169,6 +169,29 @@
 		"depressedFgColor_override" "FlameGrey"
 	}
 	
+	"MapInfoContinueHidden" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinueHidden"
+		"xpos"			"c-250"
+		"ypos"			"c140"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&e"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"MenuSmallFont"
+		"fgcolor"		"FlameBlack"
+	}
+	
 	"MapInfoWatchIntro" [$WIN32]
 	{
 		"ControlName"	"CExButton"

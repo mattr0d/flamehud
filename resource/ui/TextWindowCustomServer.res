@@ -164,6 +164,30 @@
 		"depressedFgColor_override" "FlameGrey"
 	}
 	
+	"okhidden"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"okhidden"
+		"xpos"			"c-200"
+		"ypos"			"c140"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"&e"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"okay"
+		"default"		"1"
+		"font"			"MenuSmallFont"
+	}
+	
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
