@@ -296,7 +296,7 @@
 		"textAlignment"	"east"
 		"xpos"			"r200"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"-1"
 		"wide"			"180"
 		"tall"			"50"
 		"autoResize"	"0"
