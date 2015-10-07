@@ -307,7 +307,7 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"Black"
 		"bgcolor_override"	"White"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
