@@ -7,7 +7,6 @@
 		"enabled"	"1"
 		"xpos"		"0"
 		"ypos"		"0"
-		"zpos"		"9"
 		"wide"		"f0"
 		"tall"		"480"
 	}
@@ -183,7 +182,7 @@
 		"fieldName"		"CHealthAccountPanel"
 
 		"xpos"			"c-330"
-		"ypos"			"r135"
+		"ypos"			"r140"
 		"wide"			"200"
 		"tall"  		"180"
 		"visible" 		"1"
@@ -197,6 +196,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
+		"zpos"			"20"
 		"tall"			"480"
 		"visible" 		"1"
 		"enabled" 		"1"
@@ -208,10 +208,8 @@
 		"fieldName" 		"DisguiseStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"12"
 		"wide"			"500"
 		"tall"			"200"
-
 		"xpos"		"c-325"	[$WIN32]
 		"ypos"		"r129"	[$WIN32]
 	}
