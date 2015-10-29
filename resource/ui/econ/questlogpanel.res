@@ -204,7 +204,7 @@
 			"ypos"			"p0.1"
 			"zpos"			"10"
 			"wide"			"p.95"
-			"tall"			"p.875"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent" "1"
