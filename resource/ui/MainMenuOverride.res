@@ -209,6 +209,10 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -220,6 +224,10 @@
 		if_eotl_launch
 		{
 			"image"		"../console/title_eotl01"
+		}
+		if_operation
+		{
+			"image"		"../console/title_team_halloween2015"
 		}
 		if_community_update
 		{
@@ -265,7 +273,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FlameLabelInfo"
 		"font"			"ChalkboardText"
-		"labelText"		"Invasion Update"
+		"labelText"		"Scream Fortress Update"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
 		"ypos"			"80"
@@ -612,7 +620,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				

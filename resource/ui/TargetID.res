@@ -32,7 +32,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"252"
+		"wide"			"f0"
 		"tall"	 		"12"
 		"autoResize"		"1"
 		"scaleImage" 	"1"

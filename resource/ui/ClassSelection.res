@@ -14,6 +14,17 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	
+	"charInfo"
+	{
+		"fieldName"		"charInfo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wide"			"0"
+		"tall"			"0"
+	}
 
 	"FlameBackground"
 	{
@@ -1008,6 +1019,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		"render_texture"	"0"
 		"fov"			"25"
 		"allow_rot"		"0"
 
