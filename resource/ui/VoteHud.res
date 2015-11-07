@@ -566,8 +566,8 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"border"			"FlameGreyBorder"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackground"	"0"
+		"bgcolor_override"	"Black"
+		"PaintBackground"	"1"
 
 		"header_font"		"ItemFontNameLarge"
 		"header_fgcolor"	"Orange"
@@ -596,7 +596,7 @@
 			"enabled"		"1"
 			"wrap"			"0"
 		}
-									
+	
 		"VoteSetupList"
 		{
 			"ControlName"	"SectionedListPanel"
