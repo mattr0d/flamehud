@@ -1,3 +1,5 @@
+#base "../flame/flamecrosshairuber.res"
+
 "Resource/UI/HudMedicCharge.res"
 {	
 	"Background"
@@ -24,7 +26,6 @@
 		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"
 	}
-	
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -45,7 +46,6 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 	}
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"

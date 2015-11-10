@@ -1,3 +1,5 @@
+#base "../flame/flamecrosshair.res"
+
 "Resource/UI/HudPlayerHealth.res"
 {	
 	"HudPlayerHealth"
@@ -15,7 +17,7 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
-	
+		
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"

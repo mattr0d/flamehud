@@ -304,17 +304,17 @@
 			
 	"PlayingToBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"r31"	[$WIN32]
+		"xpos"			"c-50"	[$WIN32]
+		"ypos"			"r22"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"tall"			"38"	[$WIN32]
+		"wide"			"100"	[$WIN32]
+		"tall"			"20"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"fillcolor"		"FlameBlack"
+		"border"			"FlameGreyBorder"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"

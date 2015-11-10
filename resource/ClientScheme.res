@@ -27,6 +27,11 @@ Scheme
 		"TFOrange"			"145 73 59 255"
 
 		"QuestGold"			"208 147 75 255"
+		"HalloweenThemeColor2015_Light"	"238 126 17 255"
+		"HalloweenThemeColor2015"		"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"FlameBlack"		"0 0 0 255"
 		"FlameWhite"		"255 255 255 255"
@@ -92,51 +97,51 @@ Scheme
 		"HudTimerProgressWarning"	"240 30 30 255"
 
 		// training
-		"HudTrainingHint"		"212 160 23 255"
+		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"			"117 107 94 255"
-		"TanLight"			"235 226 202 255"
-		"TanDarker"			"46 43 42 255"
+		"TanDark"					"117 107 94 255"
+		"TanLight"					"235 226 202 255"
+		"TanDarker"					"46 43 42 255"
 		
-		"StoreDarkTan"			"131 121 104 255"
-		"StoreGreen"			"76 107 34 255"
+		"StoreDarkTan"				"131 121 104 255"
+		"StoreGreen"				"76 107 34 255"
 		
 		// Building HUD Specific
-		"LowHealthRed"			"255 0 0 255"
-		"ProgressOffWhite"		"251 235 202 255"
+		"LowHealthRed"				"255 0 0 255"
+		"ProgressOffWhite"			"251 235 202 255"
 		"ProgressBackground"		"250 234 201 51"
-		"HealthBgGrey"			"72 71 69 255"
+		"HealthBgGrey"				"72 71 69 255"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		
-		"LabelDark"			"48 43 42 255"
-		"LabelTransparent"		"109 96 80 180"
+		"LabelDark"					"48 43 42 255"
+		"LabelTransparent"			"109 96 80 180"
 
-		"BuildMenuActive"		"248 231 198 255"
+		"BuildMenuActive"			"248 231 198 255"
 		
 		"DisguiseMenuIconRed"		"192 56 63 255"
 		"DisguiseMenuIconBlue"		"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"200 184 151 255"
- 		"MatchmakingMenuItemBackground"			"46 43 42 255"
+ 		"MatchmakingDialogTitleColor"				"200 184 151 255"
+ 		"MatchmakingMenuItemBackground"				"46 43 42 255"
  		"MatchmakingMenuItemBackgroundActive"		"150 71 0 255"	
-		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
+		"MatchmakingMenuItemTitleColor"				"200 184 151 255"
 		"MatchmakingMenuItemDescriptionColor"		"200 184 151 255"
 		
-		"HTMLBackground"		"95 92 101 255"
+		"HTMLBackground"			"95 92 101 255"
 		
-		"ItemAttribLevel"		"117 107 94 255"
-		"ItemAttribNeutral"		"235 226 202 255"
+		"ItemAttribLevel"			"117 107 94 255"
+		"ItemAttribNeutral"			"235 226 202 255"
 		"ItemAttribPositive"		"153 204 255 255"
 		"ItemAttribNegative"		"255 64 64 255"
 
-		"ItemSetName"			"225 255 15 255"
+		"ItemSetName"				"225 255 15 255"
 		"ItemSetItemEquipped"		"149 175 12 255"
 		"ItemSetItemMissing"		"139 137 137 255"
-		"ItemIsotope"			"225 255 15 255"
-		"ItemBundleItem"		"149 175 12 255"
-		"ItemLimitedUse"		"0 160 0 255"
-		"ItemFlags"			"117 107 94 255"
+		"ItemIsotope"				"225 255 15 255"
+		"ItemBundleItem"			"149 175 12 255"
+		"ItemLimitedUse"			"0 160 0 255"
+		"ItemFlags"					"117 107 94 255"
 		"ItemLimitedQuantity"		"225 209 0 255"
 		
 		"QualityColorNormal"					"178 178 178 255"
@@ -370,22 +375,22 @@ Scheme
 		Slider.DisabledTextColor1		"117 117 117 255"
 		Slider.DisabledTextColor2		"30 30 30 255"
 
-		TextEntry.TextColor			"Gray"
-		TextEntry.BgColor			"Blank"
-		TextEntry.CursorColor			"Gray"
-		TextEntry.DisabledTextColor		"Gray"
-		TextEntry.DisabledBgColor		"Blank"
-		TextEntry.SelectedTextColor		"White"
-		TextEntry.SelectedBgColor		"Gray"
+		TextEntry.TextColor					"Gray"
+		TextEntry.BgColor					"Blank"
+		TextEntry.CursorColor				"Gray"
+		TextEntry.DisabledTextColor			"Gray"
+		TextEntry.DisabledBgColor			"Blank"
+		TextEntry.SelectedTextColor			"White"
+		TextEntry.SelectedBgColor			"Gray"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
-		TextEntry.FocusEdgeColor		"Blank"
+		TextEntry.FocusEdgeColor			"Blank"
 
 		ToggleButton.SelectedTextColor		"Orange"
 
-		Tooltip.TextColor			"TransparentBlack"
-		Tooltip.BgColor				"Red"
+		Tooltip.TextColor				"TransparentBlack"
+		Tooltip.BgColor					"Red"
 
-		TreeView.BgColor			"TransparentBlack"
+		TreeView.BgColor				"TransparentBlack"
 
 		WizardSubPanel.BgColor			"Blank"
 		
@@ -414,7 +419,7 @@ Scheme
 		"TeamRed"				"255 64 64 255"
 		"TeamBlue"				"153 204 255 255"
 
-		"MapDescriptionText"			"Gray" // the text used in the map description window
+		"MapDescriptionText"		"Gray" // the text used in the map description window
 		"HudIcon_Green"				"0 160 0 255"
 		"HudIcon_Red"				"160 0 0 255"
 
@@ -426,9 +431,9 @@ Scheme
 		// weapon selection colors
 		"SelectionNumberFg"			"255 255 255 255"
 		"SelectionTextFg"			"255 255 255 255"
-		"SelectionEmptyBoxBg" 			"0 0 0 80"
+		"SelectionEmptyBoxBg" 		"0 0 0 80"
 		"SelectionBoxBg" 			"0 0 0 80"
-		"SelectionSelectedBoxBg" 		"0 0 0 190"
+		"SelectionSelectedBoxBg" 	"0 0 0 190"
 
 		// Hint message colors
 		"HintMessageFg"				"255 255 255 255"
@@ -820,7 +825,7 @@ Scheme
 				"antialias" "1"
 				"yres"		"1200 10000"
 			}
-		}	
+		}
 		"HudFontGiantBold"
 		{
 			"1"
@@ -2338,6 +2343,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
 		"QuestFlavorText"
 		{
 			"1"
@@ -2421,6 +2427,126 @@ Scheme
 				"antialias" "1"
 				"custom"		"1" [$OSX]
 				"weight"	"500"
+			}
+		}
+
+		"QuestInstructionText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestFlavorText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+		}
+
+		"QuestObjectiveText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestMediumText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"QuestLargeText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -8366,5 +8492,6 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
+		"7" "resource/ocra.ttf"
 	}
 }

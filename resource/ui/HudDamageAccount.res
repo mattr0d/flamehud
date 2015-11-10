@@ -1,3 +1,5 @@
+#base "../flame/flamecrosshairdamage.res"
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -8,7 +10,7 @@
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"FlameGreen"
 		"NegativeColor"			"FlameYellow"
-		"delta_lifetime"		"2"
+		"delta_lifetime"		"1"
 		"delta_item_font"		"HudFontMediumSmall"
 		"delta_item_font_big"	"HudFontMediumSmall"
 		"visible"				"1"
