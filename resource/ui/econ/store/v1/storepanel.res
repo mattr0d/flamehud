@@ -19,8 +19,8 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"				"#CharInfoAndSetup"
-		"title_font"		"HudFontMediumBold"
+		"title"			"#StoreTitle"
+		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"FlameOrange"
@@ -101,7 +101,7 @@
 		"fieldName"		"Sheet"
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
-		"tabwidth"		"240"
+		"tabxfittotext"	"1"
 		"tabheight"		"34"
 		"transition_time" "0"
 		
