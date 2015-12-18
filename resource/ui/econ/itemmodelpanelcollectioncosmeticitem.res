@@ -42,7 +42,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"0 0 0 0"
 		
 		"itemmodelpanel"
 		{
@@ -117,7 +117,7 @@
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"%collectionname%"
 			"textAlignment"	"west"
@@ -137,7 +137,7 @@
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"%collectionlist%"
 			"textAlignment"	"west"
@@ -154,7 +154,7 @@
 			"zpos"			"1"
 			"wide"			"145"
 			"tall"			"9"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"		"215 206 182 255"
 		}
@@ -302,6 +302,21 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+		"is_loaner_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_loaner_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
 		
 		"contained_item_panel"
 		{
@@ -316,6 +331,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
+			"useparentbg"	"0"
 		
 			"enabled"		"1"
 		

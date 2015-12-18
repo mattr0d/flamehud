@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-		//		"bgcolor_override"	"0 0 0 240"
+//		"bgcolor_override"	"0 0 0 240"
 		
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
@@ -193,45 +193,9 @@
 		"image"			"../console/background_gravelpit"
 		"scaleImage"	"1"
 		
-		if_halloween_0
-		{
-			"image"		"../console/title_team_halloween2011"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014"
-		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011"
-		}
-		if_eotl_launch
-		{
-			"image"		"../console/title_eotl01"
-		}
 		if_operation
 		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		if_community_update
-		{
-			"image"		"../console/title_invasion"
+			"image"		"../console/title_team_tough_break"
 		}
 	}
 
@@ -248,6 +212,12 @@
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
+		
+		
+		if_operation
+		{
+			"image"		"../logo/tough_break_logo"
+		}
 	}
 	
 	"FlameLabel"
@@ -273,7 +243,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FlameLabelInfo"
 		"font"			"ChalkboardText"
-		"labelText"		"Scream Fortress Update"
+		"labelText"		"Tough Break Update"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
 		"ypos"			"80"
@@ -284,6 +254,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"255 255 255 255"
+	}
+	
+	"TFCharacterImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFCharacterImage"
+		"xpos"			"c-250"
+		"ypos"			"-80"
+		"zpos"			"-99"
+		"wide"			"600"
+		"tall"			"600"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
 	}
 	
 	"MenuLineFlameLeft"
@@ -1145,6 +1129,47 @@
 		}
 	}	
 
+
+	"ShowWarButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ShowWarButton"
+		"xpos"			"c100"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"28"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"War is here!"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"25"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"showcomic"
+		"proportionaltoparent" "1"
+
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+			
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
+	}
 	
 	"Notifications_Panel"
 	{
