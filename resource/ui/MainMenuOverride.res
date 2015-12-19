@@ -10,9 +10,7 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		
-//		"bgcolor_override"	"0 0 0 240"
-		
+			
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 		
@@ -1977,10 +1975,10 @@
 		}
 	}
 	
-	"PlayCompetitiveButton2"
+	"PlayCompetitiveButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayCompetitiveButton2"
+		"fieldname"		"PlayCompetitiveButton"
 		"xpos"			"c-295"
 		"ypos"			"160"
 		"zpos"			"11"
@@ -2048,12 +2046,12 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldname"		"CompetitiveBetaImage"
-			"xpos"			"220"
+			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"12"
+			"zpos"			"5"
 			"wide"			"20"
 			"tall"			"20"
-			"visible"		"0"
+			"visible"		"1"
 			"image"			"beta"
 			"scaleImage"	"1"
 		}
