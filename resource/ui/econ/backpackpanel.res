@@ -257,7 +257,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"ShowBaseItemsCheckbox"
 		"labelText"		"#ShowBaseItemsCheckBox"
-		"Font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
 		"xpos"			"c-70"
 		"ypos"			"30"

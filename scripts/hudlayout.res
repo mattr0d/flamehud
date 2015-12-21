@@ -130,39 +130,39 @@
 
 	HudWeaponSelection
 	{
-		"fieldName" 		"HudWeaponSelection"
-		"xpos"			"0"
-		"wide"			"f0"
-		"ypos" 			"0"
-		"tall"			"480"
-		"RightMargin" 		"0"
-		"visible" 		"1"
-		"enabled" 		"1"
+		"fieldName" 			"HudWeaponSelection"
+		"xpos"						"0"
+		"wide"						"f0"
+		"ypos" 						"0"
+		"tall"						"480"
+		"RightMargin" 				"0"
+		"visible" 					"1"
+		"enabled" 					"1"
 
-		"SmallBoxWide" 			"72"
-		"SmallBoxTall" 			"54"
-		"PlusStyleBoxWide" 		"90"
-		"PlusStyleBoxTall" 		"63"
-		"PlusStyleExpandSelected"	"0.3"
-		"LargeBoxWide" 			"90"
-		"LargeBoxTall" 			"63"
-		"BoxGap" 			"4"	[$WIN32]
-		"SelectionNumberXPos" 		"12"
-		"SelectionNumberYPos" 		"4"
+		"SmallBoxWide" 				"140"
+		"SmallBoxTall" 				"70"
+		"PlusStyleBoxWide" 			"140"
+		"PlusStyleBoxTall" 			"70"
+		"PlusStyleExpandSelected"	"0"
+		"LargeBoxWide" 				"140"	//selected
+		"LargeBoxTall" 				"70"
+		"BoxGap" 					"4"	[$WIN32]
+		"SelectionNumberXPos" 		"3"
+		"SelectionNumberYPos" 		"0"
 		
-		"IconXPos" 		"8"
-		"IconYPos" 		"0"
-		"TextYPos" 		"70"		[$WIN32]
-		"ErrorYPos" 		"48"
-		"TextColor" 		"SelectionTextFg"
-		"MaxSlots"		"6"
-		"PlaySelectSounds"	"0"
-		"Alpha" 		"220"
-		"SelectionAlpha" 	"220"
-		"BoxColor" 		"0 0 0 150"
-		"SelectedBoxClor" 	"0 0 0 150"
-		"SelectionNumberFg"	"0 0 0 255"
-		"NumberFont" 		"HudSelectionText"
+		"IconXPos" 				"8"
+		"IconYPos" 				"0"
+		"TextYPos" 				"30"		[$WIN32]
+		"ErrorYPos" 			"48"
+		"TextColor" 			"SelectionTextFg"
+		"MaxSlots"				"6"
+		"PlaySelectSounds"		"1"
+		"Alpha" 				"220"
+		"SelectionAlpha" 		"220"
+		"BoxColor" 				"0 0 0 150"
+		"SelectedBoxClor" 		"0 0 0 150"
+		"SelectionNumberFg"		"0 0 0 255"
+		"NumberFont" 			"HudSelectionText"
 	}	
 	
 	CHudAccountPanel
@@ -287,6 +287,7 @@
 		
 		"PaintBackgroundType"	"2"
 	}
+	
 	HudMannVsMachineStatus
 	{
 		"fieldName" "HudMannVsMachineStatus"
@@ -300,6 +301,7 @@
 		
 		"PaintBackgroundType"	"2"
 	}
+	
 	HudProgressBar
 	{
 		"fieldName" 		"HudProgressBar"

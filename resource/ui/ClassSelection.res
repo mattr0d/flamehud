@@ -398,7 +398,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#EditLoadout"
+		"labelText"		"Edit Loadout (E)"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"HudFontSmallBold"
@@ -414,6 +414,26 @@
 		"image_drawcolor"	"165 165 165 255"
 		"image_armedcolor"	"255 50 50 255"
 		
+	}
+	
+	"EditLoadoutButtonHidden" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"EditLoadoutButtonHidden"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"50"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&E"
+		"textAlignment"	"center"
+		"Command"		"openloadout"
+		"font"			"HudFontSmallBold"
 	}
 
 	"ResetButton" [$WIN32] 
