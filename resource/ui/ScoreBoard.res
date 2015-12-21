@@ -51,6 +51,25 @@
 			"visible"		"0"
 		}
 	}
+	"BlueTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueTeamImage"
+		"xpos"			"c-150"
+		"ypos"			"c-225"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/team_blue"
+		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"RedScoreBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -71,6 +90,26 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"
 		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedTeamImage"
+		"fieldName"		"BlueTeamImage"
+		"xpos"			"c50"
+		"ypos"			"c-235"
+		"zpos"			"2"
+		"wide"			"75"
+		"tall"			"75"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/team_red"
+		"scaleImage"		"1"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -244,6 +283,94 @@
 		{
 			"xpos" 			"c-275"
 			"ypos"			"65"
+		}
+	}
+	"TimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TimerBG"
+		"xpos"			"c-20"	[$WIN32]
+		"ypos"			"15"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"15"
+		"autoResize"		"1"
+		"scaleImage" 	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"FlameTransBlack"
+		"PaintBackgroundType"	"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"ServerTimeLeftInsetBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ServerTimeLeftInsetBG"
+		"xpos"			"c-34"
+		"ypos"			"12"
+		"zpos"			"1"
+		"wide"			"68"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"border"		"TFFatLineBorderOpaque"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"ServerTimeLeftLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeftLabel"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"#Scoreboard_TimeLeftLabel"
+		"textAlignment"		"center"
+		"xpos"			"c-36"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"72"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"ServerTimeLeftValue"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeftValue"
+		"xpos"			"c-40"
+		"ypos"			"15"
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%servertime%"
+		"autoResize"	"0"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"font"			"HudFontSmall"
+		
+		if_mvm
+		{
+			"visible"		"0"
 		}
 	}
 	"ServerTimeLeft"
@@ -473,6 +600,29 @@
 		{
 			"visible"		"0"
 			"wide"			"175"
+		}
+	}
+	
+	"ServerLabelNew"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerLabelNew"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"%server%"
+		"textAlignment"		"east"
+		"xpos"			"415"
+		"ypos"			"375"
+		"zpos"			"3"
+		"wide"			"165"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
 		}
 	}	
 	

@@ -5,7 +5,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"modelpanel0"
 		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
 		"model_center_x"	"1"
@@ -207,4 +207,5 @@
 			"inventory_image_type"	"1"
 			"force_use_model"		"0"
 		}
+	}
 }
