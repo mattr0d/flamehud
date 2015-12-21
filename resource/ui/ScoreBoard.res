@@ -289,10 +289,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TimerBG"
-		"xpos"			"c-20"	[$WIN32]
+		"xpos"			"c-25"	[$WIN32]
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"40"
+		"wide"			"50"
 		"tall"			"15"
 		"autoResize"		"1"
 		"scaleImage" 	"1"
