@@ -161,6 +161,10 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "FlameWhite"
+		"armedFgColor_override" "FlameWhite"
+		"depressedFgColor_override" "FlameWhite"
 	}		
 	
 	"armory_panel"

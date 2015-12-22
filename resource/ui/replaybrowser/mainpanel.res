@@ -128,7 +128,7 @@
 		"ypos"			"440"
 		"zpos"			"2"
 		"wide"			"200"
-		"tall"			"25"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -151,9 +151,6 @@
 		"defaultFgColor_override" "FlameWhite"
 		"armedFgColor_override" "FlameWhite"
 		"depressedFgColor_override" "FlameWhite"
-		
-		"image_drawcolor"	"165 165 165 255"
-		"image_armedcolor"	"255 50 50 255"
 	}
 	
 	"ReloadSchemeButton"
@@ -203,5 +200,24 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-	}		
+	}
+
+	"FlameLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"FlameLabel"
+		"font"			"HudFontMediumBold"
+		"labelText"		"flamehud"
+		"textAlignment"	"east"
+		"xpos"			"r200"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"180"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"204 95 76 255"
+	}
 }
