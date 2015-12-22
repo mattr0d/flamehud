@@ -216,7 +216,7 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
 		"bgcolor_override"	"Black"
 		"border"		"FlameMenuBorder"
 		"PaintBorder"	"1"
