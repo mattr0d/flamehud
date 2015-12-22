@@ -271,7 +271,7 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"c-255"
-		"ypos"			"c-175"
+		"ypos"			"c-165"
 		"wide"			"255"
 		"tall"			"10"
 		"autoResize"	"0"
@@ -289,10 +289,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TimerBG"
-		"xpos"			"c-25"	[$WIN32]
+		"xpos"			"c-35"	[$WIN32]
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"70"
 		"tall"			"15"
 		"autoResize"		"1"
 		"scaleImage" 	"1"
@@ -307,20 +307,29 @@
 			"visible"		"0"
 		}
 	}
-	"ServerTimeLeftInsetBG"
+	"ServerTimeLeftLabelBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ServerTimeLeftInsetBG"
-		"xpos"			"c-34"
-		"ypos"			"12"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ServerTimeLeftLabelBG"
+		"xpos"			"c-35"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"68"
-		"tall"			"23"
+		"wide"			"70"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"border"		"TFFatLineBorderOpaque"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"200"			// pixels inside the image
+		"src_corner_width"		"200"			
+		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"		
 
 		if_mvm
 		{
@@ -349,10 +358,10 @@
 			"visible"		"0"
 		}
 	}
-	"ServerTimeLeftValue"
+	"ServerTimeLeftValueFlame"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeftValue"
+		"fieldName"		"ServerTimeLeftValueFlame"
 		"xpos"			"c-40"
 		"ypos"			"15"
 		"zpos"			"5"
@@ -371,29 +380,6 @@
 		if_mvm
 		{
 			"visible"		"0"
-		}
-	}
-	"ServerTimeLeft"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeft"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%servertimeleft%"
-		"textAlignment"		"west"
-		"xpos"			"c-255"
-		"ypos"			"c-165"
-		"wide"			"360"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"xpos" 			"c-85"
-			"textAlignment"	"east"
-			"ypos"			"65"
 		}
 	}
 
