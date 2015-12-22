@@ -484,9 +484,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneReflect"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"xpos"			"c-15"
+		"ypos"			"r61"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
