@@ -273,7 +273,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
-		"command"		"spectate"
+		"command"		"jointeam spectator"
 		"associated_model"	"SpectateFrame"	
 		"font"			"Hud"
 		"fgcolor"		"0 0 0 0"

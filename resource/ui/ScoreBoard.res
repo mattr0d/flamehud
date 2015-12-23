@@ -26,6 +26,7 @@
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}
+	
 	"BlueScoreBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -362,10 +363,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftValueFlame"
-		"xpos"			"c-40"
+		"xpos"			"c-30"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"80"
+		"wide"			"60"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
@@ -374,7 +375,6 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"wrap"			"0"
 		"font"			"HudFontSmall"
 		
 		if_mvm
