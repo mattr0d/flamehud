@@ -312,6 +312,11 @@
 				{	
 					"visible"		"0"
 				}
+				
+				if_competitive
+				{	
+					"visible"		"0"
+				}
 			}
 			
 			"chargeamount"
@@ -332,6 +337,10 @@
 				"fgcolor"		"0 255 0 255"
 				
 				if_mvm
+				{	
+					"visible"		"0"
+				}
+				if_competitive
 				{	
 					"visible"		"0"
 				}
