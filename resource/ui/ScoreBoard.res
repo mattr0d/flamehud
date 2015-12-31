@@ -1175,7 +1175,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"	"west"
-			"xpos"			"130"	[$WIN32]
+			"xpos"			"125"	[$WIN32]
 			"ypos"			"5"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1192,7 +1192,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%captures%"
 			"textAlignment"	"west"
-			"xpos"			"180"	[$WIN32]
+			"xpos"			"175"	[$WIN32]
 			"ypos"			"5"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1211,7 +1211,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"	"west"
-			"xpos"			"130"	[$WIN32]
+			"xpos"			"125"	[$WIN32]
 			"ypos"			"15"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1228,7 +1228,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%defenses%"
 			"textAlignment"	"west"
-			"xpos"			"180"	[$WIN32]
+			"xpos"			"175"	[$WIN32]
 			"ypos"			"15"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1247,7 +1247,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"	"west"
-			"xpos"			"130"	[$WIN32]
+			"xpos"			"125"	[$WIN32]
 			"ypos"			"25"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1264,7 +1264,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%dominations%"
 			"textAlignment"	"west"
-			"xpos"			"180"	[$WIN32]
+			"xpos"			"175"	[$WIN32]
 			"ypos"			"25"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1283,7 +1283,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"	"west"
-			"xpos"			"130"	[$WIN32]
+			"xpos"			"125"	[$WIN32]
 			"ypos"			"35"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1300,7 +1300,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%Revenge%"
 			"textAlignment"	"west"
-			"xpos"			"180"	[$WIN32]
+			"xpos"			"175"	[$WIN32]
 			"ypos"			"35"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1319,7 +1319,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"	"west"
-			"xpos"			"130"	[$WIN32]
+			"xpos"			"125"	[$WIN32]
 			"ypos"			"45"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1336,7 +1336,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%bonus%"
 			"textAlignment"	"west"
-			"xpos"			"180"	[$WIN32]
+			"xpos"			"175"	[$WIN32]
 			"ypos"			"45"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1355,7 +1355,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"	"west"
-			"xpos"			"130"	[$WIN32]
+			"xpos"			"125"	[$WIN32]
 			"ypos"			"55"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1372,7 +1372,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%destruction%"
 			"textAlignment"	"west"
-			"xpos"			"180"	[$WIN32]
+			"xpos"			"175"	[$WIN32]
 			"ypos"			"55"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1391,7 +1391,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"	"west"
-			"xpos"			"205"	[$WIN32]
+			"xpos"			"200"	[$WIN32]
 			"ypos"			"5"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1408,7 +1408,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%backstabs%"
 			"textAlignment"	"west"
-			"xpos"			"255"	[$WIN32]
+			"xpos"			"250"	[$WIN32]
 			"ypos"			"5"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1426,7 +1426,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"	"west"
-			"xpos"			"205"	[$WIN32]
+			"xpos"			"200"	[$WIN32]
 			"ypos"			"15"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1443,7 +1443,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%headshots%"
 			"textAlignment"	"west"
-			"xpos"			"255"	[$WIN32]
+			"xpos"			"250"	[$WIN32]
 			"ypos"			"15"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1461,7 +1461,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"	"west"
-			"xpos"			"205"	[$WIN32]
+			"xpos"			"200"	[$WIN32]
 			"ypos"			"25"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1478,7 +1478,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%teleports%"
 			"textAlignment"	"west"
-			"xpos"			"255"	[$WIN32]
+			"xpos"			"250"	[$WIN32]
 			"ypos"			"25"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1496,7 +1496,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"west"
-			"xpos"			"205"	[$WIN32]
+			"xpos"			"200"	[$WIN32]
 			"ypos"			"35"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1514,7 +1514,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%support%"
 			"textAlignment"	"west"
-			"xpos"			"255"	[$WIN32]
+			"xpos"			"250"	[$WIN32]
 			"ypos"			"35"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1532,7 +1532,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"	"west"
-			"xpos"			"205"	[$WIN32]
+			"xpos"			"200"	[$WIN32]
 			"ypos"			"45"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1549,7 +1549,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%healing%"
 			"textAlignment"	"west"
-			"xpos"			"255"	[$WIN32]
+			"xpos"			"250"	[$WIN32]
 			"ypos"			"45"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1567,7 +1567,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"	"west"
-			"xpos"			"205"	[$WIN32]
+			"xpos"			"200"	[$WIN32]
 			"ypos"			"55"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
@@ -1584,7 +1584,7 @@
 			"font"			"HudFontSmallerest"
 			"labelText"		"%invulns%"
 			"textAlignment"	"west"
-			"xpos"			"255"	[$WIN32]
+			"xpos"			"250"	[$WIN32]
 			"ypos"			"55"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
