@@ -37,7 +37,7 @@
 		"wide"			"255"
 		"tall"			"25"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c-155"
 		"wide_minmode"			"255"
 		"tall_minmode"			"20"
@@ -70,7 +70,7 @@
 		"wide"			"255"
 		"tall"			"25"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c65"
 		"wide_minmode"			"255"
 		"tall_minmode"			"20"
@@ -104,7 +104,7 @@
 		"wide"			"510"
 		"tall"			"235"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c-135"
 		"wide_minmode"			"255"
 		"tall_minmode"			"200"
@@ -132,7 +132,7 @@
 		"wide"			"255"
 		"tall"			"245"	[$WIN32]
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c-135"
 		"wide_minmode"			"255"
 		"tall_minmode"			"100"
@@ -161,7 +161,7 @@
 		"wide"			"255"
 		"tall"			"245"	[$WIN32]	
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c-35"
 		"wide_minmode"			"255"
 		"tall_minmode"			"100"
@@ -235,7 +235,7 @@
 		"wide"			"140"
 		"tall"			"20"
 		
-		"xpos_minmode"			"c-300"
+		"xpos_minmode"			"c-260"
 		"ypos_minmode"			"c-155"
 		"wide_minmode"			"140"
 		"tall_minmode"			"20"
@@ -264,7 +264,7 @@
 		"wide"			"100"
 		"tall"			"55"
 		
-		"xpos_minmode"			"c-160"
+		"xpos_minmode"			"c-120"
 		"ypos_minmode"			"c-185"
 		"wide_minmode"			"100"
 		"tall_minmode"			"55"
@@ -292,7 +292,7 @@
 		"wide"			"100"
 		"tall"			"20"
 		
-		"xpos_minmode"			"c-200"
+		"xpos_minmode"			"c-160"
 		"ypos_minmode"			"c-155"
 		"wide_minmode"			"100"
 		"tall_minmode"			"20"
@@ -321,7 +321,7 @@
 		"wide"			"140"
 		"tall"			"20"
 		
-		"xpos_minmode"			"c-300"
+		"xpos_minmode"			"c-260"
 		"ypos_minmode"			"c65"
 		"wide_minmode"			"140"
 		"tall_minmode"			"20"
@@ -349,7 +349,7 @@
 		"wide"			"100"
 		"tall"			"55"
 		
-		"xpos_minmode"			"c-160"
+		"xpos_minmode"			"c-120"
 		"ypos_minmode"			"c62"
 		"wide_minmode"			"100"
 		"tall_minmode"			"55"
@@ -377,7 +377,7 @@
 		"wide"			"100"
 		"tall"			"20"
 		
-		"xpos_minmode"			"c-200"
+		"xpos_minmode"			"c-160"
 		"ypos_minmode"			"c65"
 		"wide_minmode"			"100"
 		"tall_minmode"			"20"
@@ -405,7 +405,7 @@
 		"wide"			"255"
 		"tall"			"10"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c-165"
 		"wide_minmode"			"255"
 		"tall_minmode"			"10"
@@ -528,7 +528,7 @@
 		"wide"			"2"
 		"tall"			"260"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c-34"
 		"wide_minmode"			"255"
 		"tall_minmode"			"2"
@@ -559,10 +559,11 @@
 		"wide"			"510"
 		"tall"			"10"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c85"
 		"wide_minmode"			"255"
 		"tall_minmode"			"10"
+		"fgcolor_minmode"		"FlameWhite"
 		
 		
 		"autoResize"	"0"
@@ -590,10 +591,11 @@
 		"wide"			"510"
 		"tall"			"10"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c95"
 		"wide_minmode"			"255"
 		"tall_minmode"			"10"
+		"fgcolor_minmode"		"FlameWhite"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -617,7 +619,7 @@
 		"wide"			"510"
 		"tall"			"20"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c85"
 		"wide_minmode"			"255"
 		"tall_minmode"			"20"
@@ -646,7 +648,7 @@
 		"wide"			"510"
 		"tall"			"70"
 		
-		"xpos_minmode"			"c-305"
+		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c115"
 		"wide_minmode"			"255"
 		"tall_minmode"			"70"
@@ -790,7 +792,7 @@
 		"wide"			"300"
 		"tall"			"53"
 		
-		"xpos_minmode"			"c-318"
+		"xpos_minmode"			"c-278"
 		"ypos_minmode"			"c115"
 		"wide_minmode"			"300"
 		"tall_minmode"			"53"		
@@ -1007,7 +1009,7 @@
 		"wide"			"580"
 		"tall"			"100"
 		
-		"xpos_minmode"			"c-318"
+		"xpos_minmode"			"c-278"
 		"ypos_minmode"			"c115"
 		"wide_minmode"			"580"
 		"tall_minmode"			"100"
@@ -1631,14 +1633,14 @@
 		"wide"			"255"	
 		"tall"			"10"
 		
-		"xpos_minmode"	"c-305"
+		"xpos_minmode"	"c-265"
 		"ypos_minmode"	"c185"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"236 227 203 255"
+		"fgcolor"		"FlameWhite"
 		
 		if_mvm
 		{
