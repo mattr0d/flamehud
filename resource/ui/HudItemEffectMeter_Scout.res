@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c150"	[$WIN32]
-		"ypos"			"r140"	[$WIN32]
+		"ypos"			"r151"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -30,7 +30,7 @@
 		"xpos"				"10"
 		"ypos"				"25"
 		"zpos"				"6"
-		"wide"				"50"
+		"wide"				"0"
 		"tall"				"8"
 		"autoResize"		"1"
 		"pinCorner"			"2"
@@ -55,19 +55,5 @@
 		"ypos"			"25"	
 		"wide"			"50"
 		"tall"			"8"			
-	}
-
-	"ChargeMark_Cola"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"ChargeMark_Cola"
-		"xpos"			"25"
-		"ypos"			"25"
-		"zpos"			"4"
-		"wide"			"1"
-		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"FlameBlack"
 	}
 }
