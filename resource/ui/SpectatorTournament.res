@@ -13,12 +13,12 @@
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"210"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-25"
+		"team1_player_delta_y"				"-23"
 		
 		"team2_player_base_offset_x"		"0"
 		"team2_player_base_y"				"250"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"25"
+		"team2_player_delta_y"				"23"
 		
 		"playerpanels_kv"
 		{
@@ -93,7 +93,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -111,7 +111,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -129,7 +129,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -147,7 +147,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
