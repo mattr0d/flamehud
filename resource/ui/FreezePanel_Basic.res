@@ -418,7 +418,7 @@
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"166"
-		"tall"			"40"
+		"tall"			"0"
 		"visible"		"0"
 			
 		"ScreenshotPanelBG"
