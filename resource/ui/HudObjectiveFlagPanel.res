@@ -236,7 +236,7 @@
 			"visible"	"0"
 		}
 	}	
-															
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -284,7 +284,41 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+
+	"PlayingToShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayingToShadow"
+		"xpos"			"c-69"	[$WIN32]
+		"ypos"			"r26"	[$WIN32]
+		"zpos"			"3"
+		"wide"			"140"	[$WIN32]
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_PlayingTo"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontSmall"
+		"fgcolor"		"FlameBlack"
 		
 		"if_hybrid"
 		{
@@ -301,21 +335,19 @@
 			"visible"	"0"
 		}
 	}	
-			
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r22"	[$WIN32]
-		"zpos"			"3"
+		"ypos"			"r7"	[$WIN32]
+		"zpos"			"2"
 		"wide"			"100"	[$WIN32]
-		"tall"			"20"	[$WIN32]
-		"visible"		"1"
+		"tall"			"0"	[$WIN32]
+		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"FlameBlack"
-		"border"			"FlameGreyBorder"
-		"scaleImage"	"1"	
+		"fillcolor"		"FlameTransBlack"
 		
 		"if_hybrid"
 		{
