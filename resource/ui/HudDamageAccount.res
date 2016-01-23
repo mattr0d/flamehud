@@ -11,8 +11,8 @@
 		"PositiveColor"			"FlameGreen"
 		"NegativeColor"			"FlameYellow"
 		"delta_lifetime"		"1"
-		"delta_item_font"		"HudFontMediumSmall"
-		"delta_item_font_big"	"HudFontMediumSmall"
+		"delta_item_font"		"HudFontMediumSmallBold"
+		"delta_item_font_big"	"HudFontMediumBold"
 		"visible"				"1"
 	}
 	
