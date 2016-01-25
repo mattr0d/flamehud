@@ -247,6 +247,7 @@
 		
 		if_mvm
 		{
+			"tall"			"0"
 			"visible"		"0"
 		}
 	}							
@@ -333,6 +334,7 @@
 		"enabled"		"1"
 		if_mvm
 		{
+			"tall"			"0"
 			"visible"		"0"
 		}
 	}							
@@ -684,7 +686,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"
