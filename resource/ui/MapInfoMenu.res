@@ -70,10 +70,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
-		"xpos"			"c-220"
+		"xpos"			"c-225"
 		"ypos"			"95"
 		"zpos"			"1"
-		"wide"			"440"
+		"wide"			"225"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"

@@ -664,7 +664,17 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"xpos"			"c-125"
+			"ypos"			"c130"
+			"zpos"			"0"
+			"wide"			"250"
+			"tall"			"70"
+		
+			"xpos_minmode"			"c-125"
+			"ypos_minmode"			"c130"
+			"wide_minmode"			"250"
+			"tall_minmode"			"70"
+			"visible"		"1"
 		}
 	}
 
@@ -1023,8 +1033,8 @@
 		
 		if_mvm
 		{
-			"xpos"		"c-150"
-			"ypos"		"c125"
+			"xpos"		"c-140"
+			"ypos"		"c130"
 		}
 
 		"KillsLabel"
@@ -1646,7 +1656,23 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%mapname%"
+			"textAlignment"	"east"
+			"xpos"			"c105"
+			"ypos"			"c-177"
+			"zpos"			"3"
+			"wide"			"170"	
+			"tall"			"10"
+			
+			"xpos_minmode"			"c105"
+			"ypos_minmode"			"c-177"
+			
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"FlameWhite"
 		}
 		
 	}			

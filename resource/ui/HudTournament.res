@@ -44,7 +44,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -62,7 +62,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 				
 				if_competitive
@@ -85,7 +85,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 				
 				if_competitive
@@ -100,7 +100,7 @@
 				"fieldName"		"FlameToptBar"
 				"xpos"			"0"
 				"ypos"			"-1"
-				"zpos"			"7"
+				"zpos"			"17"
 				"wide"			"f0"
 				"tall"	 		"2"
 				"autoResize"	"1"
@@ -108,7 +108,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -864,9 +864,9 @@
 		if_readymode
 		{
 			"font"			"HudFontSmallishBold"
-			"xpos"			"225"
+			"xpos"			"c-125"
 			"ypos"			"45"
-			"wide"			"190"
+			"wide"			"250"
 			"tall"			"12"
 			"zpos"			"3"
 			"visible"		"1"
@@ -917,9 +917,9 @@
 		if_readymode
 		{
 			"font"			"HudFontSmallishBold"
-			"xpos"			"226"
+			"xpos"			"c-124"
 			"ypos"			"46"
-			"wide"			"190"
+			"wide"			"250"
 			"tall"			"12"
 			"visible"		"1"
 			"fgcolor"		"FlameBlack"
@@ -1008,7 +1008,7 @@
 
 		if_readymode
 		{
-			"xpos"			"300"
+			"xpos"			"c-20"
 			"ypos"			"130"
 		}
 	}
@@ -1047,7 +1047,7 @@
 
 		if_readymode
 		{
-			"xpos"			"300"
+			"xpos"			"c-20"
 			"ypos"			"130"
 		}
 	}
@@ -1079,7 +1079,7 @@
 
 		if_readymode
 		{
-			"xpos"			"300"
+			"xpos"			"c-19"
 			"ypos"			"130"
 		}
 	}
