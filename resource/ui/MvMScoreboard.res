@@ -291,6 +291,15 @@
 			"visible"		"1"
 		}
 		
+		"RedTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"RedTeamLabel"
+			"font"			"HudFontSmallBold"
+			"visible_minmode"	"0"
+			"visible"		"0"
+		}	
+		
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"

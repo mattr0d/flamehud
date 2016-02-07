@@ -263,6 +263,14 @@
 		"NavDown"		"LearnMoreButton"
 		"NavLeft"		"LearnMoreButton"
 
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "FlameWhite"
+		"armedFgColor_override" "FlameWhite"
+		"depressedFgColor_override" "FlameWhite"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

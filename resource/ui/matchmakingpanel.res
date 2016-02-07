@@ -12,21 +12,24 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"proportionaltoparent" "1"
+		"draggable"		"1"
+		"dragable"		"1"
 	}
 
 	"MainContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainContainer"
-		"xpos"			"40"
+		"xpos"			"50"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"f0"
+		"wide"			"250"
 		"tall"			"p0.9"
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"MainMenuBGBorder"
+		"bgcolor_override"	"Black"
+		"border"		"FlameMenuBorder"
 
 		"UpperLine"
 		{
@@ -53,10 +56,10 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_Matchmaking_Title"
 			"textAlignment"	"north-west"
-			"xpos"			"105"
+			"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"2"
-			"wide"			"f0"
+			"wide"			"250"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -64,7 +67,7 @@
 			"enabled"		"1"
 			"wrap"			"0"
 			"proportionaltoparent"	"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}
 
 		"CompetitiveModeGroupBox"
@@ -186,7 +189,7 @@
 			"zpos"		"-1"
 			"wide"		"300"
 			"tall"		"265"
-			"visible"	"0"
+			"visible"	"1"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
