@@ -18,6 +18,11 @@
 		"buttons_step_x"	"56"
 		"buttons_step_y"	"56"
 
+		"output_start_x"	"343"
+		"output_start_y"	"85"
+		"output_step_x"		"56"
+		"output_step_y"		"56"
+		
 		"bg_target_y"		"10"
 		"slide_in_time"		"1.f"
 
@@ -230,8 +235,7 @@
 		"tall"					"250"
 		"proportionaltoparent"	"1"
 
-		"linecentercolor"		"RedSolid"
-		"lineoutercolor"		"Red"
+		"linecolor"			"RedSolid"
 	}
 
 	"LetterBack_Bottom"
