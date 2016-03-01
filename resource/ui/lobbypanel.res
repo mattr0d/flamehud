@@ -1768,21 +1768,21 @@
 				"labelText"		"#TF_Competitive_RankUpper"
 			}
 
-		"RankIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"RankIcon"
-			"xpos"			"37"
-			"ypos"			"46"
-			"zpos"			"0"
-			"wide"			"55"
-			"tall"			"55"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"pve/mvm_loot_image"
-			"scaleImage"	"1"
-		}
+			"RankIcon"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"RankIcon"
+				"xpos"			"20"
+				"ypos"			"12"
+				"zpos"			"0"
+				"wide"			"75"
+				"tall"			"75"
+				"visible"		"1"
+				"enabled"		"1"
+				"mouseinputenabled" "0"
+				"image"			"pve/mvm_loot_image"
+				"scaleImage"	"1"
+			}
 
 			"RankNumber"
 			{
