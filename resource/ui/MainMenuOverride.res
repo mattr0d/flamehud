@@ -2054,6 +2054,20 @@
 			"visible"		"1"
 			"image"			"beta"
 			"scaleImage"	"1"
+			if_competitive
+			{
+				"visible"		"1"
+				"enabled"		"1"
+			}
+			if_competitive_stress_event
+			{
+			// Move up/left 10px, bump up to 20x20
+				"ypos"	"165"
+				"xpos"	"c-285+205"
+				"wide"	"56"
+				"tall"	"56"
+				"image"	"beta_stress"
+			}
 		}
 	}
 	

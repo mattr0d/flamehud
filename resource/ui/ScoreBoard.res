@@ -17,12 +17,10 @@
 		"avatar_width"		"57"	[$WIN32]
 		"spacer"			"5"
 		"name_width"		"65"	[$WIN32]
-		"name_width_short"	"65"
 		"nemesis_width"		"15"	[$WIN32]
 		"class_width"		"15"	[$WIN32]
 		"score_width"		"20"
 		"ping_width"		"20"	[$WIN32]
-		"stats_width"		"30"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}
