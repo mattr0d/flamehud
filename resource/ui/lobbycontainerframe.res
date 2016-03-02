@@ -132,6 +132,7 @@
 			"paintbackground"	"0"
 			"activeborder_override"	"FlameWhiteTabs"
 			"normalborder_override" "FlameWhiteTabs"
+			"mouseinputenabled"	"0"
 		}
 	}
 
