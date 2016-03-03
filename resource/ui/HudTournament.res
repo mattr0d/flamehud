@@ -1017,7 +1017,8 @@
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
-
+		"proportionaltoparent"	"1"
+		
 		if_mvm
 		{
 			"xpos"			"c-20"
@@ -1057,7 +1058,8 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-
+		"proportionaltoparent"	"1"
+		
 		if_mvm
 		{
 			"xpos"			"c-20"

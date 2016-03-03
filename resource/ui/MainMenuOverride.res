@@ -188,12 +188,12 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../console/background_gravelpit"
+		"image"			"../console/title_war"
 		"scaleImage"	"1"
 		
 		if_operation
 		{
-			"image"		"../console/title_team_tough_break"
+			"image"		"../console/title_war"
 		}
 	}
 
@@ -211,10 +211,14 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		
-		
 		if_operation
 		{
-			"image"		"../logo/tough_break_logo"
+			"xpos"			"c-250"
+			"wide"			"100"
+			"tall"			"100"
+			"scaleImage"	"1"
+			"zpos"			"0"
+			"image"		"competitive/competitive_logo_laurel"
 		}
 	}
 	
@@ -227,6 +231,7 @@
 		"textAlignment"	"center"
 		"xpos"			"c-300"
 		"ypos"			"60"
+		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -236,15 +241,35 @@
 		"fgcolor_override"	"255 255 255 255"
 	}
 	
+	"FlameLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"FlameLabel"
+		"font"			"ChalkboardTitleMedium"
+		"labelText"		"flamehud"
+		"textAlignment"	"center"
+		"xpos"			"c-299"
+		"ypos"			"61"
+		"zpos"			"2"
+		"wide"			"200"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"FlameBlack"
+	}
+	
 	"FlameLabelInfo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FlameLabelInfo"
 		"font"			"ChalkboardText"
-		"labelText"		"Tough Break Update"
+		"labelText"		"MM Beta Update"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
 		"ypos"			"80"
+		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -252,6 +277,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"255 255 255 255"
+	}
+	
+	"FlameLabelInfoShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"FlameLabelInfo"
+		"font"			"ChalkboardText"
+		"labelText"		"MM Beta Update"
+		"textAlignment"	"center"
+		"xpos"			"c-299"
+		"ypos"			"81"
+		"zpos"			"2"
+		"wide"			"200"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"Black"
 	}
 	
 	"TFCharacterImage"
@@ -262,15 +306,15 @@
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
-		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"0" //600
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	
 	"MenuLineFlameLeft"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuLineFlameLeft"
 		"xpos"			"c-300"
 		"ypos"			"0"
@@ -280,14 +324,21 @@
 		"visible"		"1"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"image"			"../hud/color_panel_red"
+		"scaleImage"	"1"
 		"enabled"		"1"
-		"fillcolor"		"FlameMenuBorder"
+		
+		"src_corner_height"		"40"			// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+		
 		"PaintBackgroundType"	"0"
 	}
 	
 	"MenuLineFlameRight"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuLineFlameRight"
 		"xpos"			"c-100"
 		"ypos"			"0"
@@ -298,7 +349,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"FlameMenuBorder"
+		"image"			"../hud/color_panel_blu"
+		"scaleImage"	"1"
+		"enabled"		"1"
+		
+		"src_corner_height"		"40"			// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+		
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -2051,9 +2110,11 @@
 			"zpos"			"5"
 			"wide"			"20"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 			"image"			"beta"
 			"scaleImage"	"1"
+			"pin_to_sibling"		"PlayCompetitiveButton"
+			
 			if_competitive
 			{
 				"visible"		"1"
@@ -2061,11 +2122,8 @@
 			}
 			if_competitive_stress_event
 			{
-			// Move up/left 10px, bump up to 20x20
-				"ypos"	"165"
-				"xpos"	"c-285+205"
-				"wide"	"56"
-				"tall"	"56"
+				"visible" 		"1"
+				"enabled"		"1"
 				"image"	"beta_stress"
 			}
 		}
