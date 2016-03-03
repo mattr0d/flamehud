@@ -66,15 +66,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HealthValueFlame"
 		"xpos"			"10"
-		"ypos"			"r123"	[$WIN32]
+		"ypos"			"r118"	[$WIN32]
 		"zpos"			"8"
 		"wide"			"119"
 		"tall"			"57"
-		"visible"	"1"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudFontHuge"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
 	}
 	
@@ -82,16 +82,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HealthValueShadowFlame"
-		"xpos"			"0"
-		"ypos"			"r121"	[$WIN32]
+		"xpos"			"12"
+		"ypos"			"r116"	[$WIN32]
 		"zpos"			"8"
-		"wide"			"131"
+		"wide"			"119"
 		"tall"			"57"
-		"visible"	"1"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudFontHuge"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"FlameBlack"
 	}
 	
