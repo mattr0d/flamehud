@@ -939,13 +939,13 @@
 			"textAlignment"	"west"
 			"xpos"			"10"
 			"ypos"			"25"
-			"wide"			"190"
+			"wide"			"250"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 			"wrap"			"1"
 		}
 		
@@ -964,7 +964,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -974,7 +974,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"99"
-			"wide"			"190"
+			"wide"			"250"
 			"tall"			"150"
 			"visible"		"1"
 			"enabled"		"1"
@@ -990,7 +990,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"100"
-			"wide"			"190"
+			"wide"			"250"
 			"tall"			"150"
 			"visible"		"1"
 			"proportionaltoparent" "1"
@@ -1002,7 +1002,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"100"
-				"wide"			"190"
+				"wide"			"250"
 				"tall"			"250"
 				"visible"		"1"
 				"enabled"		"1"
@@ -1020,7 +1020,7 @@
 			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor"		"LabelDark"
 			
 			"MOTD_TextPanel"
 			{
@@ -1028,7 +1028,7 @@
 				"fieldName"		"MOTD_TextPanel"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"190"
+				"wide"			"250"
 				"tall"			"300"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
@@ -1042,13 +1042,13 @@
 					"textAlignment"	"north-west"
 					"xpos"			"0"
 					"ypos"			"0"
-					"wide"			"190"
+					"wide"			"250"
 					"tall"			"300"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"46 43 42 255"
+					"fgcolor"		"LabelDark"
 					"wrap"			"1"
 				}
 			}
@@ -3977,21 +3977,37 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
+						"item"		 	"Unused Operation Tough Break Pass"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Tough Break Case 01 Pyroland"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Zoomin' Broom"
-						"show_market"	"0"
+						"item"		"Tough Break Case 02 Warbirds"
+						"show_market"	"1"
 					}
 					"3"
 					{
-						"item"		"Taunt: Maggot's Condolence"
+						"item"		"Tough Break Key"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Tough Break Cosmetic Case"
+						"show_market"	"1"
+					}
+					"5"
+					{
+						"item"		"Tough Break Cosmetic Key"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: Aerobic Taunt"
 						"show_market"	"0"
 					}
 				}
