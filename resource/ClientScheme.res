@@ -65,8 +65,8 @@ Scheme
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"			"52 48 55 255"
 		
-		"HUDBlueTeam"			"104 124 155 127"
-		"HUDRedTeam"			"180 92 77 127"
+		"HUDBlueTeam"			"72 107 129 127"
+		"HUDRedTeam"			"173 56 56 127"
 		"HUDSpectator"			"124 124 124 127"
 		"HUDBlueTeamSolid"		"72 107 129 255"
 		"HUDRedTeamSolid"		"173 56 56 255"
