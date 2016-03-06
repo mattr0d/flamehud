@@ -68,8 +68,8 @@ Scheme
 		"HUDBlueTeam"			"104 124 155 127"
 		"HUDRedTeam"			"180 92 77 127"
 		"HUDSpectator"			"124 124 124 127"
-		"HUDBlueTeamSolid"		"104 124 155 255"
-		"HUDRedTeamSolid"		"180 92 77 255"
+		"HUDBlueTeamSolid"		"72 107 129 255"
+		"HUDRedTeamSolid"		"173 56 56 255"
 		"HUDDeathWarning"		"255 0 0 255"
 		"HudWhite"				"255 255 255 255"
 		"HudOffWhite"			"200 187 161 255"
@@ -3572,25 +3572,213 @@ Scheme
 		}
 		TFFatLineBorderRedBG
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			Left
+			{
+				"1"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"4"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"5"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"6"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}	
+				"7"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"8"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"9"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}	
+				"10"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"11"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}
+				"12"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 1"
+				}					
+			}
+
+			Right
+			{
 			
-			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			}
+
+			Top
+			{
+			
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "HudRedTeamSolid"
+					"offset" "0 0"
+				}
+			}
 		}
 		TFFatLineBorderBlueBG
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			Left
+			{
+				"1"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"4"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"5"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"6"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}	
+				"7"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"8"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"9"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"10"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"11"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}
+				"12"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 1"
+				}				
+			}
+
+			Right
+			{
+		
+			}
+
+			Top
+			{
+
+			}
 			
-			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			Bottom
+			{
+				"1"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "HudBlueTeamSolid"
+					"offset" "0 0"
+				}
+			}
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
