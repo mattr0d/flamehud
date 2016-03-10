@@ -26,16 +26,17 @@ Scheme
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
 
-		"QuestGold"			"208 147 75 255"
+		"QuestGold"						"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
 		"HalloweenThemeColor2015"		"135 54 16 255"
 		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestStandardHighlight"	"0 255 0 255"
-		"QuestBonusHighlight"		"150 160 255 255"
+		"QuestStandardHighlight"		"0 255 0 255"
+		"QuestBonusHighlight"			"150 160 255 255"
 		
 		"FlameBlack"		"0 0 0 255"
 		"FlameWhite"		"255 255 255 255"
 		"FlameGrey"			"165 165 165 255"
+		"FlameDarkGrey"		"30 30 30 255"
 		"FlameYellow"		"255 200 50 255"
 		"FlameRed"			"255 50 50 255"
 		"FlameBlue"			"50 200 255 255"
@@ -852,6 +853,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"HudFontGigantic"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"400"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"HudFontBiggerBold"
 		{
 			"1"
@@ -3572,213 +3586,25 @@ Scheme
 		}
 		TFFatLineBorderRedBG
 		{
-			Left
-			{
-				"1"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"2"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"3"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"4"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"5"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"6"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}	
-				"7"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"8"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"9"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}	
-				"10"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"11"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}
-				"12"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 1"
-				}					
-			}
-
-			Right
-			{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
 			
-			}
-
-			Top
-			{
-			
-			}
-			
-			Bottom
-			{
-				"1"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 0"
-				}
-				"4"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 0"
-				}
-				"5"
-				{
-					"color" "HudRedTeamSolid"
-					"offset" "0 0"
-				}
-			}
+			"image"					"../hud/color_panel_red"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBG
 		{
-			Left
-			{
-				"1"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"2"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"3"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"4"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"5"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"6"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}	
-				"7"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"8"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"9"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"10"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"11"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}
-				"12"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 1"
-				}				
-			}
-
-			Right
-			{
-		
-			}
-
-			Top
-			{
-
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
 			
-			Bottom
-			{
-				"1"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 0"
-				}
-				"4"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 0"
-				}
-				"5"
-				{
-					"color" "HudBlueTeamSolid"
-					"offset" "0 0"
-				}
-			}
+			"image"					"../hud/color_panel_blu"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
@@ -7775,7 +7601,8 @@ Scheme
 					"offset" "2 1"
 				}
 			}
-		}ckpackItemGreyedOutSelectedBorder_RarityMythical
+		}
+		BackpackItemGreyedOutSelectedBorder_RarityMythical
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"

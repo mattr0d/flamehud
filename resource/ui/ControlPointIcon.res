@@ -94,7 +94,7 @@
 		"wrap"			"0"
 		"font"			"ControlPointTimer"
 	}
-				
+	
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"

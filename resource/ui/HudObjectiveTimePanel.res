@@ -183,6 +183,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
+		"fgcolor"		"FlameWhite"
 		"font"			"HudFontSmall"
 	}	
 	"ServerTimeLimitLabelBG"

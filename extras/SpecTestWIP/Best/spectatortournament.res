@@ -6,142 +6,157 @@
 		"fieldName"		"specgui"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
+		"autoResize"	"1"
 		"pinCorner"		"0"
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"210"
-		"team1_player_base_y_minmode"		"2000"
+		"team1_player_base_y"				"230"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-25"
+		"team1_player_delta_y"				"21"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"250"
-		"team2_player_base_y_minmode"		"2000"
+		"team2_player_base_y"				"190"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"25"
+		"team2_player_delta_y"				"-21"
 		
+		"team1_player_base_offset_x_minmode"		"-542"
+		"team1_player_base_y_minmode"				"230"
+		"team1_player_delta_x_minmode"				"0"
+		"team1_player_delta_y_minmode"				"21"
+		
+		"team2_player_base_offset_x_minmode"		"293"
+		"team2_player_base_y_minmode"				"230"
+		"team2_player_delta_x_minmode"				"0"
+		"team2_player_delta_y_minmode"				"21"
+
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"140"
-			"tall"			"24"
+			"tall"			"22"
 			"zpos"			"1"
 			"paintborder"	"1"
-			
 			"color_ready"	"0 255 0 225"
 			"color_notready"	"0 0 0 225"
-						
+			
+			"wide"			"135"
+			"wide_minmode"	"250"
+			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"TFFontSmall"
-				"xpos"			"65"
+				"font"			"Default"
+				
+				"xpos"			"47"
+				"xpos_minmode"	"3"
+				
 				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"75"
-				"tall"			"24"
+				"zpos"			"10"
+				"wide"			"85"
+				"tall"			"22"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
+				
 				"textAlignment"	"west"
-				"fgcolor"		"235 226 202 255"
+				"textAlignment_minmode" "east"
+				
+				"fgcolor"		"FlameWhite"
+			}
+			
+			"playername2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"playername2"
+				"font"			"Default"
+				"xpos"			"162"
+				"ypos"			"0"
+				"zpos"			"10"
+				"wide"			"85"
+				"tall"			"22"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"labelText"		"%playername%"
+				"textAlignment"	"west"
+				"fgcolor"		"FlameWhite"
+				
+				"visible"		"0"
+				"visible_minmode" "1"
 			}
 			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"1"
+				
+				"xpos"			"0"
 				"ypos"			"1"
-				"zpos"			"-5"
-				"wide"			"22"
-				"tall"			"22"
+				
+				"xpos_minmode"			"115"
+				"ypos_minmode"			"1"
+				
+				"zpos"			"18"
+				"wide"			"20"
+				"tall"			"21"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 			}
 			
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
+				
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"-6a"
-				"wide"			"23"
-				"tall"			"24"
+				
+				"xpos_minmode"			"115"
+				"ypos_minmode"			"0"
+				
+				"zpos"			"14"
+				"wide"			"20"
+				
+				"tall"			"22"
+				"tall_minmode"	"22"
+				
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"0 0 0 225"
+				"bgcolor_override"		"0 0 0 250"
 				"PaintBackgroundType"	"0"
 			}
 			
-			"TopBar"
+			"BlackLeft"
 			{
 				"ControlName"		"ImagePanel"
-				"fieldName"		"TopBar"
-				"xpos"			"0"
-				"ypos"			"-1"
-				"zpos"			"-2"
-				"wide"			"f0"
-				"tall"	 		"2"
-				"autoResize"	"1"
-				"scaleImage" 	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"White"
-				"PaintBackgroundType"	"0"
-			}
-			
-			"BottomBar"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"BottomBar"
-				"xpos"			"0"
-				"ypos"			"23"
-				"zpos"			"-2"
-				"wide"			"f0"
-				"tall"	 		"2"
-				"autoResize"	"1"
-				"scaleImage" 	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"White"
-				"PaintBackgroundType"	"0"
-			}
-			
-			"LeftBar"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"LeftBar"
+				"fieldName"		"BlackLeft"
 				"xpos"			"-1"
 				"ypos"			"0"
-				"zpos"			"-2"
+				"zpos"			"20"
 				"wide"			"2"
 				"tall"	 		"f0"
 				"autoResize"	"1"
 				"scaleImage" 	"1"
 				"pinCorner"		"0"
-				"visible"		"1"
+				
+				"visible"		"0"
+				"visible_minmode" "1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
-			"RightBar"
+			"BlackRight"
 			{
 				"ControlName"		"ImagePanel"
-				"fieldName"		"RightBar"
-				"xpos"			"139"
+				"fieldName"		"BlackRight"
+				"xpos"			"134"
+				"xpos_minmode"	"249"
 				"ypos"			"0"
-				"zpos"			"-2"
+				"zpos"			"20"
 				"wide"			"2"
 				"tall"	 		"f0"
 				"autoResize"	"1"
@@ -149,7 +164,43 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"White"
+				"fillcolor"		"FlameBlack"
+				"PaintBackgroundType"	"0"
+			}
+			
+			"BlackTop"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"BlackTop"
+				"xpos"			"0"
+				"ypos"			"-1"
+				"zpos"			"20"
+				"wide"			"f0"
+				"tall"	 		"2"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"FlameBlack"
+				"PaintBackgroundType"	"0"
+			}
+			
+			"BlackBottom"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"BlackBottom"
+				"xpos"			"0"
+				"ypos"			"21"
+				"zpos"			"20"
+				"wide"			"f0"
+				"tall"	 		"2"
+				"autoResize"	"1"
+				"scaleImage" 	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"FlameBlack"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -157,11 +208,17 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"22"
+				
+				"xpos"				"20"
+				"xpos_minmode"		"0"
+				
 				"ypos"				"0"
 				"zpos"				"3"
-				"wide"				"45"
-				"tall"				"24"
+				
+				"wide"				"25"
+				"wide_minmode"		"250"
+				
+				"tall"				"22"
 				"visible"			"1"
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
@@ -202,7 +259,7 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"32"
+				"xpos"			"36"
 				"ypos"			"8"
 				"zpos"			"0"
 				"wide"			"12"
@@ -219,18 +276,126 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"40"
+				"font"			"TFFontMediumBold"
+				
+				"xpos"			"20"
+				"xpos_minmode"	"90"
+				
 				"ypos"			"0"
-				"zpos"			"6"
-				"wide"			"24"
-				"tall"			"24"
+				"zpos"			"10"
+				"wide"			"25"
+				"tall"			"22"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"fgcolor"		"white"
+				"fgcolor"		"FlameWhite"
+			}
+			
+			"respawntime2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntime2"
+				"font"			"TFFontMediumBold"
+				"xpos"			"135"
+				"ypos"			"0"
+				"zpos"			"10"
+				"wide"			"25"
+				"tall"			"22"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				
+				"visible"		"0"
+				"visible_minmode" "1"
+				
+				"labelText"		"%respawntime%"
+				"textAlignment"	"center"
+				"fgcolor"		"FlameWhite"
+			}
+			
+			"respawnOverlay1"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawnOverlay1"
+				"font"			"HUDFontGigantic"		
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"9"
+				"tall"			"24"
+				"wide"			"300"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				"bgcolor_override"	"FlameDarkGrey"
+				"auto_wide_tocontents"	"1"
+				"fgcolor"		"Blank"
+			}			
+			
+			"respawnOverlay2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawnOverlay2"
+				"font"			"HUDFontGigantic"		
+				"xpos"			"65"
+				"ypos"			"0"
+				"zpos"			"9"
+				"tall"			"24"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				
+				"visible"		"1"
+				
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				"bgcolor_override"	"FlameDarkGrey"
+				"auto_wide_tocontents"	"1"
+				"fgcolor"		"Blank"
+			}
+			
+			"respawnOverlay3"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawnOverlay3"
+				"font"			"HUDFontGigantic"		
+				"xpos"			"130"
+				"ypos"			"0"
+				"zpos"			"9"
+				"tall"			"24"
+				"wide"			"300"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				"bgcolor_override"	"FlameDarkGrey"
+				"auto_wide_tocontents"	"1"
+				"fgcolor"		"Blank"
+			}
+			
+			"respawnOverlay4"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawnOverlay4"
+				"font"			"HUDFontGigantic"		
+				"xpos"			"185"
+				"ypos"			"0"
+				"zpos"			"9"
+				"tall"			"24"
+				"wide"			"300"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				
+				"visible"		"0"
+				"visible_minmode"	"1"
+
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				"bgcolor_override"	"FlameDarkGrey"
+				"auto_wide_tocontents"	"1"
+				"fgcolor"		"Blank"
 			}
 			
 			"chargeamount"
@@ -238,35 +403,84 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"HudFontSmallestBold"
-				"xpos"			"107"
+				"xpos"			"3"				
 				"ypos"			"0"
-				"zpos"			"7"
-				"wide"			"30"
-				"tall"			"24"
+				"zpos"			"12"
+				"wide"			"25"
+				"tall"			"22"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
+				"visible_minmode"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"east"
-				"fgcolor"		"50 255 50 255"
+				"textAlignment"	"west"
+				"fgcolor"		"FlameGreen"
 			}
 			
-			"chargeamountshadow"
+			"chargeamountbg"
 			{
 				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamountshadow"
+				"fieldName"		"chargeamountbg"
+				"font"			"HUDFontSmallBold"
+				"xpos"			"1"
+				"ypos"			"0"
+				"zpos"			"11"
+				"wide"			"24"
+				"tall"			"22"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				
+				"visible"		"0"
+				"visible_minmode"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"center"
+				"bgcolor_override"	"FlameTransBlack"
+				"auto_wide_tocontents"	"1"
+				"fgcolor"		"Blank"
+			}			
+			
+			"chargeamount2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamount2"
 				"font"			"HudFontSmallestBold"
-				"xpos"			"108"
-				"ypos"			"1"
-				"zpos"			"6"
-				"wide"			"30"
+				
+				"xpos"			"110"
+				"xpos_minmode"			"224"
+				
+				"ypos"			"0"
+				"zpos"			"12"
+				"wide"			"25"
+				"tall"			"22"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"center"
+				"fgcolor"		"FlameGreen"
+			}
+			
+			"chargeamount2bg"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamount2BG"
+				"font"			"HUDFontHuge"
+				
+				"xpos"			"109"
+				"xpos_minmode"	"223"
+				
+				"ypos"			"0"
+				"zpos"			"11"
+				"wide"			"25"
 				"tall"			"24"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"Black"
+				"bgcolor_override"	"FlameTransBlack"
+				"auto_wide_tocontents"	"1"
+				"fgcolor"		"Blank"
 			}
 			
 			"specindex"
@@ -274,14 +488,41 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
-				"xpos"			"2"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"12"
-				"tall"			"12"
+				
+				"xpos"			"47"
+				"xpos_minmode"	"3"
+				
+				"ypos"			"1"
+				"zpos"			"13"
+				"wide"			"85"
+				"tall"			"22"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
+				"labelText"		"%specindex%"
+				
+				"textAlignment"	"north-west"
+				"textAlignment_minmode" "north-east"
+				
+				"fgcolor"		"White"
+			}
+			
+			"specindex2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"specindex2"
+				"font"			"DefaultVerySmall"
+				"xpos"			"162"
+				"ypos"			"1"
+				"zpos"			"13"
+				"wide"			"22"
+				"tall"			"22"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				
+				"visible"		"0"
+				"visible_minmode" "1"
+			
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				"fgcolor"		"White"
@@ -463,7 +704,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 175"
+			"fillcolor"		"FlameTransBlack"
 			"PaintBackgroundType"	"0"
 		}
 		

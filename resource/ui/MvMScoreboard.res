@@ -85,6 +85,30 @@
 		"PaintBackgroundType"	"0"	
 	}
 	
+	"PlayerListBackgroundColor"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"PlayerListBackgroundColor"
+		"xpos"			"c-275"
+		"ypos"			"75"
+		"zpos"			"-2"
+		"wide"			"550"
+		"tall"			"150"
+		"scaleImage" 	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"40"			// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+	}
+	
+	
+	
 	"FlameLeftBar"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -200,6 +224,29 @@
 			"enabled"		"1"
 			"fillcolor"		"FlameTransBlack"
 			"PaintBackgroundType"	"0"
+		}
+		
+		"FlameStatsBGColor"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"FlameStatsBGColor"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-3"
+			"wide"			"400"
+			"tall"	 		"f0"
+			"autoResize"		"1"
+			"scaleImage" 	"1"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_brown"
+			"scaleImage"		"1"
+			
+			"src_corner_height"		"40"			// pixels inside the image
+			"src_corner_width"		"40"			
+			"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 		"0"	
 		}
 		
 		"FlameStatsLeftBar"

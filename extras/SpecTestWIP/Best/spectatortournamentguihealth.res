@@ -61,7 +61,10 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"90"
+		
+		"xpos"			"0"
+		"xpos_minmode"	"90"
+		
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"25"
@@ -78,7 +81,11 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"91"
+		
+		"xpos"			"1"
+		"xpos_minmode"	"91"
+		
+		
 		"ypos"			"1"
 		"zpos"			"9"
 		"wide"			"25"
@@ -89,23 +96,6 @@
 		"textAlignment"		"center"
 		"font"			"HudFontSmallBold"
 		"fgcolor_override"		"FlameBlack"
-	}
-	
-	"HealthValueBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthValueBG"
-		"xpos"			"90"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"25"
-		"tall"	 		"22"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"			"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 185"
-		"PaintBackgroundType"	"0"
 	}
 	
 	"PlayerStatusHealthValue2Spec"
@@ -142,23 +132,6 @@
 		"fgcolor_override"		"FlameBlack"
 	}
 	
-	"HealthValueBG2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthValueBG2"
-		"xpos"			"135"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"25"
-		"tall"	 		"22"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"			"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 185"
-		"PaintBackgroundType"	"0"
-	}
-	
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"
@@ -179,17 +152,23 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BackGroundFill"
+		
+		
 		"xpos"			"0"
 		"ypos"			"0"		
 		"zpos"			"-5"
-		"wide"			"250"
+		"wide"			"121"
+		"wide_minmode"	"250"
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"scaleImage" 	"1"
 		"pinCorner"		"0"
+		
 		"visible"		"0"
+		"visible_minmode" "0"
+		
 		"enabled"		"1"
-		"fillcolor"		"FlameBlack"
+		"fillcolor"		"FlameeBlack"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -204,7 +183,10 @@
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
+		
+		"visible"		"0"
+		"visible_minmode" "1"
+		
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
@@ -227,7 +209,10 @@
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
+		
+		"visible"		"0"
+		"visible_minmode" "1"
+		
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
@@ -250,7 +235,10 @@
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
+		
 		"visible"		"0"
+		"visible_minmode" "1"
+		
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
@@ -273,7 +261,10 @@
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
+		
 		"visible"		"0"
+		"visible_minmode" "1"
+		
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
@@ -296,7 +287,10 @@
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
+		
 		"visible"		"0"
+		"visible_minmode" "1"
+		
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
@@ -319,7 +313,10 @@
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
+		
 		"visible"		"0"
+		"visible_minmode" "1"
+		
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
@@ -330,7 +327,8 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
-		
+	
+	
 	"TopLayerBlueBack"
 	{
 		"ControlName"		"ImagePanel"
@@ -342,24 +340,10 @@
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
+		
 		"visible"			"0"
-		"enabled"		"1"
-		"fillcolor"		"FlameBlack"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"TopLayerRedBack"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TopLayerRedBack"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"90"
-		"tall"	 		"22"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"			"1"
+		"visible_minmode" 	"1"
+		
 		"enabled"		"1"
 		"fillcolor"		"FlameBlack"
 		"PaintBackgroundType"	"0"
@@ -376,9 +360,32 @@
 		"tall"	 		"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"			"1"
+		
+		"visible"			"0"
+		"visible_minmode" 	"1"
+		
 		"enabled"		"1"
-		"fillcolor"		"FlameDarkGrey"
+		"fillcolor"		"FlameBlack"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"TopLayerRedBack"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TopLayerRedBack"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"90"
+		"tall"	 		"22"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		
+		"visible"			"0"
+		"visible_minmode" 	"1"
+		
+		"enabled"		"1"
+		"fillcolor"		"FlameBlack"
 		"PaintBackgroundType"	"0"
 	}
 }

@@ -54,23 +54,44 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"ScoreboardTeamName"
+			"font"			"HudFontMediumBold"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"5"
 			"ypos"			"45"
+			"zpos"			"4"
 			"wide"			"100"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
+		
+		"BlueTeamLabelShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BlueTeamLabelShadow"
+			"font"			"HudFontMediumBold"
+			"labelText"		"%blueteamname%"
+			"textAlignment"		"west"
+			"xpos"			"6"
+			"ypos"			"46"
+			"fgcolor"		"FlameBlack"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"HudFontHuge"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"50"
@@ -87,7 +108,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"ScoreboardTeamScore"
+			"font"			"HudFontHuge"
 			"fgcolor"		"FlameBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
@@ -105,9 +126,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"ScoreboardTeamName"
+			"font"			"HudFontMediumBold"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
+			"zpos"			"4"
 			"xpos"			"175"
 			"ypos"			"45"
 			"wide"			"100"
@@ -116,12 +138,32 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
+		
+		"RedTeamLabelShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"RedTeamLabelShadow"
+			"font"			"HudFontMediumBold"
+			"labelText"		"%redteamname%"
+			"textAlignment"		"east"
+			"fgcolor"		"FlameBlack"
+			"xpos"			"176"
+			"ypos"			"46"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"HudFontHuge"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"150"
@@ -138,7 +180,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"ScoreboardTeamScore"
+			"font"			"HudFontHuge"
 			"fgcolor"		"FlameBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"

@@ -69,8 +69,26 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"west"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"FlameBlack"
+		"fgcolor"		"FlameWhite"
 	}
+	
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"25"
+		"ypos"			"8"
+		"zpos"			"5"
+		"wide"			"30"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"%Health%"
+		"textAlignment"		"west"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"		"FlameBlack"
+	}
+	
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"

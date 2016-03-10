@@ -69,7 +69,7 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"west"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlameBlack"
 	}
 	"PlayerStatusPlayerLevel"
 	{

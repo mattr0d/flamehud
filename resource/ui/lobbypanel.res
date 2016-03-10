@@ -1698,7 +1698,7 @@
 			"bgcolor_override"	"0 0 0 0"
 			"disabledFgColor_override" "White"
 			"disabledBgColor_override" "0 0 0 0"
-			"selectionColor_override" "White"
+			"selectionColor_override" "0 0 0 0"
 			"selectionTextColor_override" "White"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
