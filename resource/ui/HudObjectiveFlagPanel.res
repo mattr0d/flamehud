@@ -268,10 +268,10 @@
 		"scaleImage"	"1"
 	}		
 	
-	"PlayingTo"
+	"PlayingToFlame"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingTo"
+		"fieldName"		"PlayingToFlame"
 		"xpos"			"c-70"	[$WIN32]
 		"ypos"			"r27"	[$WIN32]
 		"zpos"			"4"
