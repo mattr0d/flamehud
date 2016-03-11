@@ -580,8 +580,8 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"FlameGreyBorder"
-		"bgcolor_override"	"FlameTransBlack"
+		"border"			"FlameMenuBorder"
+		"bgcolor_override"	"Black"
 		"PaintBackground"	"1"
 
 		"header_font"		"ItemFontNameLarge"

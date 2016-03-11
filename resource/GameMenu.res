@@ -33,7 +33,8 @@
 		"label" "#MMenu_PlayComp" 
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
+		"OnlyWhenCompetitiveEnabled" "1"
 	}
 	"ServerBrowserButton"
 	{
@@ -84,7 +85,6 @@
 		"OnlyAtMenu" "1"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
-
 	"GeneralStoreButton"
 	{
 		"label" "Mann Co Store"
@@ -123,5 +123,13 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

@@ -57,12 +57,12 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueTeamImage"
-		"xpos"			"c-150"
+		"xpos"			"c-152"
 		"ypos"			"c-225"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/team_blue"
 		"scaleImage"		"1"
@@ -72,6 +72,64 @@
 			"visible"		"0"
 		}
 	}
+	
+	"BlueLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"BlueLeaderAvatar"
+		"xpos"			"16"
+		"ypos"			"16"
+		"zpos"			"5"
+		"wide"			"45"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
+	"BlueLeaderAvatarBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BlueLeaderAvatarBG"
+		"xpos"			"14"
+		"ypos"			"14"
+		"zpos"			"4"
+		"wide"			"49"
+		"tall"			"49"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"117 107 94 255"
+	}
+	"RedLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"RedLeaderAvatar"
+		"xpos"			"580"
+		"ypos"			"16"
+		"zpos"			"5"
+		"wide"			"45"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
+	"RedLeaderAvatarBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RedLeaderAvatarBG"
+		"xpos"			"578"
+		"ypos"			"14"
+		"zpos"			"4"
+		"wide"			"49"
+		"tall"			"49"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"117 107 94 255"
+	}
+	
 	"RedScoreBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -102,13 +160,12 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamImage"
-		"fieldName"		"BlueTeamImage"
-		"xpos"			"c50"
+		"xpos"			"c85"
 		"ypos"			"c-235"
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"75"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/team_red"
 		"scaleImage"		"1"
@@ -139,10 +196,10 @@
 			"visible"		"0"
 		}
 	}							
-	"BlueTeamLabel"
+	"BlueTeamLabelFlame"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamLabelFlame"
 		"font"			"HudFontSmallBold"
 		"labelText"		"%blueteamname%"
 		"zpos"			"6"
@@ -280,10 +337,10 @@
 		}
 	}
 	
-	"RedTeamLabel"
+	"RedTeamLabelFlame"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamLabelFlame"
 		"font"			"HudFontSmallBold"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
@@ -555,6 +612,7 @@
 		"autoresize"	"3"
 		"linespacing"	"15"
 		"fgcolor"		"blue"
+		//"show_columns"	"1"
 		
 		if_mvm
 		{
