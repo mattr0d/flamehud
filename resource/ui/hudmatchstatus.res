@@ -59,7 +59,6 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		
 	}	
 
 	"ObjectiveStatusTimePanel"
@@ -68,12 +67,12 @@
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
 		"ypos"				"0"	[$WIN32]
-		"zpos"				"1"
+		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"43"	[$WIN32]
+		"delta_item_x"			"45"	[$WIN32]
 		"delta_item_start_y"	"30"
 		"delta_item_end_y"		"40"
 		"PositiveColor"			"0 255 0 255"
@@ -84,13 +83,13 @@
 		if_comp
 		{
 			"ypos_minmode"			"0"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
+			"delta_item_x"			"45"
+			"delta_item_start_y"	"30"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_lifetime"		"2"
+			"delta_item_font"		"HudFontSmall"
 		}
 		
 		"TimePanelValue"
@@ -114,8 +113,8 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"9"
-				"ypos_minmode"	"9"
+				"ypos"			"10"
+				"ypos_minmode"	"10"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 			}

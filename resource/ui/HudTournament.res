@@ -1112,7 +1112,7 @@
 		if_competitive
 		{
 			"xpos"			"c-20"
-			"ypos"			"6"
+			"ypos"			"7"
 			"visible"		"1"
 		}
 
