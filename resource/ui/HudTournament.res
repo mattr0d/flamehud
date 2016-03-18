@@ -830,6 +830,7 @@
 		"wrap"			"0"
 		"labelText"		"%winconditions%"
 		"textAlignment"		"center"
+		"fgcolor"	"FlameWhite"
 		
 		if_mvm
 		{
@@ -838,8 +839,9 @@
 
 		if_competitive
 		{
-			"ypos"			"25"
+			"ypos"			"28"
 			"visible"		"1"
+			"fgcolor"		"FlameWhite"	
 			"font"			"HudFontSmallest"
 		}
 
@@ -905,6 +907,7 @@
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
+		"fgcolor_override"	"FlameWhite"
 		
 		if_mvm
 		{
@@ -1109,7 +1112,7 @@
 		if_competitive
 		{
 			"xpos"			"c-20"
-			"ypos"			"0"
+			"ypos"			"6"
 			"visible"		"1"
 		}
 
