@@ -65,8 +65,8 @@
 		"xpos"			"c-253"
 		"ypos"			"22"
 		"zpos"			"5"
-		"wide"			"48"
-		"tall"			"48"
+		"wide"			"46"
+		"tall"			"46"
 		
 		"xpos_minmode"			"c-318"
 		"ypos_minmode"			"c-108"
@@ -75,7 +75,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		"color_outline"	"FlameWhite"
+		"color_outline"	"52 48 45 255"
 	}
 	"BlueLeaderAvatarBG"
 	{
@@ -91,8 +91,8 @@
 		"ypos_minmode"			"c-110"
 		
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"FlameTransBlack"
+		"PaintBackgroundType"	"2"
 	}
 	"RedLeaderAvatar"
 	{
@@ -101,8 +101,8 @@
 		"xpos"			"c207"
 		"ypos"			"22"
 		"zpos"			"5"
-		"wide"			"48"
-		"tall"			"48"
+		"wide"			"46"
+		"tall"			"46"
 		
 		"xpos_minmode"			"c-318"
 		"ypos_minmode"			"c-8"
@@ -111,7 +111,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		"color_outline"	"FlameWhite"
+		"color_outline"	"52 48 45 255"
 	}
 	"RedLeaderAvatarBG"
 	{
