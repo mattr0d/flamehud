@@ -20,7 +20,8 @@
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"42"
+		"teams_player_delta_x_comp"			"39"
+		
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -29,7 +30,6 @@
 		if_mvm
 		{
 			"ypos_minmode"			"-19"
-
 			"team1_player_base_y"			"68"
 			"team2_player_base_y"			"68"
 			"team2_player_delta_x"			"52"
@@ -37,10 +37,10 @@
 		
 		if_competitive
 		{
-			"team1_player_base_y"			"68"
-			"team2_player_base_y"			"68"
-			"team2_player_delta_x"			"42"
-			"team2_player_base_offset_x"	"0"
+
+			"team1_player_base_y"			"4"
+			"team2_player_base_y"			"66"
+			"team2_player_base_offset_x"	"5"
 		}
 		
 		if_readymode
@@ -50,6 +50,7 @@
 			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"0"
 		}
+		
 		"ModeImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -260,6 +261,13 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+				if_competitive
+				{
+					"wide"			"p0.64"
+					"tall"			"p0.96"
+					"visible"		"1"
+					"proportionaltoparent" "1"
+				}
 			}
 			
 			"ReadyBG"
@@ -431,10 +439,8 @@
 				
 				"color_ready"		"0 255 0 220"
 				"color_notready"	"0 0 0 255"
-			}
-			
+			}	
 		}
-			
 	}
 
 	"HudTournamentBG"
@@ -594,6 +600,7 @@
 
 		if_competitive
 		{
+			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
@@ -632,6 +639,7 @@
 
 		if_competitive
 		{
+			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
@@ -666,6 +674,7 @@
 
 		if_competitive
 		{
+			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
@@ -738,6 +747,7 @@
 
 		if_competitive
 		{
+			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
@@ -812,6 +822,7 @@
 			"visible"		"0"
 		}
 	}
+	
 	"TournamentConditionLabel"
 	{	
 		"ControlName"		"CExLabel"
@@ -839,7 +850,7 @@
 
 		if_competitive
 		{
-			"ypos"			"28"
+			"ypos"			"34"
 			"visible"		"1"
 			"fgcolor"		"FlameWhite"	
 			"font"			"HudFontSmallest"
@@ -924,7 +935,7 @@
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"c-125"
-			"ypos"			"45"
+			"ypos"			"48"
 			"tall"			"12"
 			"zpos"			"3"
 			"visible"		"1"
@@ -978,7 +989,7 @@
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"c-124"
-			"ypos"			"46"
+			"ypos"			"49"
 			"tall"			"12"
 			"visible"		"1"
 			"fgcolor"		"FlameBlack"
@@ -1026,7 +1037,7 @@
 		if_competitive
 		{
 			"xpos"			"236"
-			"ypos"			"106"
+			"ypos"			"108"
 			"wide"			"190"
 			"tall"			"22"
 		}
@@ -1073,7 +1084,7 @@
 		if_competitive
 		{
 			"xpos"			"c-20"
-			"ypos"			"150"
+			"ypos"			"162"
 		}
 
 		if_readymode
@@ -1111,9 +1122,9 @@
 		
 		if_competitive
 		{
-			"xpos"			"c-20"
-			"ypos"			"7"
-			"visible"		"1"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"tall"			"40"
 		}
 
 		if_readymode
@@ -1141,11 +1152,12 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"fgcolor"		"FlameBlack"
+		"proportionaltoparent"	"1"
 
 		if_competitive
 		{
-			"xpos"			"c-19"
-			"ypos"			"1"
+			"xpos"			"cs-0.48"
+			"ypos"			"cs-0.08"
 		}
 
 		if_readymode
