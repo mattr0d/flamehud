@@ -18,14 +18,16 @@
 		{
 			"color_portrait_bg_red"	"119 62 61 255"
 			"color_portrait_bg_blue"	"62 81 101 255"
-			"color_portrait_bg_red_dead"	"49 44 42 255"
+			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"84 191 58 255"
 			"color_bar_health_med"	"191 183 58 255"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
 			"percentage_health_low"	"0.3"
-			"color_portrait_blend_dead"	"96 96 96 255"
+			"color_portrait_blend_dead_red"	"255 255 255 255"
+			"color_portrait_blend_dead_blue" "255 255 255 255"
+
 			
 			"wide"			"40"
 			"tall"			"28"
@@ -243,7 +245,23 @@
 				"bgcolor_override"	   "0 0 0 0"
 				"fgcolor_override"	   "255 255 255 160"
 			}
-			
+			"HealthIcon"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"HealthIcon"
+				"xpos"				"22"
+				"ypos"				"-3"
+				"zpos"				"3"
+				"wide"				"32"
+				"tall"				"32"
+				"visible"			"0"
+				"enabled"			"1"	
+				"HealthBonusPosAdj"	"10"
+				"HealthDeathWarning"		"0.49"
+				"TFFont"					"HudFontSmallest"
+				"HealthDeathWarningColor"	"HUDDeathWarning"
+				"TextColor"					"HudOffWhite"
+			}
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -338,6 +356,20 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
+			}
+			"DeathPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DeathPanel"
+				"xpos"			"3"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"19"
+				"tall"			"19"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/comp_player_status"	
+				"scaleImage"	"1"	
 			}
 		}
 	}
