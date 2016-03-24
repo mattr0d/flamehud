@@ -1607,8 +1607,8 @@ event HudTournament_PlaySignAnim
 event TeamStatus_PlayerDead
 {
 	SetVisible DeathPanel  1 0
-	Animate DeathPanel ypos 19 Accel 0 0.2
-	Animate respawntime ypos 16 Accel 0 0.2
+	Animate DeathPanel ypos 1 Accel 0 0.2
+	Animate respawntime ypos 5 Accel 0 0.2
 }
 
 event TeamStatus_PlayerAlive
