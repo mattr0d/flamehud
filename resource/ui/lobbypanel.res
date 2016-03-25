@@ -1940,6 +1940,11 @@
 				"brighttext"	"0"
 				"Command"		"stats_season"
 				"button_activation_type"	"1"	// only on press
+				
+				"defaultFgColor_override" "FlameGrey"
+				"armedFgColor_override" "FlameWhite"
+				"depressedFgColor_override" "FlameWhite"
+				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -1966,6 +1971,11 @@
 				"bgcolor_override"	"89 81 71 255"
 				"Command"		"stats_match"
 				"button_activation_type"	"1"	// only on press
+				
+				"defaultFgColor_override" "FlameGrey"
+				"armedFgColor_override" "FlameWhite"
+				"depressedFgColor_override" "FlameWhite"
+				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -2125,6 +2135,11 @@
 				"brighttext"	"0"
 				"Command"		"friends_leaderboard"
 				"button_activation_type"	"1"	// only on press
+				
+				"defaultFgColor_override" "FlameGrey"
+				"armedFgColor_override" "FlameWhite"
+				"depressedFgColor_override" "FlameWhite"
+				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -2151,6 +2166,11 @@
 				"bgcolor_override"	"89 81 71 255"
 				"Command"		"global_leaderboard"
 				"button_activation_type"	"1"	// only on press
+				
+				"defaultFgColor_override" "FlameGrey"
+				"armedFgColor_override" "FlameWhite"
+				"depressedFgColor_override" "FlameWhite"
+				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
