@@ -83,88 +83,32 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-
-			"FlameLeftBar"
-			{		
-				"ControlName"		"ImagePanel"
-				"fieldName"		"FlameLeftBar"
-				"xpos"			"-1"
-				"ypos"			"0"
-				"zpos"			"7"
-				"wide"			"2"
-				"tall"	 		"f0"
-				"autoResize"	"1"
-				"scaleImage" 	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"FlameBlack"
-				"PaintBackgroundType"	"0"
-			}
 			
-			"FlameRightBar"
+			"FlameBorder"
 			{		
 				"ControlName"		"ImagePanel"
-				"fieldName"		"FlameRightBar"
-				"xpos"			"49"
+				"fieldName"		"FlameBorder"
+				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"7"
-				"wide"			"2"
-				"tall"	 		"f0"
+				"zpos"			"20"
+				"wide"			"50"
+				"tall"	 		"35"
 				"autoResize"	"1"
 				"scaleImage" 	"1"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"FlameBlack"
+				"border"		"FlameBlackBorder"
 				"PaintBackgroundType"	"0"
 				
-				if_competitive
+				"if_competitive"
 				{
-					"xpos"			"39"
+					"wide"		"40"
+					"tall"		"28"
 				}
-			}
-			
-			"FlameBottomBar"
-			{		
-				"ControlName"		"ImagePanel"
-				"fieldName"		"FlameBottomBar"
-				"xpos"			"0"
-				"ypos"			"34"
-				"zpos"			"7"
-				"wide"			"f0"
-				"tall"	 		"2"
-				"autoResize"	"1"
-				"scaleImage" 	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"FlameBlack"
-				"PaintBackgroundType"	"0"
 				
-				if_competitive
-				{
-					"ypos"			"27"
-				}
 			}
 			
-			"FlameTopBar"
-			{		
-				"ControlName"		"ImagePanel"
-				"fieldName"		"FlameToptBar"
-				"xpos"			"0"
-				"ypos"			"-1"
-				"zpos"			"17"
-				"wide"			"f0"
-				"tall"	 		"2"
-				"autoResize"	"1"
-				"scaleImage" 	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"FlameBlack"
-				"PaintBackgroundType"	"0"
-			}
 			
 			"playername"
 			{
@@ -185,11 +129,11 @@
 				
 				if_competitive
 				{
-					"xpos"			"1"
+					"xpos"			"2"
 					"ypos"			"19"
 					"zpos"			"4"
 					"visible"		"1"
-					"wide"			"38"
+					"wide"			"36"
 					"tall"			"8"
 				}
 				
