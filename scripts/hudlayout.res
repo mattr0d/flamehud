@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"xpos"			"0"	[$WIN32]
 		"ypos"			"0"	[$WIN32]
-		"zpos"			"10"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
 	}

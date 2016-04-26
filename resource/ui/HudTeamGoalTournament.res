@@ -17,6 +17,11 @@
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
+
+		if_comp
+		{
+			"ypos"	"130"
+		}
 	}
 	"SwitchLabel"
 	{	
@@ -35,6 +40,11 @@
 		"wrap"			"1"
 		"labelText"		"#TF_teamswitch_attackers"
 		"textAlignment"		"North"
+		
+		if_comp
+		{
+			"ypos"	"150"
+		}
 	}
 	"GoalLabel"
 	{	
@@ -53,6 +63,11 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"		"North"
+
+		if_comp
+		{
+			"ypos"	"165"
+		}
 	}
 	"GoalImage"
 	{
@@ -69,6 +84,11 @@
 		"enabled"		"1"
 		"image"			"../hud/hud_icon_attack"
 		"scaleImage"		"1"
+
+		if_comp
+		{
+			"ypos"	"155"
+		}
 	}
 
 	"HudStopWatchObjective"
@@ -82,6 +102,11 @@
 		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
+
+		if_comp
+		{
+			"ypos"	"120"
+		}
 
 		"HudStopWatchObjectiveBG"
 		{
@@ -216,5 +241,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../HUD/arrow_big"
+
+		if_comp
+		{
+			"ypos"	"45"
+		}
 	}
 }

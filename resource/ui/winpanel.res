@@ -12,7 +12,7 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"0"
 			"ypos"			"40"
@@ -22,17 +22,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
-			"scaleImage"		"1"
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"			
-			"draw_corner_width"		"0"				// screen size of the corners proportional
-			"draw_corner_height" 		"0"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"140"
 			"ypos"			"40"
@@ -42,13 +37,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
-			"scaleImage"		"1"
-			"src_corner_height"		"40"				// pixels inside the image
-			"src_corner_width"		"40"			
-			"draw_corner_width"		"0"				// screen size of the corners proportional
-			"draw_corner_height" 		"0"
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
 		"BlueTeamLabel"
 		{
@@ -68,24 +58,7 @@
 			"enabled"		"1"
 		}
 		
-		"BlueTeamLabelNew"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"BlueTeamLabelNew"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%blueteamname%"
-			"textAlignment"		"west"
-			"fgcolor_override"		"FlameWhite"
-			"xpos"			"5"
-			"ypos"			"45"
-			"zpos"			"4"
-			"wide"			"100"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
+
 		
 		"BlueTeamLabelShadow"
 		{
@@ -187,24 +160,7 @@
 			"enabled"		"1"
 		}
 		
-		"RedTeamLabelNew"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamLabelNew"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%redteamname%"
-			"textAlignment"		"east"
-			"fgcolor_override"	"FlameWhite"
-			"zpos"			"4"
-			"xpos"			"175"
-			"ypos"			"45"
-			"wide"			"100"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
+
 		
 		"RedTeamLabelShadow"
 		{
@@ -289,10 +245,11 @@
 			"bgcolor_override"	"117 107 94 255"
 		}
 	}
-	"WinPanelBG"
+
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"-99"
 		"ypos"			"50"
 		"zpos"			"0"
@@ -301,6 +258,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"		"1"	
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabel"
 	{	
